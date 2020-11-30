@@ -15,7 +15,7 @@ Option Explicit
 Private m_BBpart As BBANPart
 Private m_Value  As String
 
-Public Sub New_(bbp As BBANPart, ByVal Value As String)
+Friend Sub New_(bbp As BBANPart, ByVal Value As String)
     Set m_BBpart = bbp
     'führende Nullen entfernen
     'm_Value = Str(CDec(Value))

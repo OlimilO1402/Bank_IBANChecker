@@ -19,7 +19,7 @@ Private m_IInfo As IBANInfo 'enthält Landname und LC
 Private m_sIBAN As String 'der ursprünglich übergebene String, wird hier gespeichert zum Check (=Vergleich mit dem errechneten Wert)
 Private m_BBAN  As BBAN
 
-Public Sub New_(IBANInfos As IBANInfos, ByVal siban As String)
+Friend Sub New_(IBANInfos As IBANInfos, ByVal siban As String)
     m_sIBAN = Replace(siban, " ", "")
     Dim lc As String: lc = Left(Trim(m_sIBAN), 2)
     Set m_IInfo = IBANInfos.ItemByLC(UCase(lc))
@@ -66,7 +66,7 @@ End Function
 Public Function Check() As Boolean
     Check = (CheckPZ And BBAN.Check)
 End Function
-Public Function ToStr() As String
+Friend Function ToStr() As String
     Dim s As String
     s = IBANInfo.CountryID & PadLeft0(CStr(PZCalculated), 2) & BBAN.ToStr
     ToStr = s

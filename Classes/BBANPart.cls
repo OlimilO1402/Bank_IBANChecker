@@ -27,7 +27,7 @@ Private m_BBANProp As EBBANPart
 Private m_Pos      As Byte
 Private m_Length   As Byte
 
-Public Sub New_(aChar As String, ByVal aPos As Byte, ByVal aLength As Byte)
+Friend Sub New_(aChar As String, ByVal aPos As Byte, ByVal aLength As Byte)
     m_BBANProp = EBBANPart_Parse(aChar)
     m_Pos = aPos
     m_Length = aLength

@@ -15,9 +15,9 @@ Option Explicit
 'erzeugt aus einem Array von Strings und der IBANInfo eine IBAN
 Private m_IBANInfos As IBANInfos
 Private m_IBANInfo  As IBANInfo
-Private m_sArr() As String
+Private m_sArr()    As String
 
-Public Sub New_(aIBANInfos As IBANInfos, aIBANInfo As IBANInfo, sArr() As String)
+Friend Sub New_(aIBANInfos As IBANInfos, aIBANInfo As IBANInfo, sArr() As String)
     'aus der IBANInfo
     m_sArr = sArr
     Set m_IBANInfos = aIBANInfos

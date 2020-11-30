@@ -16,7 +16,7 @@ Private m_Name  As String 'CountryName, Ländername Ungarn, Frankreich, etc.
 Private m_LC    As String 'CountryID,   Ländercode DE, GB, FR etc.
 Private m_bbinf As BBANInfo
 
-Public Sub New_(Name As String, lc As String, bbinf As BBANInfo)
+Friend Sub New_(Name As String, lc As String, bbinf As BBANInfo)
     m_Name = Name: m_LC = lc
     Set m_bbinf = bbinf
 End Sub
@@ -24,7 +24,7 @@ Public Property Get IBANLength() As Byte
     IBANLength = m_bbinf.BBANLength + 4
 End Property
 
-Public Function ToStr(Optional br As Boolean = False) As String
+Friend Function ToStr(Optional br As Boolean = False) As String
     ToStr = m_LC & " " & m_bbinf.ToInfoW
     If br Then ToStr = m_LC & " " & m_bbinf.ToInfoR
 End Function

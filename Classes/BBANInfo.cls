@@ -14,15 +14,19 @@ Attribute VB_Exposed = False
 Option Explicit
 Private m_infoW As String 'W -> wie von der Wikipedia Seite in die Datei kopiert
 Private m_infoR As String 'R -> wie aus der Datei gelesen und umgewandelt
-Private m_col   As New Collection
+Private m_col   As Collection
 
-Public Sub New_(ByVal infoW As String)
+Private Sub Class_Initialize()
+    Set m_col = New Collection
+End Sub
+
+Friend Sub New_(ByVal infoW As String)
     If InStr(1, infoW, " ") > 0 Then infoW = Replace(infoW, " ", "")
     m_infoW = infoW
     m_infoR = ParseInfoR
     Parse
 End Sub
-Public Function ToStr(Optional br As Boolean = False) As String
+Friend Function ToStr(Optional br As Boolean = False) As String
     ToStr = ToInfoW
     If br Then ToStr = ToInfoR
 End Function

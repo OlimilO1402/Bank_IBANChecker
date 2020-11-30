@@ -16,7 +16,7 @@ Private m_BInfo As BBANInfo
 Private m_sBBAN As String
 
 'wird von der Klasse IBAN selber erzeugt
-Public Sub New_(BBANInfo As BBANInfo, ByVal sBBAN As String)
+Friend Sub New_(BBANInfo As BBANInfo, ByVal sBBAN As String)
     m_sBBAN = sBBAN
     Set m_BInfo = BBANInfo
     If m_BInfo Is Nothing Then Exit Sub
@@ -49,7 +49,7 @@ Public Function Check() As Boolean
     Check = m_BInfo.BBANLength = Len(Me.ToStr)
 End Function
 
-Public Function ToStr() As String
+Friend Function ToStr() As String
     Dim s As String
     Dim i As Byte
     For i = 0 To CountParts - 1

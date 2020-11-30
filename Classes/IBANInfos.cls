@@ -12,7 +12,7 @@ Attribute VB_Creatable = True
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
-Private m_PFN As String
+Private m_PFN   As String
 Private m_col() As IBANInfo ' As Collection 'of IBANInfo
 
 Public Sub ReadFromFile(aPFN As String)
@@ -73,7 +73,6 @@ Public Property Get ItemByLC(ByVal CountryID As String) As IBANInfo
         End If
     Next
 End Property
-
 
 Public Function Check() As Boolean
     'überprüft ob die Wiki-Zeile und die gelesene geparste und wieder zurückgewandelte Information gleich sind

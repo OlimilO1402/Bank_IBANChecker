@@ -29,6 +29,6 @@ Public Sub ParseLine(sLine As String)
     BIC = lArr(j): j = j + 1
 End Sub
 
-Public Function ToStr() As String
+Friend Function ToStr() As String
     ToStr = BLZ & " " & BIC & " " & BanknameLok & " " & PLZ & " " & Ort
 End Function
