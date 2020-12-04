@@ -13,6 +13,7 @@ Class=IBAN; Classes\IBAN.cls
 Class=IBANCreator; Classes\IBANCreator.cls
 Class=IBANInfo; Classes\IBANInfo.cls
 Class=IBANInfos; Classes\IBANInfos.cls
+ResFile32="Resources\RessourceS.RES"
 IconForm="Form1"
 Startup="Form1"
 HelpFile=""
