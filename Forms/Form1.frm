@@ -973,6 +973,7 @@ Private Sub Form_Load()
     Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC3_2015.txt")
     m_iis.FillComboBox CmbLC
     CmbLC.ListIndex = 18
+    'Me.ScaleWidth = 8895
 End Sub
 
 Private Sub btnBBblz_Click()
@@ -997,9 +998,13 @@ Private Sub btnBBbic_Click()
 End Sub
 Sub FillCbBlzBic()
     If m_col Is Nothing Then Exit Sub
-    Dim bb: CbBlzBic.Clear
-    For Each bb In m_col
-        CbBlzBic.AddItem bb.ToStr
+    Dim v, bb As BlzBic
+    CbBlzBic.Clear
+    For Each v In m_col
+        Set bb = v
+        If Not bb Is Nothing Then
+            CbBlzBic.AddItem bb.ToStr
+        End If
     Next
     If CbBlzBic.ListCount > 0 Then CbBlzBic.ListIndex = 0
     LbBlzBics = m_col.Count
