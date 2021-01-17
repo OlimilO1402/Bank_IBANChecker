@@ -1,5 +1,5 @@
 # IBANChecker
-## Calculates from KNr and BLZ to IBAN(+BIC) and vice versa
+## Calculates from bank account-nr (KNr) and BLZ to IBAN(+BIC) and vice versa
 If you get an IBAN-number from another person or company for transfering money to it,
 you maybe want to check if the number you got is a valid IBAN-number. You also can
 calculate a valid IBAN-number from a given BLZ and bank-account. IBANChecker even let
