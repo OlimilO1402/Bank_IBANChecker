@@ -155,7 +155,7 @@ Begin VB.Form Form1
       Width           =   5295
    End
    Begin VB.PictureBox PnlKtrlZif2 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -219,7 +219,7 @@ Begin VB.Form Form1
       End
    End
    Begin VB.PictureBox PnlSFnkt 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -283,7 +283,7 @@ Begin VB.Form Form1
       End
    End
    Begin VB.PictureBox PnlFilNr 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -347,7 +347,7 @@ Begin VB.Form Form1
       End
    End
    Begin VB.PictureBox PnlRegC 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -411,7 +411,7 @@ Begin VB.Form Form1
       End
    End
    Begin VB.PictureBox PnlKtrlZif 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -475,7 +475,7 @@ Begin VB.Form Form1
       End
    End
    Begin VB.PictureBox PnlKtoNr 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -539,7 +539,7 @@ Begin VB.Form Form1
       End
    End
    Begin VB.PictureBox PnlKTyp 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -603,7 +603,7 @@ Begin VB.Form Form1
       End
    End
    Begin VB.PictureBox PnlBLZ 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
@@ -741,7 +741,7 @@ Begin VB.Form Form1
       Width           =   2175
    End
    Begin VB.CheckBox CkGroup4 
-      BackColor       =   &H00FFFFFF&
+      BackColor       =   &H80000005&
       Caption         =   "4er Gruppen"
       BeginProperty Font 
          Name            =   "Calibri"
