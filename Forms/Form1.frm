@@ -4,16 +4,16 @@ Begin VB.Form Form1
    BackColor       =   &H80000005&
    BorderStyle     =   3  'Fester Dialog
    Caption         =   "IBAN-Checker"
-   ClientHeight    =   6375
-   ClientLeft      =   45
-   ClientTop       =   390
-   ClientWidth     =   8895
+   ClientHeight    =   7536
+   ClientLeft      =   48
+   ClientTop       =   396
+   ClientWidth     =   8904
    Icon            =   "Form1.frx":0000
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   6375
-   ScaleWidth      =   8895
+   ScaleHeight     =   7536
+   ScaleWidth      =   8904
    ShowInTaskbar   =   0   'False
    StartUpPosition =   3  'Windows-Standard
    Begin VB.CommandButton btnBBbic 
@@ -123,7 +123,7 @@ Begin VB.Form Form1
    Begin VB.ComboBox CbBlzBic 
       BeginProperty Font 
          Name            =   "Calibri"
-         Size            =   9.75
+         Size            =   9.6
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -159,10 +159,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
+      ScaleHeight     =   492
+      ScaleWidth      =   8532
       TabIndex        =   34
-      Top             =   5760
+      Top             =   5880
       Width           =   8535
       Begin VB.TextBox TxKtrlZif2 
          Alignment       =   1  'Rechts
@@ -176,10 +176,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   35
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbZKtrlZif2 
          BackStyle       =   0  'Transparent
@@ -193,11 +193,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   37
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
       Begin VB.Label LbKtrlZif2 
          BackStyle       =   0  'Transparent
@@ -223,10 +223,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
+      ScaleHeight     =   492
+      ScaleWidth      =   8532
       TabIndex        =   12
-      Top             =   5280
+      Top             =   5400
       Width           =   8535
       Begin VB.TextBox TxSFnkt 
          Alignment       =   1  'Rechts
@@ -240,10 +240,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   9
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbSFnkt 
          BackStyle       =   0  'Transparent
@@ -275,11 +275,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   14
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
    End
    Begin VB.PictureBox PnlFilNr 
@@ -287,10 +287,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
+      ScaleHeight     =   492
+      ScaleWidth      =   8532
       TabIndex        =   13
-      Top             =   4800
+      Top             =   4920
       Width           =   8535
       Begin VB.TextBox TxFilNr 
          Alignment       =   1  'Rechts
@@ -304,10 +304,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   8
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbFilNr 
          BackStyle       =   0  'Transparent
@@ -339,11 +339,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   16
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
    End
    Begin VB.PictureBox PnlRegC 
@@ -351,10 +351,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
+      ScaleHeight     =   492
+      ScaleWidth      =   8532
       TabIndex        =   18
-      Top             =   4320
+      Top             =   4440
       Width           =   8535
       Begin VB.TextBox TxRegC 
          Alignment       =   1  'Rechts
@@ -368,10 +368,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   7
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbRegC 
          BackStyle       =   0  'Transparent
@@ -403,11 +403,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   23
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
    End
    Begin VB.PictureBox PnlKtrlZif 
@@ -415,10 +415,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
+      ScaleHeight     =   492
+      ScaleWidth      =   8532
       TabIndex        =   19
-      Top             =   3840
+      Top             =   3960
       Width           =   8535
       Begin VB.TextBox TxKtrlZif 
          Alignment       =   1  'Rechts
@@ -432,10 +432,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   6
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbKtrlZif 
          BackStyle       =   0  'Transparent
@@ -467,11 +467,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   25
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
    End
    Begin VB.PictureBox PnlKtoNr 
@@ -479,10 +479,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
+      ScaleHeight     =   492
+      ScaleWidth      =   8532
       TabIndex        =   20
-      Top             =   3360
+      Top             =   3480
       Width           =   8535
       Begin VB.TextBox TxKtoNr 
          Alignment       =   1  'Rechts
@@ -496,10 +496,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   5
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbKtoNr 
          BackStyle       =   0  'Transparent
@@ -513,11 +513,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
+         Height          =   372
          Left            =   0
          TabIndex        =   28
          Top             =   0
-         Width           =   1335
+         Width           =   1572
       End
       Begin VB.Label LbZKtoNr 
          BackStyle       =   0  'Transparent
@@ -531,11 +531,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   27
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
    End
    Begin VB.PictureBox PnlKTyp 
@@ -543,10 +543,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
+      ScaleHeight     =   492
+      ScaleWidth      =   8532
       TabIndex        =   21
-      Top             =   2880
+      Top             =   3000
       Width           =   8535
       Begin VB.TextBox TxKTyp 
          Alignment       =   1  'Rechts
@@ -560,10 +560,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   4
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbKTyp 
          BackStyle       =   0  'Transparent
@@ -595,11 +595,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   29
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
    End
    Begin VB.PictureBox PnlBLZ 
@@ -607,10 +607,10 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8775
+      ScaleHeight     =   492
+      ScaleWidth      =   8772
       TabIndex        =   22
-      Top             =   2400
+      Top             =   2520
       Width           =   8775
       Begin VB.CommandButton BtnOpenBlzBic 
          Caption         =   ">"
@@ -632,10 +632,10 @@ Begin VB.Form Form1
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   3120
+         Left            =   3240
          TabIndex        =   3
          Top             =   0
-         Width           =   5295
+         Width           =   5172
       End
       Begin VB.Label LbBLZ 
          BackStyle       =   0  'Transparent
@@ -667,11 +667,11 @@ Begin VB.Form Form1
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
-         Left            =   1440
+         Height          =   372
+         Left            =   1560
          TabIndex        =   31
          Top             =   0
-         Width           =   1575
+         Width           =   1572
       End
    End
    Begin VB.CommandButton btnCheckIBAN 
@@ -720,7 +720,7 @@ Begin VB.Form Form1
       Height          =   375
       Left            =   1560
       TabIndex        =   33
-      Top             =   1920
+      Top             =   2040
       Width           =   6975
    End
    Begin VB.CommandButton btnCalcIBAN 
@@ -929,11 +929,11 @@ Begin VB.Form Form1
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   375
+      Height          =   372
       Left            =   120
       TabIndex        =   40
-      Top             =   1680
-      Width           =   1335
+      Top             =   1560
+      Width           =   1332
    End
    Begin VB.Label Label2 
       BackStyle       =   0  'Transparent
@@ -966,6 +966,7 @@ Private m_iis       As IBANInfos
 Private m_BBANInfoR As String
 Private m_BlzBics   As BlzBics
 Private m_col       As Collection 'Of BlzBic
+Private CH As Single
 
 Private Sub Form_Load()
     Set m_iis = New IBANInfos
@@ -974,6 +975,7 @@ Private Sub Form_Load()
     m_iis.FillComboBox CmbLC
     CmbLC.ListIndex = 18
     'Me.ScaleWidth = 8895
+    CH = Me.Height - Me.ScaleHeight
 End Sub
 
 Private Sub btnBBblz_Click()
@@ -1049,8 +1051,8 @@ Private Sub Resize()
     Dim brdr: brdr = 8 * Screen.TwipsPerPixelX
     Dim l As Single: l = 0
     Dim T As Single: T = 0
-    Dim H As Single: H = 495
-    l = brdr: T = 2400 '1200
+    Dim H As Single: H = PnlBLZ.Height '35 * Screen.TwipsPerPixelY
+    l = brdr: T = 167 * Screen.TwipsPerPixelY
     
     Dim sArr: sArr = Split(m_BBANInfoR, "; ")
     Dim i As Long, k1 As Boolean
@@ -1075,7 +1077,10 @@ Private Sub Resize()
         End If
     Next
     'ab hier wird resize nochmal ausgeführt falls Height-neu anders als Height-alt
-    Me.Height = (Me.Height - Me.ScaleHeight) + T + brdr '+ H
+    'Me.ScaleHeight = (Me.Height - Me.ScaleHeight) + T + brdr '+ H
+    'Me.Height = (Me.Height - Me.ScaleHeight) + T + brdr '+ H
+    Me.Height = CH + T + 2 * brdr '+ H
+    
 '    If PnlBLZ.Visible Then PnlBLZ.Move l, T: T = T + H
 '    If PnlKTyp.Visible Then PnlKTyp.Move l, T: T = T + H
 '    If PnlKtoNr.Visible Then PnlKtoNr.Move l, T: T = T + H
