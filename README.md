@@ -9,5 +9,5 @@ calculate a valid IBAN-number from a given BLZ and bank-account. IBANChecker eve
 you know from which country, city and Bank the IBAN number is.
 Until now, the delivered file is for banks located in germany only, but you can
 search for a list of banks from your country and replace the file.
-Project started in jul 2015.
+Project started in jul.2015.
 ![IBANChecker Image](Resources/IBANChecker.png "IBANChecker Image")
