@@ -20,7 +20,9 @@ Friend Sub New_(BBANInfo As BBANInfo, ByVal sBBAN As String)
     m_sBBAN = sBBAN
     Set m_BInfo = BBANInfo
     If m_BInfo Is Nothing Then Exit Sub
-    Dim d As Integer: d = Len(m_sBBAN) - m_BInfo.BBANLength
+    Dim ls As Long: ls = Len(m_sBBAN)
+    Dim lb As Long: lb = m_BInfo.BBANLength
+    Dim d As Integer: d = ls - lb
     If d <> 0 Then
         MsgBox "IBAN ist um " & Abs(d) & " zu " & IIf(d > 0, "lang", "kurz")
     End If

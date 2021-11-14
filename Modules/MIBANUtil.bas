@@ -129,8 +129,27 @@ Option Explicit
 'End Function
 '
 Public Function PadLeft0(ByVal s As String, ByVal w As Long) As String
-    PadLeft0 = String$(w - Len(s), "0") & s
+'shitty shitty bad function!!!!!!!
+    'PadLeft0 = String$(w - Len(s), "0") & s
+    PadLeft0 = PadLeft(s, w, "0")
 End Function
+
+Function PadLeft(this As String, _
+                 ByVal totalWidth As Long, _
+                 Optional ByVal paddingChar As String) As String
+    If LenB(paddingChar) Then
+        If Len(this) < totalWidth Then
+            PadLeft = String$(totalWidth, paddingChar)
+            MidB$(PadLeft, totalWidth * 2 - LenB(this) + 1) = this
+        Else
+            PadLeft = this
+        End If
+    Else
+        PadLeft = Space$(totalWidth)
+        RSet PadLeft = this
+    End If
+End Function
+
 Public Function CalcPZ(BBANwLCPZ0 As String) As String
     CalcPZ = PadLeft0(CStr(98 - Modulo(BBANwLCPZ0, 97)), 2)
 End Function
@@ -192,13 +211,13 @@ Public Function ReplaceAll(ByVal expr As String, Find As String, repl As String)
 End Function
 
 Public Function Contains(col As Collection, elem As String) As Boolean
-
-  On Error Resume Next
+    'https://www.vb-tec.de/collctns.htm
+    On Error Resume Next
 
     If IsEmpty(col(elem)) Then: 'DoNothing
     Contains = (Err.Number = 0)
 
-  On Error GoTo 0
+    On Error GoTo 0
 
 End Function
 

@@ -47,8 +47,10 @@ Public Function BLZcol(ByVal BLZ As String) As Collection
     Dim v, bb As BlzBic
     For Each v In m_BlzBics()
         Set bb = v
-        If InStr(1, bb.BLZ, BLZ, vbTextCompare) Then BLZcol.Add bb
-        If InStr(1, BLZ, bb.BLZ, vbTextCompare) Then BLZcol.Add bb
+        If Not bb Is Nothing Then
+            If InStr(1, bb.BLZ, BLZ, vbTextCompare) Then BLZcol.Add bb
+            If InStr(1, BLZ, bb.BLZ, vbTextCompare) Then BLZcol.Add bb
+        End If
     Next
 End Function
 Public Function PLZcol(ByVal PLZ As String) As Collection

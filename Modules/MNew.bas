@@ -25,8 +25,8 @@ Public Function BBAN(BBANInfo As BBANInfo, sBBAN As String) As BBAN
     Set BBAN = New BBAN: BBAN.New_ BBANInfo, sBBAN
 End Function
 
-Public Function IBANCreator(IBANInfos As IBANInfos, aIBANInfo As IBANInfo, sArr() As String) As IBANCreator
-    Set IBANCreator = New IBANCreator: IBANCreator.New_ IBANInfos, aIBANInfo, sArr
+Public Function IBANCreator(IBANInfos As IBANInfos, aIBANInfo As IBANInfo, list As Collection) As IBANCreator 'sArr() As String) As IBANCreator
+    Set IBANCreator = New IBANCreator: IBANCreator.New_ IBANInfos, aIBANInfo, list 'sArr
 End Function
 
 Public Function BlzBic(sLine As String) As BlzBic

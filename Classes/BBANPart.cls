@@ -38,10 +38,10 @@ Private Function EBBANPart_Parse(ByVal s As String) As EBBANPart
     If Len(s) > 1 Then s = Left(s, 1)
     Select Case s
     Case "b": e = Bankleitzahl    '"b" 'Bank Code
-    Case "d": e = Kontotyp        '"d" '
-    Case "k": e = Kontonummer     '"k" '
-    Case "K": e = Kontrollziffer  '"K" '
-    Case "r": e = Regionalcode    '"r" '
+    Case "d": e = Kontotyp        '"d" 'Account type
+    Case "k": e = Kontonummer     '"k" 'Account Nr
+    Case "K": e = Kontrollziffer  '"K" 'Control number
+    Case "r": e = Regionalcode    '"r" 'Region code
     Case "s": e = Filialnummer    '"s" 'Branch Code
     Case "X": e = SonstFunktion   '"X" '
     End Select
@@ -61,6 +61,7 @@ Private Function EBBANPart_ToKeyChar(e As EBBANPart) As String
     End Select
     EBBANPart_ToKeyChar = s
 End Function
+
 Private Function EBBANPart_ToStr(e As EBBANPart) As String
     Dim s As String
     Select Case e
@@ -74,9 +75,11 @@ Private Function EBBANPart_ToStr(e As EBBANPart) As String
     End Select
     EBBANPart_ToStr = s
 End Function
+
 Public Property Get EBBANPart() As EBBANPart
     EBBANPart = m_BBANProp
 End Property
+
 Public Property Get Key() As String
     Key = EBBANPart_ToKeyChar(m_BBANProp)
 End Property
@@ -84,9 +87,11 @@ End Property
 Public Property Get Name() As String
     Name = EBBANPart_ToStr(m_BBANProp)
 End Property
+
 Public Property Get Pos() As Byte
     Pos = m_Pos
 End Property
+
 Public Property Get Length() As Byte
     Length = m_Length
 End Property

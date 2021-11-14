@@ -4,18 +4,35 @@ Begin VB.Form Form1
    BackColor       =   &H80000005&
    BorderStyle     =   3  'Fester Dialog
    Caption         =   "IBAN-Checker"
-   ClientHeight    =   7536
-   ClientLeft      =   48
-   ClientTop       =   396
-   ClientWidth     =   8904
+   ClientHeight    =   7545
+   ClientLeft      =   45
+   ClientTop       =   390
+   ClientWidth     =   8895
    Icon            =   "Form1.frx":0000
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   7536
-   ScaleWidth      =   8904
+   ScaleHeight     =   7545
+   ScaleWidth      =   8895
    ShowInTaskbar   =   0   'False
    StartUpPosition =   3  'Windows-Standard
+   Begin VB.CommandButton BtnInfo 
+      Caption         =   "Info"
+      BeginProperty Font 
+         Name            =   "Calibri"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   7920
+      TabIndex        =   60
+      Top             =   600
+      Width           =   615
+   End
    Begin VB.CommandButton btnBBbic 
       Caption         =   "^"
       Height          =   375
@@ -123,7 +140,7 @@ Begin VB.Form Form1
    Begin VB.ComboBox CbBlzBic 
       BeginProperty Font 
          Name            =   "Calibri"
-         Size            =   9.6
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -159,8 +176,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8532
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
       TabIndex        =   34
       Top             =   5880
       Width           =   8535
@@ -223,8 +240,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8532
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
       TabIndex        =   12
       Top             =   5400
       Width           =   8535
@@ -287,8 +304,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8532
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
       TabIndex        =   13
       Top             =   4920
       Width           =   8535
@@ -351,8 +368,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8532
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
       TabIndex        =   18
       Top             =   4440
       Width           =   8535
@@ -415,8 +432,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8532
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
       TabIndex        =   19
       Top             =   3960
       Width           =   8535
@@ -479,8 +496,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8532
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
       TabIndex        =   20
       Top             =   3480
       Width           =   8535
@@ -543,8 +560,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8532
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
       TabIndex        =   21
       Top             =   3000
       Width           =   8535
@@ -607,8 +624,8 @@ Begin VB.Form Form1
       BorderStyle     =   0  'Kein
       Height          =   495
       Left            =   120
-      ScaleHeight     =   492
-      ScaleWidth      =   8772
+      ScaleHeight     =   495
+      ScaleWidth      =   8775
       TabIndex        =   22
       Top             =   2520
       Width           =   8775
@@ -686,7 +703,7 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   375
-      Left            =   6360
+      Left            =   5640
       TabIndex        =   39
       Top             =   600
       Width           =   2175
@@ -735,14 +752,14 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   375
-      Left            =   3480
+      Left            =   3360
       TabIndex        =   10
       Top             =   600
       Width           =   2175
    End
    Begin VB.CheckBox CkGroup4 
       BackColor       =   &H80000005&
-      Caption         =   "4er Gruppen"
+      Caption         =   "group of 4"
       BeginProperty Font 
          Name            =   "Calibri"
          Size            =   12
@@ -901,7 +918,7 @@ Begin VB.Form Form1
    End
    Begin VB.Label Label1 
       BackStyle       =   0  'Transparent
-      Caption         =   "Land:"
+      Caption         =   "Country:"
       BeginProperty Font 
          Name            =   "Calibri"
          Size            =   12
@@ -1145,15 +1162,19 @@ End Sub
 
 Private Sub btnCheckIBAN_Click()
     Dim IBAN As IBAN: Set IBAN = MNew.IBAN(m_iis, TxIBAN.Text)
+    If IBAN Is Nothing Then Exit Sub
+    If IBAN.IBANInfo Is Nothing Then Exit Sub
     Dim s As String: s = IBAN.IBANInfo.Key
     CmbLC.ListIndex = m_iis.Index(IBAN.IBANInfo.CountryID)
     s = s & vbCrLf
     Dim BBAN As BBAN: Set BBAN = IBAN.BBAN
+    If BBAN Is Nothing Then Exit Sub
     Dim i As Long: Dim bv As BBANValue
     'jetzt die Textboxen mit den Bestandteilen der IBAN befüllen
     For i = 0 To BBAN.CountParts - 1
         Set bv = BBAN.Prop(i)
         With bv
+            If .BBANPart Is Nothing Then Exit Sub
             s = s & .BBANPart.Name & " = " & bv.Value & vbCrLf
             Dim e As EBBANPart: e = .BBANPart.EBBANPart
             Select Case e
@@ -1170,6 +1191,10 @@ Private Sub btnCheckIBAN_Click()
     Next
 End Sub
 
+Private Sub BtnInfo_Click()
+    MsgBox App.CompanyName & " " & App.EXEName & " v" & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & App.FileDescription, vbInformation
+End Sub
+
 Private Sub TxBLZ_KeyUp(KeyCode As Integer, Shift As Integer)
     If KeyCode = vbKeyReturn Then
         'zum nächsten Feld springen
@@ -1183,45 +1208,71 @@ End Sub
 
 Private Sub FetchIBAN()
     Dim u As Long
-    ReDim sArr(0 To m_IBANInfo.BBANInfo.CountBBANParts - 1) As String
+    
+    'ReDim sArr(0 To m_IBANInfo.BBANInfo.CountBBANParts - 1) As String
     Dim s As String
+    s = vbNullString
+    'das is der Scheiß, diese Reihenfolge hier in der Sub, ist nicht unbedingt die richtige Reihenfolge der BBAN oder?
+    'das Array is ja voll der Blödsinn, besser mit einer Collection mannomann
+    Dim list As Collection
+    Set list = New Collection
     If PnlBLZ.Visible Then
+        'b   Bankleitzahl    Bank Code
         If Not TryGetStr(LbBLZ, TxBLZ, s) Then Exit Sub
-        ReDim sArr(u): sArr(u) = s: u = u + 1
+        'ReDim sArr(u): sArr(u) = s: u = u + 1
+        list.Add s, "b"
     End If
+    s = vbNullString
     If PnlKTyp.Visible Then
+        'd   Kontotyp
         If Not TryGetStr(LbKTyp, TxKTyp, s) Then Exit Sub
-        ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        list.Add s, "d"
     End If
+    s = vbNullString
     If PnlKtoNr.Visible Then
+        'k   Kontonummer
         If Not TryGetStr(LbKtoNr, TxKtoNr, s) Then Exit Sub
-        ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        list.Add s, "k"
     End If
+    s = vbNullString
     If PnlKtrlZif.Visible Then
+        'K   Kontrollziffer
         If Not TryGetStr(LbKtrlZif, TxKtrlZif, s) Then Exit Sub
-        ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        list.Add s, "KK"
     End If
+    s = vbNullString
     If PnlRegC.Visible Then
+        'r   Regionalcode
         If Not TryGetStr(LbRegC, TxRegC, s) Then Exit Sub
-        ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        list.Add s, "r"
     End If
+    s = vbNullString
     If PnlFilNr.Visible Then
+        's   Filialnummer    Branch Code
         If Not TryGetStr(LbFilNr, TxFilNr, s) Then Exit Sub
-        ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        list.Add s, "s"
     End If
+    s = vbNullString
     If PnlSFnkt.Visible Then
+        'X   sonst. Funkt.
         If Not TryGetStr(LbSFnkt, TxSFnkt, s) Then Exit Sub
-        ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
+        list.Add s, "X"
     End If
     Dim li As Integer: li = CmbLC.ListIndex
-    Dim IC As IBANCreator: Set IC = MNew.IBANCreator(m_iis, m_iis.Item(li), sArr)
+    Dim IC As IBANCreator: Set IC = MNew.IBANCreator(m_iis, m_iis.Item(li), list)
     TxIBAN.Text = Trim(IC.IBAN.ToStr)
     CkGroup4_Click
 End Sub
-Function TryGetStr(Lb As Label, Tb As TextBox, strout As String) As Boolean
+Function TryGetStr(lb As Label, Tb As TextBox, strout As String) As Boolean
     Dim s As String: s = StringClean(Tb.Text)
     If Len(s) = 0 Or Len(s) > CLng(Tb.Tag) Then
-        MsgBox "Bitte geben Sie im Feld " & Lb & " einen gültigen Wert ein."
+        MsgBox "Bitte geben Sie im Feld " & lb & " einen gültigen Wert ein."
         Exit Function
     End If
     strout = s

@@ -15,11 +15,13 @@ Option Explicit
 'erzeugt aus einem Array von Strings und der IBANInfo eine IBAN
 Private m_IBANInfos As IBANInfos
 Private m_IBANInfo  As IBANInfo
-Private m_sArr()    As String
+'Private m_sArr()    As String
+Private m_list As Collection 'of String, String
 
-Friend Sub New_(aIBANInfos As IBANInfos, aIBANInfo As IBANInfo, sArr() As String)
+Friend Sub New_(aIBANInfos As IBANInfos, aIBANInfo As IBANInfo, list As Collection) 'sArr() As String)
     'aus der IBANInfo
-    m_sArr = sArr
+    'm_sArr = sArr
+    Set m_list = list
     Set m_IBANInfos = aIBANInfos
     Set m_IBANInfo = aIBANInfo
 End Sub
@@ -31,13 +33,19 @@ Public Property Get IBAN() As IBAN
     Dim siban As String
     siban = m_IBANInfo.CountryID & "00"
     Dim binfo As BBANInfo: Set binfo = m_IBANInfo.BBANInfo
+    If binfo Is Nothing Then Exit Property
     Dim i As Long, w As Long
-    If UBound(m_sArr) + 1 <> binfo.CountBBANParts Then
+    'If UBound(m_sArr) + 1 <> binfo.CountBBANParts Then
+    If m_list.Count <> binfo.CountBBANParts Then
         MsgBox "Halt"
     End If
+    Dim bbp As BBANPart
     For i = 0 To UBound(m_sArr)
-        w = binfo.BBANPart(i).Length
-        siban = siban + PadLeft0(m_sArr(i), w)
+        Set bbp = binfo.BBANPart(i)
+        If Not bbp Is Nothing Then
+            w = bbp.Length
+            siban = siban + PadLeft0(m_sArr(i), w)
+        End If
     Next
     Set IBAN = MNew.IBAN(m_IBANInfos, siban)
 End Property
