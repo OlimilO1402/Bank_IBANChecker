@@ -131,28 +131,29 @@ Option Explicit
 Public Function PadLeft0(ByVal s As String, ByVal w As Long) As String
 'shitty shitty bad function!!!!!!!
     'PadLeft0 = String$(w - Len(s), "0") & s
-    PadLeft0 = PadLeft(s, w, "0")
+    PadLeft0 = MString.PadLeft(s, w, "0")
 End Function
 
-Function PadLeft(this As String, _
-                 ByVal totalWidth As Long, _
-                 Optional ByVal paddingChar As String) As String
-    If LenB(paddingChar) Then
-        If Len(this) < totalWidth Then
-            PadLeft = String$(totalWidth, paddingChar)
-            MidB$(PadLeft, totalWidth * 2 - LenB(this) + 1) = this
-        Else
-            PadLeft = this
-        End If
-    Else
-        PadLeft = Space$(totalWidth)
-        RSet PadLeft = this
-    End If
-End Function
+'Function PadLeft(this As String, _
+'                 ByVal totalWidth As Long, _
+'                 Optional ByVal paddingChar As String) As String
+'    If LenB(paddingChar) Then
+'        If Len(this) < totalWidth Then
+'            PadLeft = String$(totalWidth, paddingChar)
+'            MidB$(PadLeft, totalWidth * 2 - LenB(this) + 1) = this
+'        Else
+'            PadLeft = this
+'        End If
+'    Else
+'        PadLeft = Space$(totalWidth)
+'        RSet PadLeft = this
+'    End If
+'End Function
 
 Public Function CalcPZ(BBANwLCPZ0 As String) As String
     CalcPZ = PadLeft0(CStr(98 - Modulo(BBANwLCPZ0, 97)), 2)
 End Function
+
 Public Function Modulo(ByVal Dividend As String, ByVal Divisor As Double)
     Dim a As Variant
     Dim b As Variant
@@ -162,6 +163,7 @@ Public Function Modulo(ByVal Dividend As String, ByVal Divisor As Double)
     Loop
     Modulo = b
 End Function
+
 Public Function DecodeAlphas(ByVal str As String) As String
     Dim i As Long, c As String
     Do While i < Len(str)
@@ -173,6 +175,7 @@ Public Function DecodeAlphas(ByVal str As String) As String
     Loop
     DecodeAlphas = str
 End Function
+
 Public Function RemoveLeading0(ByVal str As String) As String
     Dim i As Long
     RemoveLeading0 = str
@@ -182,32 +185,23 @@ Public Function RemoveLeading0(ByVal str As String) As String
             Exit For
         End If
     Next
-    If i >= 1 Then _
-        RemoveLeading0 = Mid(str, i)
+    If i >= 1 Then RemoveLeading0 = Mid(str, i)
 End Function
+
 Public Function Group4(ByVal s As String) As String
-    s = StringClean(s) 's = Replace(IBAN, " ", "")
-    Dim sout As String 'IBAN = ""
-    'If CkGroup4.Value = vbChecked Then
-        Do While Len(s) > 3
-            sout = sout & " " & Left(s, 4)
-            s = Right(s, Len(s) - 4)
-        Loop
-        If Len(s) > 0 Then sout = sout & " " & s
-    'Else
-    '    sout = s ' Replace(s, " ", "")
-    'End If
+    s = StringClean(s)
+    Dim sout As String
+    Do While Len(s) > 3
+        sout = sout & " " & Left(s, 4)
+        s = Right(s, Len(s) - 4)
+    Loop
+    If Len(s) > 0 Then sout = sout & " " & s
     Group4 = sout
 End Function
+
 Public Function StringClean(ByVal s As String) As String
-    StringClean = Trim(ReplaceAll(s, " .-,", ""))
-End Function
-Public Function ReplaceAll(ByVal expr As String, Find As String, repl As String) As String
-    Dim i As Integer
-    For i = 1 To Len(expr)
-        expr = Replace(expr, Mid(Find, i, 1), repl)
-    Next
-    ReplaceAll = expr
+    StringClean = Trim(MString.ReplaceAll(s, " .-,", ""))
+    'StringClean = Trim$(MString.RecursiveReplace(s, " .-,", "")) 'Aarg it does not remove whitespaces " " but why
 End Function
 
 Public Function Contains(col As Collection, elem As String) As Boolean
