@@ -40,11 +40,12 @@ Public Property Get IBAN() As IBAN
         MsgBox "Halt"
     End If
     Dim bbp As BBANPart
-    For i = 0 To UBound(m_sArr)
+    For i = 1 To binfo.CountBBANParts ' UBound(m_sArr)
         Set bbp = binfo.BBANPart(i)
         If Not bbp Is Nothing Then
             w = bbp.Length
-            siban = siban + PadLeft0(m_sArr(i), w)
+            'siban = siban + PadLeft0(m_sArr(i), w)
+            siban = siban + PadLeft0(bbp.Name, w)
         End If
     Next
     Set IBAN = MNew.IBAN(m_IBANInfos, siban)

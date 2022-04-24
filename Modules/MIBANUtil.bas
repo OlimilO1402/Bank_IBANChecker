@@ -155,6 +155,7 @@ Public Function CalcPZ(BBANwLCPZ0 As String) As String
 End Function
 
 Public Function Modulo(ByVal Dividend As String, ByVal Divisor As Double)
+    'Thanks to Hondo Alias Andreas
     Dim a As Variant
     Dim b As Variant
     Do While Len(Dividend) > 0

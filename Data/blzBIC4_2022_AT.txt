@@ -1,0 +1,875 @@
+36273	6143	Matrei am Brenner	Raiffeisenbank Matrei am Brenner und Umgebung eGen	RZTIAT22273
+34630	4690	Schwanenstadt	Raiffeisenbank Region Schwanenstadt eGen	RZOOAT2L630
+36274	6290	Mayrhofen	Raiffeisenbank Mayrhofen und Umgebung eGen	RZTIAT22274
+34322	5310	Mondsee	Raiffeisenbank Mondseeland eGen	RZOOAT2L322
+36283	6543	Nauders	Raiffeisenbank Nauders eGen	RZTIAT22283
+34522	4782	St. Florian am Inn	Raiffeisenbank St.Florian am Inn eGen	RZOOAT2L522
+36285	6167	Neustift im Stubaital	Raiffeisenbank Neustift-Mieders-Schönberg im Stubaital eGen	RZTIAT22285
+34523	4880	St. Georgen im Attergau	Raiffeisenbank Attergau eGen	RZOOAT2L523
+32985	2225	Zistersdorf	Raiffeisenbank Weinviertel Nordost eGen	RLNWATWWZDF
+35001	5441	Abtenau	Raiffeisenbank Abtenau-Rußbach registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22322
+36368	9920	Sillian	Raiffeisenbank Sillian eGen	RZTIAT22368
+35066	5091	Unken	Raiffeisenbank Unken eGen	RVSAAT2S066
+35017	5440	Golling an der Salzach	Raiffeisenbank Golling-Scheffau-Kellau registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S017
+35029	5431	Kuchl	Raiffeisenbank Kuchl-St. Koloman eGen	RVSAAT2S058
+35053	5760	Saalfelden am Stein. Meer	Raiffeisenbank Pinzgau Mitte eGen	RVSAAT2S048
+19530	5020	Salzburg	Bankhaus Carl Spängler & Co. Aktiengesellschaft	SPAEAT2SZEL
+19750	1100	Wien	BAWAG P.S.K. Wohnbaubank Aktiengesellschaft	BAWAATWWWP1
+15030	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15031	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15040	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15041	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15042	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15060	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15061	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15062	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15080	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15081	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15092	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15093	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15094	4020	Linz	Oberbank AG	OBKLAT2LWRN
+34613	4311	Schwertberg	Raiffeisenbank Schwertberg eGen	RZOOAT2L613
+34633	4594	Grünburg	Raiffeisenbank Steinbach-Grünburg eGen	RZOOAT2L633
+32990	3910	Zwettl	Raiffeisenbank Region Waldviertel Mitte eGen	RLNWATWWZWE
+35030	5112	Lamprechtshausen	Raiffeisenbank Flachgau Nord eGen	RVSAAT2S023
+35007	5102	Anthering	Raiffeisenbank Anthering - Elixhausen eGen	RVSAAT2S007
+35016	5324	Faistenau	Raiffeisenbank Faistenau-Hintersee eGen	RVSAAT2S016
+20334	4150	Rohrbach-Berg	Sparkasse Mühlviertel-West Bank Aktiengesellschaft	SPKUAT22
+19100	1010	Wien	Deutsche Bank Aktiengesellschaft Filiale Wien	DEUTATWWUNP
+15095	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15110	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15120	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15121	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15122	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15123	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15130	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15135	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15131	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15132	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15133	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15022	4020	Linz	Oberbank AG	OBKLAT2LWRN
+34530	4502	St. Marien bei Neuhofen	Raiffeisenbank St. Marien eGen	RZOOAT2L530
+36220	6652	Elbigenalp	Raiffeisenbank Oberlechtal eGen	RZTIAT22220
+36291	6433	Oetz	Raiffeisenbank Vorderes Ötztal eGen	RZTIAT22291
+36353	6473	Wenns	Raiffeisenbank Pitztal eGen	RZTIAT22353
+35047	5201	Seekirchen am Wallersee	Raiffeisenbank Salzburger Seenland eGen	RVSAAT2S047
+35060	5092	St. Martin bei Lofer	Raiffeisenbank St. Martin-Lofer-Weißbach eGen	RVSAAT2S060
+35064	5660	Taxenbach	Raiffeisenbank Taxenbach registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S064
+35065	5322	Hof bei Salzburg	Raiffeisenbank Fuschlsee West eGen	RZTIAT22230
+19650	1030	Wien	DenizBank AG	ESBKATWW
+19150	1010	Wien	Kathrein Privatbank Aktiengesellschaft	KTBKATWW
+58000	6900	Bregenz	Hypo Vorarlberg Bank AG	HYPVAT2B
+12000	1020	Wien	UniCredit Bank Austria AG	BKAUATWWWOL
+15150	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15134	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15023	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15024	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15151	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15025	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15013	4020	Linz	Oberbank AG	OBKLAT2LWRN
+17400	9020	Klagenfurt	BKS Bank AG	BFKKAT2KWOL
+17100	9020	Klagenfurt	BKS Bank AG	BFKKAT2KWOL
+17200	9020	Klagenfurt	BKS Bank AG	BFKKAT2KWOL
+17300	9020	Klagenfurt	BKS Bank AG	BFKKAT2KWOL
+17500	9020	Klagenfurt	BKS Bank AG	BFKKAT2KWOL
+34080	4452	Ternberg	Raiffeisenbank Ennstal eGen	RZOOAT2L126
+32660	2630	Ternitz	Raiffeisenkasse Pottschach registrierte Genossenschaft mit beschränkter Haftung	RLNWATWWODO
+34770	4600	Thalheim bei Wels	Raiffeisenbank Wels Süd eGen	RZOOAT2L680
+34300	4113	St. Martin im Mühlkreis	Raiffeisenbank Region Neufelden eGen	RZOOAT2L300
+39255	9330	Treibach-Althofen	Raiffeisenbank Althofen - Guttaring, registrierte Genossenschaft mit beschränkter Haftung	RBANAT2A
+39257	9601	Arnoldstein	Raiffeisenbank Arnoldstein-Fürnitz eG	RZKTAT2K305
+34540	4793	St. Roman bei Schärding	Raiffeisenbank St. Roman eGen	RZOOAT2L540
+39267	9800	Spittal an der Drau	Raiffeisen-Bezirksbank Spittal/Drau, registrierte Genossenschaft mit beschränkter Haftung	RLBBAT2E125
+31500	1010	Wien	NOTARTREUHANDBANK AG	NTBAATWW
+54000	4010	Linz	Oberösterreichische Landesbank Aktiengesellschaft	OBLAAT2L
+75100	1010	Wien	State Street Bank International GmbH Filiale Wien	SBOSATWW
+16310	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16320	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16460	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16330	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16340	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16350	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16360	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16370	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16380	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16390	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16400	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16410	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+34669	4850	Timelkam	Raiffeisenbank Timelkam-Lenzing-Puchkirchen eGen	RZOOAT2L669
+34356	4872	Neukirchen an der Vöckla	Raiffeisenbank Neukirchen an der Vöckla eGen	RZSTAT2G252
+39271	9371	Brückl	Raiffeisenbank Brückl-Eberstein-Klein St. Paul-Waisenberg, registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S012
+34560	4522	Sierning	Raiffeisenbank Region Sierning-Enns eGen	RZOOAT2L560
+34060	5280	Braunau am Inn	Raiffeisenbank Region Braunau eGen	RZOOAT2L661
+34736	4710	Grieskirchen	Raiffeisenbank Region Grieskirchen eGen	RZOOAT2L736
+33067	7400	Oberwart	Raiffeisenbezirksbank Oberwart eGen	RLBBAT2E125
+33118	7163	Andau	Raiffeisenbank Seewinkel-Hansag eGen	RLBBAT2E002
+33063	2425	Nickelsdorf an der Leitha	Raiffeisenbank Dreiländereck Bgld-Nord eGen	RLBBAT2E114
+33114	2425	Nickelsdorf an der Leitha	Raiffeisenbank Dreiländereck Bgld-Nord eGen	RLBBAT2E114
+32789	3300	Amstetten	Raiffeisenbank Region Amstetten eGen	RLNWATWWSVH
+33028	7161	St. Andrä bei Frauenkirchen	Raiffeisenbank Heideboden eGen	RLBBAT2E090
+32118	2500	Baden bei Wien	Raiffeisenbank Region Baden eGen	RLNWATWWEBD
+44480	5020	Salzburg	Volksbank Salzburg eG	VBOEATWWSAL
+35009	5201	Seekirchen am Wallersee	Raiffeisenbank Salzburger Seenland eGen	RVSAAT2S047
+35050	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+20815	8010	Graz	Steiermärkische Bank und Sparkassen Aktiengesellschaft	STSPAT2G
+20228	3500	Krems an der Donau	KREMSER BANK UND SPARKASSEN AKTIENGESELLSCHAFT	INVOATWW
+20505	6370	Kitzbühel	Sparkasse der Stadt Kitzbühel	SPKIAT2K
+20506	6330	Kufstein	Sparkasse Kufstein Tiroler Sparkasse von 1877	SPKUAT22
+11000	1020	Wien	UniCredit Bank Austria AG	BKAUATWWWOL
+33135	7000	Eisenstadt	Raiffeisenlandesbank Burgenland und Revisionsverband eGen	RLBBAT2E035
+60000	1100	Wien	BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft	BAWAATWWWP1
+14900	1100	Wien	BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft	BAWAATWWWP1
+42750	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+43210	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+33035	7000	Eisenstadt	Raiffeisenlandesbank Burgenland und Revisionsverband eGen	RLBBAT2E035
+36218	6212	Maurach	Raiffeisen Regionalbank Achensee eGen	RZTIAT22249
+36245	6361	Hopfgarten	Raiffeisenbank Hopfgarten im Brixental eGen	RZTIAT22245
+34100	4101	Feldkirchen an der Donau	Raiffeisenbank Feldkirchen-Goldwörth eGen	RZOOAT2L100
+36332	6275	Stumm	Raiffeisenkasse Stumm, Stummerberg und Umgebung registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22332
+36333	6675	Tannheim	Raiffeisenbank Tannheimertal eGen	RZTIAT22333
+38372	8200	Gleisdorf	Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen	RZSTAT2G103
+38010	8160	Weiz	Raiffeisenbank Weiz-Anger eGen	RZSTAT2G187
+36000	6063	Rum	Raiffeisen-Landesbank Tirol AG	RZOOAT2L922
+38001	8911	Admont	Raiffeisenbank Admont eGen	RZTIAT22322
+38186	8680	Mürzzuschlag	Raiffeisenbank Mürztal eGen	RZSTAT2G370
+38023	8225	Pöllau bei Hartberg	Raiffeisenbank Oststeiermark Nord eGen	RZKTAT2K510
+33014	7372	Draßmarkt	Raiffeisenbank Draßmarkt-Kobersdorf-St. Martin eGen	RLBBAT2E014
+33027	7540	Güssing	Raiffeisen Regionalbank Güssing-Jennersdorf eGen	RZTIAT22360
+32025	3300	Amstetten	Raiffeisenbank Region Amstetten eGen	RLNWATWWSVH
+33072	7111	Parndorf	Raiffeisenbank Region Parndorf eGen	RLBBAT2E072
+36248	6561	Ischgl	Raiffeisenbank Paznaun eGen	RZTIAT22248
+19510	5020	Salzburg	Zürcher Kantonalbank Österreich AG	PIAGAT2S
+18170	1020	Wien	KA Finanz AG	OKOMATWW
+20833	8225	Pöllau	Sparkasse Pöllau AG	SPKUAT22
+38460	8605	Kapfenberg	Raiffeisenbank Leoben-Bruck eGen	RZSTAT2G460
+38043	8530	Deutschlandsberg	Raiffeisenbank Schilcherland eGen	RZSTAT2G375
+38111	8101	Gratkorn	Raiffeisenbank Gratkorn eGen	RZSTAT2G111
+38113	8962	Gröbming	Raiffeisenbank Schladming-Gröbming eGen	RZSTAT2G375
+33078	7083	Purbach am Neusiedlersee	Raiffeisenbank Purbach eGen	RLBBAT2E078
+34111	4210	Gallneukirchen	Raiffeisenbank Region Gallneukirchen eGen	RZOOAT2L475
+32322	2020	Hollabrunn	Raiffeisenbank Hollabrunn eGen	RVSAAT2S025
+34113	4851	Gampern	Raiffeisenbank Gampern eGen	RZOOAT2L113
+38056	8551	Wies (Stmk.)	Raiffeisenbank Süd-Weststeiermark eGen	RVSAAT2S062
+38071	8350	Fehring	Raiffeisenbank Region Fehring eGen	RZSTAT2G132
+38128	8492	Halbenrain	Raiffeisenbank Halbenrain-Tieschen eGen	RZSTAT2G128
+38129	8630	Mariazell	Raiffeisenbank Mariazellerland eGen	RZSTAT2G129
+34114	4400	Steyr	Raiffeisenbank Steyr eGen	RZOOAT2L543
+45710	6830	Rankweil	VOLKSBANK VORARLBERG e. Gen.	VOVBAT2BROE
+18130	1090	Wien	Österreichische Ärzte- und Apothekerbank AG	OFIDATWW
+38367	8042	Graz-St. Peter	Raiffeisenbank Graz-St. Peter eGen	RZSTAT2G367
+43600	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+100	1090	Wien	Oesterreichische Nationalbank	NABAATWW
+18190	1100	Wien	BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft	BAWAATWWWP1
+32679	3382	Loosdorf/ Bez. Melk	Raiffeisenbank Region Schallaburg eGen	RLNWATWWPZD
+32455	3382	Loosdorf/ Bez. Melk	Raiffeisenbank Region Schallaburg eGen	RLNWATWWPZD
+44770	8010	Graz	Volksbank Steiermark AG	VBOEATWWGRA
+42320	8010	Graz	Volksbank Steiermark AG	VBOEATWWGRA
+44810	8010	Graz	Volksbank Steiermark AG	VBOEATWWGRA
+36374	9920	Sillian	Raiffeisenbank Sillian eGen	RZTIAT22368
+36387	9920	Sillian	Raiffeisenbank Sillian eGen	RZTIAT22368
+35109	5201	Seekirchen am Wallersee	Raiffeisenbank Salzburger Seenland eGen	RVSAAT2S047
+34430	4623	Gunskirchen	Raiffeisenbank Gunskirchen eGen	RZOOAT2L430
+34233	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+34427	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+35130	5112	Lamprechtshausen	Raiffeisenbank Flachgau Nord eGen	RVSAAT2S023
+35147	5201	Seekirchen am Wallersee	Raiffeisenbank Salzburger Seenland eGen	RVSAAT2S047
+35160	5092	St. Martin bei Lofer	Raiffeisenbank St. Martin-Lofer-Weißbach eGen	RVSAAT2S060
+35164	5660	Taxenbach	Raiffeisenbank Taxenbach registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S064
+20315	4020	Linz	Allgemeine Sparkasse Oberösterreich Bankaktiengesellschaft	ASPKAT2LWEL
+20256	3100	St.Pölten	SPARKASSE NIEDERÖSTERREICH MITTE WEST AKTIENGESELLSCHAFT	SPKUAT22
+20263	3910	Zwettl	Waldviertler Sparkasse Bank AG	DOBAATWW
+40000	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+18160	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+40074	1010	Wien	immigon portfolioabbau ag i.A.	ICBKATWW
+37410	6700	Bludenz	Raiffeisenbank Bludenz-Montafon eGen	RVVGAT2B410
+19490	1220	Wien	Mizuho Bank Europe N.V. Vienna Branch	MHCBATWW
+35014	5102	Anthering	Raiffeisenbank Anthering - Elixhausen eGen	RVSAAT2S007
+49220	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+44020	5020	Salzburg	Volksbank Salzburg eG	VBOEATWWSAL
+44300	5020	Salzburg	Volksbank Salzburg eG	VBOEATWWSAL
+43530	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+44820	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+42630	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+42550	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+36265	6130	Schwaz	Raiffeisen Regionalbank Schwaz eGen	RZTIAT22322
+36236	6330	Kufstein	Raiffeisen Bezirksbank Kufstein eGen	RZTIAT22358
+36216	6330	Kufstein	Raiffeisen Bezirksbank Kufstein eGen	RZTIAT22358
+34234	4601	Wels	Raiffeisenbank Wels eGen	RZOOAT2L680
+47150	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+41210	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+32778	3300	Amstetten	Raiffeisenbank Region Amstetten eGen	RLNWATWWSVH
+52300	1100	Wien	Addiko Bank AG	HSEEAT2K
+38075	8341	Paldau	Raiffeisenbank Mittleres Raabtal eGen	RZSTAT2G075
+38077	8280	Fürstenfeld	Raiffeisenbank Region Fürstenfeld eGen	RZOOAT2L110
+33033	7142	Illmitz	Raiffeisenbank Neusiedlersee-Seewinkel eGen	RLBBAT2E071
+33090	7161	St. Andrä bei Frauenkirchen	Raiffeisenbank Heideboden eGen	RLBBAT2E090
+32195	2870	Aspang	Raiffeisenbank Region Wiener Alpen eGen	RLNWATWWZWE
+36310	6063	Rum	Raiffeisenkasse Rum-Innsbruck/Arzl eGen	RZTIAT22310
+34455	4780	Schärding	Raiffeisenbank Region Schärding eGen	RLNWATWWPZD
+32589	3920	Groß Gerungs	Raiffeisenbank Gross Gerungs eGen	RVSAAT2S018
+32367	3400	Klosterneuburg	Raiffeisenbank Klosterneuburg eGen	RLNWATWW367
+34030	4950	Altheim	Raiffeisenbank Region Altheim eGen	RZOOAT2L030
+34118	5132	Geretsberg	Raiffeisenbank Geretsberg eGen	RZOOAT2L118
+76040	1020	Wien	card complete Service Bank AG	RSBUAT2K
+38094	8462	Gamlitz	Raiffeisenbank Gamlitz eGen	RZSTAT2G094
+38151	8262	Ilz	Raiffeisenbank Ilz-Großsteinbach-Riegersburg eGen	RZSTAT2G326
+33038	2425	Nickelsdorf an der Leitha	Raiffeisenbank Dreiländereck Bgld-Nord eGen	RLBBAT2E114
+32039	2214	Auersthal	Raiffeisenbank Auersthal-Bockfließ-Groß Schweinbarth eGen	RLNWATWWAUE
+36203	6236	Alpbach	Raiffeisenbank Alpbachtal eGen	RZTIAT22303
+36314	6100	Seefeld	Raiffeisenbank Seefeld-Leutasch-Reith-Scharnitz registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22314
+36315	6534	Serfaus	Raiffeisenbank Serfaus-Fiss-Ried eGen	RZTIAT22315
+32395	2100	Korneuburg	Raiffeisenbank Korneuburg eGen	RLNWATWWKOR
+34135	4201	Gramastetten	Raiffeisenbank Gramastetten eGen	RZKTAT2K320
+76000	5020	Salzburg	Porsche Bank Aktiengesellschaft	PABAAT2L
+33000	7000	Eisenstadt	Raiffeisenlandesbank Burgenland und Revisionsverband eGen	RLBBAT2E035
+20245	2563	Pottenstein a.d. Triesting	Sparkasse Pottenstein N.Ö.	SPKUAT22
+20218	2054	Haugsdorf	Sparkasse Haugsdorf	GIBAATWWHIM
+38102	8443	Gleinstätten	Raiffeisenbank Gleinstätten-Leutschach-Groß St. Florian eGen	RZSTAT2G262
+33002	7163	Andau	Raiffeisenbank Seewinkel-Hansag eGen	RLBBAT2E002
+38103	8200	Gleisdorf	Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen	RZSTAT2G103
+38170	8082	Kirchbach-Zerlach	Raiffeisenbank Heiligenkreuz-Kirchbach -St. Georgen eGen	RZSTAT2G335
+38187	8160	Weiz	Raiffeisenbank Weiz-Anger eGen	RZSTAT2G187
+32045	2500	Baden bei Wien	Raiffeisenbank Region Baden eGen	RLNWATWWEBD
+38374	8083	St. Stefan im Rosental	Raiffeisenbank St. Stefan-Jagerberg-Wolfsberg eGen	RZSTAT2G374
+32059	3372	Blindenmarkt	Raiffeisenkasse Blindenmarkt eGen	RLBBAT2E125
+34016	5252	Aspach im Innkreis	Raiffeisenbank Aspach-Wildenau eGen	RZOOAT2L016
+36219	6632	Ehrwald	Raiffeisenbank Ehrwald-Lermoos-Biberwier eGen	RZTIAT22219
+36316	6424	Silz	Raiffeisenbank Silz-Haiming und Umgebung eGen	RZTIAT22316
+36318	6306	Söll	Raiffeisenbank Söll - Scheffau registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22318
+36324	6450	Sölden	Raiffeisenbank Sölden eGen	RZTIAT22318
+34127	4645	Grünau im Almtal	Raiffeisenbank Almtal eGen	RZOOAT2L127
+34129	4623	Gunskirchen	Raiffeisenbank Gunskirchen eGen	RZOOAT2L430
+34250	4680	Haag am Hausruck	Raiffeisenbank Region Hausruck eGen	RZOOAT2L250
+39000	9020	Klagenfurt	Raiffeisenlandesbank Kärnten - Rechenzentrum und Revisionsverband, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K
+39100	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+20205	2500	Baden bei Wien	Sparkasse Baden	SPAHAT22
+20230	3550	Langenlois	Sparkasse Langenlois	SPKUAT22
+38206	8430	Leibnitz	Raiffeisenbank Leibnitz eGen	RZSTAT2G206
+38210	8510	Stainz	Raiffeisenbank Lieboch-Stainz eGen	RZSTAT2G210
+38215	8940	Liezen	Raiffeisenbank Liezen-Rottenmann-Trieben eGen	RZSTAT2G348
+33106	7121	Weiden am See	Raiffeisenbank Weiden am See eGen	RLBBAT2E106
+38377	8045	Graz	Raiffeisenbank Region Graz Nord eGen	RZSTAT2G103
+36223	6343	Erl	Raiffeisenbank Erl eGen	RZTIAT22223
+36320	6262	Schlitters	Raiffeisenkasse Schlitters, Bruck und Straß registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22320
+36322	6130	Schwaz	Raiffeisen Regionalbank Schwaz eGen	RZTIAT22322
+34460	4230	Pregarten	Raiffeisenbank Region Pregarten eGen	RZOOAT2L460
+34155	5144	Handenberg	Raiffeisenbank Handenberg - St. Georgen a. F. eGen	RZOOAT2L155
+74200	5015	Salzburg	SPAR-FINANZ BANK AG	SPAHAT22
+35000	5020	Salzburg	Raiffeisenverband Salzburg eGen	RVSAAT2S
+38227	8774	Mautern (Stmk.)	Raiffeisenbank Liesingtal-St. Stefan eGen	RZSTAT2G373
+38238	8850	Murau	Raiffeisenbank Murau eGen	RZSTAT2G238
+38402	8820	Neumarkt in der Steiermark	Raiffeisenbank Neumarkt-Oberwölz eGen	RZSTAT2G452
+32073	2460	Bruck an der Leitha	Raiffeisenbank Bruck-Carnuntum eGen	RLNWATWWBRL
+38403	8230	Hartberg	Raiffeisenbank Region Hartberg eGen	RZSTAT2G411
+32092	2230	Gänserndorf	Raiffeisen-Regionalbank Gänserndorf eGen	RVVGAT2B400
+36229	6263	Fügen	Raiffeisen Regionalbank Fügen-Kaltenbach-Zell eGen	RZTIAT22360
+32397	3500	Krems an der Donau	Raiffeisenbank Krems eGen	RLNWATWWKRE
+36339	6335	Thiersee	Raiffeisenbank Thiersee eGen	RZTIAT22339
+32413	2136	Laa a.d. Thaya	Raiffeisenbank Laa/Thaya eGen	RLNWATWWLAA
+20402	5730	Mittersill	Sparkasse Mittersill Bank AG	SPKUAT22
+20331	4230	Pregarten	Sparkasse Pregarten - Unterweißenbach AG	SPKUAT22
+38249	8983	Bad Mitterndorf	Raiffeisenbank Steirisches Salzkammergut-Öblarn eGen	RZOOAT2L633
+38252	8302	Nestelbach bei Graz	Raiffeisenbank Nestelbach-Eggersdorf eGen	RZSTAT2G252
+32099	3843	Dobersberg	Raiffeisenkasse Dobersberg-Waldkirchen eGen	RLBBAT2E125
+38420	8472	Straß	Raiffeisenbank Straß-Spielfeld eGen	RZSTAT2G420
+36386	9932	Innervillgraten	Raiffeisenkasse Villgratental eGen	RZTIAT22332
+36347	6111	Volders	Raiffeisenkasse Volders und Umgebung registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22347
+37000	6900	Bregenz	Raiffeisen Landesbank Vorarlberg mit Revisionsverband eGen	RKAGATWW
+34680	4601	Wels	Raiffeisenbank Wels eGen	RZOOAT2L680
+20507	9900	Lienz	Lienzer Sparkasse AG	COPRATWW
+33065	7350	Oberpullendorf	Raiffeisenbank Burgenland Mitte eGen	RLBBAT2E124
+38282	8162	Passail	Raiffeisenbank Passail eGen	RZSTAT2G282
+36207	6471	Arzl im Pitztal	Raiffeisenbank Arzl im Pitztal und Imsterberg registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22207
+33116	7132	Frauenkirchen	Raiffeisenbank Frauenkirchen-Mönchhof-Podersdorf am See eGen	RLBBAT2E116
+38433	8152	Stallhofen	Raiffeisenbank Stallhofen eGen	RZSTAT2G433
+38436	8345	Straden	Raiffeisenbank Straden eGen	RZSTAT2G436
+34410	4150	Rohrbach-Berg(OÖ)	Raiffeisenbank Region Rohrbach eGen	RZOOAT2L410
+36349	6384	Waidring	RaiffeisenBank St. Ulrich - Waidring eGen	RZTIAT22349
+36351	6112	Wattens	Raiffeisenbank Wattens und Umgebung, registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22351
+34000	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+19970	1020	Wien	Banco do Brasil Aktiengesellschaft	BRASATWW
+18600	4020	Linz	Volkskreditbank AG	VKBLAT2L
+20267	2700	Wiener Neustadt	Wiener Neustädter Sparkasse	WUIBATWW
+20603	6863	Egg (Vbg.)	Sparkasse der Gemeinde Egg	SPBRAT2B
+20607	6700	Bludenz	Sparkasse Bludenz Bank AG	SPAHAT22
+36342	6293	Tux	Raiffeisenbank Tux eGen	RZTIAT22342
+36378	9971	Matrei in Osttirol	Raiffeisen Regionalbank Matrei i.O. eGen	RZKTAT2K384
+34126	4452	Ternberg	Raiffeisenbank Ennstal eGen	RZOOAT2L126
+46660	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+49460	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+44220	1090	Wien	Österreichische Ärzte- und Apothekerbank AG	OFIDATWW
+38335	8082	Kirchbach-Zerlach	Raiffeisenbank Heiligenkreuz-Kirchbach -St. Georgen eGen	RZSTAT2G335
+15006	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15005	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15008	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15009	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15010	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15011	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15021	4020	Linz	Oberbank AG	OBKLAT2LWRN
+43920	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+32447	3180	Lilienfeld	Raiffeisenbank Traisen-Gölsental eGen	RLNWATWWLFD
+40630	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+41050	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+43610	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+44570	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+39483	9500	Villach	Raiffeisen Bank Villach registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K496
+19540	1010	Wien	Bank of China (Central and Eastern Europe) Limited Vienna Branch	GUTBATWW
+32127	3820	Raabs an der Thaya	Raiffeisenbank Thayatal-Mitte eGen	RZTIAT22337
+32715	2070	Retz	Raiffeisenkasse Retz-Pulkautal registrierte Genossenschaft mit beschränkter Haftung	RLNWATWWPOY
+37401	6861	Alberschwende	Raiffeisenbank Alberschwende eGen	RVVGAT2B401
+37405	6883	Au (Bregenzerwald)	Raiffeisenbank Au eGen	RVVGAT2B405
+37406	6870	Bezau	Raiffeisenbank Bezau-Mellau-Bizau eGen	RVVGAT2B406
+37420	6850	Dornbirn	Raiffeisenbank Im Rheintal eGen	RVVGAT2B420
+37422	6830	Rankweil	Raiffeisenbank Montfort eGen	RZOOAT2L322
+37423	6863	Egg (Vbg.)	Raiffeisenbank Mittelbregenzerwald eGen	RVVGAT2B423
+19810	1220	Wien	Santander Consumer Bank GmbH	SANTATWW
+34608	4863	Seewalchen am Attersee	Raiffeisenbank Attersee-Nord eGen	RZOOAT2L608
+34545	4820	Bad Ischl	Raiffeisenbank Inneres Salzkammergut eGen	RZOOAT2L545
+18150	1040	Wien	Société Générale Zweigniederlassung Wien	SGABATWW
+16420	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16430	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16440	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16450	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+16300	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+34390	4694	Ohlsdorf	Raiffeisenbank Ohlsdorf eGen	RZOOAT2L390
+37435	6952	Hittisau	Raiffeisenbank Vorderbregenzerwald eGen	RVVGAT2B435
+37438	6845	Hohenems	Raiffeisenbank Hohenems registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S025
+34363	4865	Nussdorf am Attersee	Raiffeisenbank Attersee-Süd eGen	RZOOAT2L608
+20216	2410	Hainburg an der Donau	Sparkasse Hainburg-Bruck-Neusiedl Aktiengesellschaft	GIBAATWWHIM
+20503	6010	Innsbruck	Tiroler Sparkasse Bankaktiengesellschaft Innsbruck	SPIHAT22
+19190	1010	Wien	Schelhammer Capital Bank AG	SABRATWW
+20320	4020	Linz	Allgemeine Sparkasse Oberösterreich Bankaktiengesellschaft	ASPKAT2LWEL
+20706	9020	Klagenfurt	Kärntner Sparkasse Aktiengesellschaft	KSPKAT2KWOL
+20508	6240	Rattenberg	Sparkasse Rattenberg Bank AG	SPKUAT22
+19880	1100	Wien	Western Union International Bank GmbH	WUIBATWW
+57000	6020	Innsbruck	HYPO TIROL BANK AG	HYPTAT22
+19340	1010	Wien	European American Investment Bank Aktiengesellschaft	EUAAATWW
+36352	6133	Weerberg	Raiffeisenkasse Weerberg registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22352
+36354	6363	Westendorf	Raiffeisenbank Westendorf eGen	RZTIAT22354
+34180	4070	Eferding	Raiffeisenbank Region Eferding eGen	RZOOAT2L180
+34732	4111	Walding	Raiffeisenbank Walding-Ottensheim eGen	RZOOAT2L732
+34735	4924	Waldzell	Raiffeisenbank Waldzell eGen	RZOOAT2L735
+34738	4552	Wartberg an der Krems	Raiffeisenbank Wartberg an der Krems eGen	RZOOAT2L738
+32585	3100	St. Pölten	Raiffeisenbank Region St. Pölten eGen	RLNWATWWOBG
+37431	6971	Hard (Vbg.)	Raiffeisenbank Bodensee-Leiblachtal eGen	RVVGAT2B439
+37449	6764	Lech	Raiffeisenbank Lech am Arlberg eGen	RVVGAT2B449
+37458	6710	Nenzing	RAIFFEISENBANK im Walgau eGen	RVVGAT2B424
+37468	6700	Bludenz	Raiffeisenbank Bludenz-Montafon eGen	RVVGAT2B410
+20272	3910	Zwettl	Waldviertler Sparkasse Bank AG	DOBAATWW
+34170	4063	Hörsching	Raiffeisenbank Hörsching-Thening eGen	RLBBAT2E031
+34383	4181	Oberneukirchen/ OÖ	Raiffeisenbank Mittleres Rodltal eGen	RZOOAT2L383
+34277	4190	Bad Leonfelden	Raiffeisenbank Region Bad Leonfelden eGen	RZOOAT2L277
+34710	4840	Vöcklabruck	Raiffeisenbank Region Vöcklabruck eGen	RLNWATWWOBG
+34303	5231	Schalchen	Raiffeisenbank Mattigtal eGen	RZOOAT2L303
+19690	1040	Wien	VakifBank International AG	TVBAATWW
+19400	1030	Wien	MUFG Bank (Europe) N.V. Vienna Branch	BOTKATWX
+20246	2170	Poysdorf	Sparkasse Poysdorf AG	SPKUAT22
+74000	1010	Wien	Sberbank Europe AG	SABRATWW
+38000	8010	Graz	Raiffeisen-Landesbank Steiermark AG	RZOOAT2L922
+38261	8750	Judenburg	Raiffeisenbank Zirbenland eGen	RZSTAT2G368
+35068	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+34321	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+38452	8820	Neumarkt in der Steiermark	Raiffeisenbank Neumarkt-Oberwölz eGen	RZSTAT2G452
+38138	8112	Gratwein-Straßengel	Raiffeisenbank Gratwein-Hitzendorf eGen	RZSTAT2G112
+38346	8720	Knittelfeld	Raiffeisenbank Aichfeld eGen	RZTIAT22322
+38347	8641	St. Marein im Mürztal	Raiffeisenbank Turnau-St. Lorenzen eGen	RZSTAT2G347
+32145	2115	Ernstbrunn	Raiffeisenkasse Ernstbrunn eGen	RLBBAT2E125
+34081	4906	Eberschwang	Raiffeisenbank Eberschwang eGen	RZOOAT2L081
+32275	2061	Hadres	Raiffeisenbank Seefeld-Hadres eGen	RZOOAT2L613
+34083	4650	Lambach	Raiffeisenbank Edt-Lambach eGen	RZOOAT2L083
+32278	4431	Haidershofen	Raiffeisenkasse Haidershofen eGen	RLNWATWW278
+36232	6353	Going am W.K.	RaiffeisenBank Going eGen	RZTIAT22232
+34370	5142	Eggelsberg	Raiffeisenbank Oberes Innviertel eGen	RZOOAT2L370
+17000	9020	Klagenfurt	BKS Bank AG	BFKKAT2KWOL
+16000	6020	Innsbruck	Bank für Tirol und Vorarlberg Aktiengesellschaft	BTVAAT22WOF
+40730	9900	Lienz	DolomitenBank Osttirol-Westkärnten eG	DEUTATWWUNP
+36791	6991	Riezlern	Alpen Privatbank Aktiengesellschaft	AIAGATWWKAG
+32501	2130	Mistelbach	Raiffeisenbank im Weinviertel eGen	RLNWATWWMIB
+20257	3270	Scheibbs	Sparkasse Scheibbs AG	SPKUAT22
+32667	3021	Pressbaum	Raiffeisenbank Wienerwald eGen	RLNWATWWPRB
+33125	7400	Oberwart	Raiffeisenbezirksbank Oberwart eGen	RLBBAT2E125
+32286	3452	Heiligeneich	Raiffeisenkasse Heiligeneich eGen	RZTIAT22240
+10000	1010	Wien	Oesterreichische Kontrollbank Aktiengesellschaft	OEKOATWWPBS
+20314	4820	Bad Ischl	Sparkasse Salzkammergut AG	SPKUAT22
+20702	9560	Feldkirchen (Ktn.)	Sparkasse Feldkirchen/Kärnten	SPKIAT2K
+34200	4974	Ort im Innkreis	Raiffeisenbank Innkreis Mitte eGen	RZOOAT2L200
+36263	6370	Kitzbühel	Raiffeisenbank Kitzbühel - St. Johann eGen	RZTIAT22263
+36336	6410	Telfs	Raiffeisenbank Telfs-Mieming eGen	RZTIAT22336
+38487	8570	Voitsberg	Raiffeisenbank Lipizzanerheimat eGen	RZSTAT2G487
+33048	7361	Lutzmannsburg	Raiffeisenbank Lutzmannsburg - Frankenau eGen	RLBBAT2E048
+32002	3462	Absdorf	Raiffeisenbank Wagram-Schmidatal eGen	RVSAAT2S069
+36215	6364	Brixen im Thale	Raiffeisenbank Brixen im Thale eGen	RZTIAT22215
+36240	6265	Hart im Zillertal	Raiffeisenkasse Hart eGen	RZTIAT22240
+36252	6580	St. Anton am Arlberg	Raiffeisenbank St. Anton am Arlberg eGen	RZTIAT22252
+45010	5020	Salzburg	Volksbank Salzburg eG	VBOEATWWSAL
+19120	1030	Wien	bank99 AG	SPBAATWW
+20333	4910	Ried im Innkreis	Sparkasse Ried im Innkreis-Haag am Hausruck	SPKUAT22
+39500	9470	St. Paul im Lavanttal	Raiffeisenbank St. Paul im Lavanttal eGen	RVSAAT2S060
+38368	8750	Judenburg	Raiffeisenbank Zirbenland eGen	RZSTAT2G368
+36362	6060	Hall in Tirol	Raiffeisen Regionalbank Hall in Tirol eGen	RZTIAT22362
+36241	6284	Ramsau im Zillertal	Raiffeisenbank Hippach und Umgebung eGen	RZTIAT22241
+20602	6850	Dornbirn	Dornbirner Sparkasse Bank AG	DOSPAT2D
+20604	6800	Feldkirch	Sparkasse der Stadt Feldkirch	SPFKAT2B
+38133	8071	Hausmannstätten	Raiffeisenbank Hausmannstätten eGen	RZSTAT2G133
+33010	7301	Deutschkreutz	Raiffeisenbank Region Deutschkreutz-Horitschon eGen	RZOOAT2L661
+33012	7082	Donnerskirchen	Raiffeisenbank Neusiedlersee-Hügelland eGen	RLBBAT2E092
+38370	8480	Mureck	Raiffeisenbank Mureck eGen	RZSTAT2G370
+38497	8330	Feldbach	Raiffeisenbank Region Feldbach eGen	RZSTAT2G497
+38499	8410	Wildon	Raiffeisenbank Wildon-Preding eGen	RZSTAT2G499
+42600	9020	Klagenfurt am Wörthersee	Volksbank Kärnten eG	VBOEATWWSPI
+42820	9020	Klagenfurt am Wörthersee	Volksbank Kärnten eG	VBOEATWWSPI
+46900	9020	Klagenfurt am Wörthersee	Volksbank Kärnten eG	VBOEATWWSPI
+38312	8490	Bad Radkersburg	Raiffeisenbank Bad Radkersburg-Klöch eGen	RLNWATWWAUE
+32123	3730	Eggenburg	Raiffeisenbank Eggenburg eGen	RLNWATWW123
+38439	8054	Graz	Raiffeisenbank Graz-Straßgang eGen	RZSTAT2G439
+36209	6094	Axams	Raiffeisenbank Westliches Mittelgebirge eGen	RZTIAT22209
+34068	4360	Grein	Raiffeisenbank Grein eGen	RZOOAT2L068
+32250	2340	Mödling	Raiffeisen Regionalbank Mödling eGen	RZKTAT2K384
+34165	4573	Hinterstoder	Raiffeisenbank Hinterstoder und Vorderstoder eGen	RZOOAT2L165
+15000	4020	Linz	Oberbank AG	OBKLAT2LWRN
+19200	1010	Wien	Schoellerbank Aktiengesellschaft	SCHOATWW
+19930	1030	Wien	Raiffeisen Centrobank AG	CENBATWW
+42110	2230	Gänserndorf	Marchfelder Bank eG	MVOGAT22
+31303	1190	Wien	Raiffeisen Bausparkasse Gesellschaft m.b.H.	RZKTAT2K496
+73700	1010	Wien	Österreichische Hotel- und Tourismusbank Gesellschaft m.b.H.	OFIDATWW
+20241	2620	Neunkirchen/ NÖ	Sparkasse Neunkirchen	SPKUAT22
+38311	8225	Pöllau bei Hartberg	Raiffeisenbank Oststeiermark Nord eGen	RZKTAT2K510
+15004	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15007	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15012	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15096	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15097	4020	Linz	Oberbank AG	OBKLAT2LWRN
+45850	6020	Innsbruck	Volksbank Tirol AG	VBOEATWWLAN
+20219	3130	Herzogenburg	Sparkasse Herzogenburg-Neulengbach Bank Aktiengesellschaft	GIBAATWWHIM
+38503	8551	Wies (Stmk.)	Raiffeisenbank Süd-Weststeiermark eGen	RVSAAT2S062
+43000	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+52000	9020	Klagenfurt	Austrian Anadi Bank AG	HAABAT2K
+32291	3462	Absdorf	Raiffeisenbank Wagram-Schmidatal eGen	RVSAAT2S069
+38076	8720	Knittelfeld	Raiffeisenbank Aichfeld eGen	RZTIAT22322
+33046	7350	Oberpullendorf	Raiffeisenbank Burgenland Mitte eGen	RLBBAT2E124
+38333	8112	Gratwein-Straßengel	Raiffeisenbank Gratwein-Hitzendorf eGen	RZSTAT2G112
+38055	8302	Nestelbach bei Graz	Raiffeisenbank Nestelbach-Eggersdorf eGen	RZSTAT2G252
+34157	4522	Sierning	Raiffeisenbank Region Sierning-Enns eGen	RZOOAT2L560
+34606	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+39505	9300	St. Veit an der Glan	Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung	RLBBAT2E125
+39465	9433	St. Andrä im Lavanttal	Raiffeisenbank Mittleres Lavanttal eGen	RZKTAT2K481
+43380	9900	Lienz	DolomitenBank Osttirol-Westkärnten eG	DEUTATWWUNP
+18100	1030	Wien	BNP Paribas SA Niederlassung Österreich	GEBAATWW
+30000	1030	Wien	Raiffeisen Bank International AG	RZBAATWWREC
+40850	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+34380	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+34318	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+19940	1010	Wien	VTB Bank (Europe) SE, Zweigniederlassung Wien	DOBAATWW
+42740	5020	Salzburg	Volksbank Salzburg eG	VBOEATWWSAL
+37424	6710	Nenzing	RAIFFEISENBANK im Walgau eGen	RVVGAT2B424
+32374	2870	Aspang	Raiffeisenbank Region Wiener Alpen eGen	RLNWATWWZWE
+43770	6020	Innsbruck	Volksbank Tirol AG	VBOEATWWLAN
+44430	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+43690	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+32633	2340	Mödling	Raiffeisen Regionalbank Mödling eGen	RZKTAT2K384
+32198	2020	Hollabrunn	Raiffeisenbank Hollabrunn eGen	RVSAAT2S025
+36305	6600	Reutte	Raiffeisenbank Oberland-Reutte eGen	RZTIAT22359
+32731	2100	Leobendorf	Raiffeisenbank Kreuzenstein eGen	RLNWATWWKRE
+32368	3382	Loosdorf/ Bez. Melk	Raiffeisenbank Region Schallaburg eGen	RLNWATWWPZD
+32944	3180	Lilienfeld	Raiffeisenbank Traisen-Gölsental eGen	RLNWATWWLFD
+37453	6850	Dornbirn	Raiffeisenbank Im Rheintal eGen	RVVGAT2B420
+35105	5081	Anif	Raiffeisenbank Anif-Niederalm eGen	RVSAAT2S005
+35112	5710	Kaprun	Raiffeisenbank Hohe Tauern eGen	RVSAAT2S025
+35212	5710	Kaprun	Raiffeisenbank Hohe Tauern eGen	RVSAAT2S025
+35312	5710	Kaprun	Raiffeisenbank Hohe Tauern eGen	RVSAAT2S025
+35115	5301	Eugendorf	Raiffeisenbank Flachgau Mitte eGen	RVSAAT2S023
+35215	5301	Eugendorf	Raiffeisenbank Flachgau Mitte eGen	RVSAAT2S023
+35119	5611	Großarl	Raiffeisenbank Großarl-Hüttschlag eGen	RVSAAT2S019
+35121	5202	Neumarkt am Wallersee	Raiffeisenbank Wallersee eGen	RVSAAT2S024
+35221	5202	Neumarkt am Wallersee	Raiffeisenbank Wallersee eGen	RVSAAT2S024
+35122	5400	Hallein	Raiffeisenbank Hallein-Oberalm eGen	RVSAAT2S022
+35322	5400	Hallein	Raiffeisenbank Hallein-Oberalm eGen	RVSAAT2S022
+35422	5400	Hallein	Raiffeisenbank Hallein-Oberalm eGen	RVSAAT2S022
+35522	5400	Hallein	Raiffeisenbank Hallein-Oberalm eGen	RVSAAT2S022
+35152	5753	Saalbach-Hinterglemm	Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen	RVSAAT2S052
+35352	5753	Saalbach-Hinterglemm	Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen	RVSAAT2S052
+35452	5753	Saalbach-Hinterglemm	Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen	RVSAAT2S052
+35156	5340	St. Gilgen	Raiffeisenbank St.Gilgen-Fuschl-Strobl eGen	RVSAAT2S056
+35256	5340	St. Gilgen	Raiffeisenbank St.Gilgen-Fuschl-Strobl eGen	RVSAAT2S056
+35169	5600	St. Johann im Pongau	Raiffeisenbank St. Johann-Wagrain-Kleinarl eGen	RVSAAT2S057
+35172	5450	Werfen	Raiffeisenkasse Werfen registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S072
+35272	5450	Werfen	Raiffeisenkasse Werfen registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S072
+35127	5511	Hüttau	Raiffeisenbank Hüttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K340
+35149	5550	Radstadt	Raiffeisenbank Radstadt-Untertauern-Filzmoos-Forstau registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S049
+35249	5550	Radstadt	Raiffeisenbank Radstadt-Untertauern-Filzmoos-Forstau registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S049
+35163	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+35263	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+35371	5071	Wals bei Salzburg	Raiffeisenbank Wals-Himmelreich registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S071
+35118	5082	Grödig	Raiffeisenbank Grödig eGen	RZOOAT2L068
+35104	5541	Altenmarkt im Pongau	Raiffeisenbank Altenmarkt-Flachau-Eben eGen	RVSAAT2S004
+35204	5541	Altenmarkt im Pongau	Raiffeisenbank Altenmarkt-Flachau-Eben eGen	RVSAAT2S004
+35404	5541	Altenmarkt im Pongau	Raiffeisenbank Altenmarkt-Flachau-Eben eGen	RVSAAT2S004
+35126	5630	Bad Hofgastein	Raiffeisenbank Gastein eGen	RVSAAT2S026
+35226	5630	Bad Hofgastein	Raiffeisenbank Gastein eGen	RVSAAT2S026
+35155	5620	Schwarzach	Raiffeisenbank Pongau Mitte eGen	RZOOAT2L434
+35255	5620	Schwarzach	Raiffeisenbank Pongau Mitte eGen	RZOOAT2L434
+35154	5020	Salzburg	Raiffeisenbank Salzburg Liefering-Maxglan-Siezenheim eGen	RVSAAT2S034
+35139	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+35239	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+35339	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+35101	5441	Abtenau	Raiffeisenbank Abtenau-Rußbach registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22322
+36357	6311	Wildschönau	Raiffeisenbank Wildschönau eGen	RZTIAT22357
+36329	6150	Steinach a.Br.	Raiffeisenbank Wipptal - Stubaital Mitte eGen	RZOOAT2L491
+36358	6330	Kufstein	Raiffeisen Bezirksbank Kufstein eGen	RZTIAT22358
+34214	4501	Neuhofen an der Krems	Raiffeisenbank Kematen-Neuhofen eGen	RZOOAT2L214
+34777	4320	Perg	Raiffeisenbank Perg eGen	RZOOAT2L777
+37474	6934	Sulzberg (Vbg.)	Raiffeisenbank Weissachtal eGen	RVVGAT2B445
+37475	6832	Sulz	Raiffeisenbank Vorderland registrierte Genossenschaft mit beschränkter Haftung	RVVGAT2B475
+37482	6922	Wolfurt	Raiffeisenbank am Hofsteig eGen	RVVGAT2B482
+39411	9062	Moosburg (Ktn.)	Raiffeisenbank Moosburg-Tigring, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K411
+39412	9813	Möllbrücke	Raiffeisen Bank Lurnfeld-Mölltal eGen	RZKTAT2K436
+19380	1030	Wien	Bankhaus Denzel Aktiengesellschaft	SPAEAT2SZEL
+19390	5020	Salzburg	BMW Austria Bank GmbH	BFKKAT2KWOL
+14000	1100	Wien	BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft	BAWAATWWWP1
+51000	7000	Eisenstadt	HYPO-BANK BURGENLAND Aktiengesellschaft	EHBBAT2E
+20502	6460	Imst	Sparkasse Imst AG	GIBAATWWHIM
+73800	1020	Wien	LEASFINANZ Bank GmbH	HYSTAT2G
+20510	6130	Schwaz	Sparkasse Schwaz AG	SPSCAT22
+32426	3550	Langenlois	Raiffeisenbank Langenlois eGen	RLNWATWW426
+32438	2100	Leobendorf	Raiffeisenbank Kreuzenstein eGen	RLNWATWWKRE
+34226	4030	Linz	Raiffeisenbank Kleinmünchen/Linz eGen	RZOOAT2L226
+34434	4891	Pöndorf	Raiffeisenbank Pöndorf - Frankenmarkt eGen	RZOOAT2L434
+34741	4616	Weißkirchen an der Traun	Raiffeisenbank Weißkirchen a.d. Traun eGen	RZOOAT2L741
+39442	9710	Feistritz an der Drau	Raiffeisenbank Drautal registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K442
+39457	9545	Radenthein	Raiffeisenbank Nockberge eGen	RZKTAT2K461
+39464	9863	Rennweg	Raiffeisenbank Lieser-Maltatal eG	RZSTAT2G210
+39475	9300	St. Veit an der Glan	Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung	RLBBAT2E125
+39272	9150	Bleiburg	Raiffeisenbank Bleiburg registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K272
+39288	9141	Eberndorf	Raiffeisenbank Eberndorf registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K288
+39292	9473	Lavamünd	Raiffeisenbank Unteres Lavanttal eGen	RVSAAT2S066
+20404	5020	Salzburg	Salzburger Sparkasse Bank Aktiengesellschaft	SBGSAT2S
+20306	4890	Frankenmarkt	SPARKASSE FRANKENMARKT AKTIENGESELLSCHAFT	SPKIAT2K
+20326	4501	Neuhofen an der Krems	Sparkasse Neuhofen Bank Aktiengesellschaft	SPKUAT22
+20221	3580	Horn	Sparkasse Horn-Ravelsbach-Kirchberg Aktiengesellschaft	GIBAATWWHIM
+32000	1020	Wien	RAIFFEISENLANDESBANK NIEDERÖSTERREICH-WIEN AG	RLNWATWW
+20330	4070	Eferding	Sparkasse Eferding-Peuerbach-Waizenkirchen	SPKIAT2K
+20112	1030	Wien	Die Zweite Wiener Vereins-Sparcasse	DEUTATWWUNP
+19440	1010	Wien	Wiener Privatbank SE	WIPBATWW
+20111	1100	Wien	Erste Bank der oesterreichischen Sparkassen AG	GIBAATWWZIS
+34330	4280	Königswiesen	Raiffeisenbank Mühlviertler Alm eGen	RZSTAT2G462
+34231	4154	Kollerschlag	Raiffeisenbank Kollerschlag eGen	RZOOAT2L231
+34437	4731	Prambachkirchen	Raiffeisenbank Prambachkirchen eGen	RZOOAT2L437
+32415	3943	Schrems	Raiffeisenbank Oberes Waldviertel eGen	RLNWATWWOWS
+34438	4925	Pramet	Raiffeisenbank Pramet eGen	RZOOAT2L438
+34747	3335	Weyer (OÖ)	Raiffeisenbank Weyer eGen	RZOOAT2L747
+32823	2320	Schwechat	Raiffeisenbank Region Schwechat eGen	RLNWATWW823
+34075	4152	Sarleinsbach	Raiffeisenbank Donau-Ameisberg eGen	RZOOAT2L075
+39479	9871	Seeboden	Raiffeisenbank Millstättersee eG	RZKTAT2K479
+39481	9433	St. Andrä im Lavanttal	Raiffeisenbank Mittleres Lavanttal eGen	RZKTAT2K481
+39487	9181	Feistritz im Rosental	Raiffeisenbank Rosental, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K487
+39491	9462	Bad St. Leonhard / Lavanttal	Raiffeisenbank Oberes Lavanttal registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K491
+39496	9500	Villach	Raiffeisen Bank Villach registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K496
+39501	9360	Friesach (Ktn.)	Raiffeisenbank Friesach-Metnitztal, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K501
+39510	9551	Bodensdorf am Ossiacher See	Raiffeisenbank Ossiacher See eG	RZOOAT2L390
+39511	9341	Straßburg (Ktn.)	Raiffeisenbank Gurktal eGen	RZOOAT2L430
+39543	9620	Hermagor	Raiffeisenbank Hermagor, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K543
+39546	9100	Völkermarkt	Raiffeisenbank Völkermarkt, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K546
+39559	9241	Wernberg	Raiffeisenbank Wernberg, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K559
+24012	1100	Wien	Bausparkasse der österreichischen Sparkassen Aktiengesellschaft	BAOSATWW
+20828	8680	Mürzzuschlag	Sparkasse Mürzzuschlag Aktiengesellschaft	SPKUAT22
+18120	1020	Wien	paybox Bank AG	PABAAT2L
+20509	6600	Reutte	Sparkasse Reutte AG	SPKUAT22
+32477	3382	Loosdorf/ Bez. Melk	Raiffeisenbank Region Schallaburg eGen	RLNWATWWPZD
+36260	6175	Kematen	Raiffeisenbank Kematen eGen	RZTIAT22260
+34750	4654	Bad Wimsbach-Neydharting	Raiffeisenbank Bad Wimsbach-Neydharting eGen	RZOOAT2L750
+32842	2000	Stockerau	Raiffeisenbank Stockerau eGen	RLNWATWWSTO
+32865	2620	Neunkirchen/ NÖ	Raiffeisenbank Schneebergland eGen	RLNWATWWNSM
+39561	9841	Winklern im Mölltal	Raiffeisenbank Oberes Mölltal-Oberdrauburg eGen	RZKTAT2K561
+39320	9131	Grafenstein	Raiffeisenbank Grafenstein-Magdalensberg und Umgebung, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K320
+39322	9761	Greifenburg	Raiffeisenbank Oberdrautal-Weissensee, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K322
+39340	9375	Hüttenberg	Raiffeisenbank Hüttenberg - Wieting, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K340
+39364	9640	Kötschach-Mauthen	Raiffeisenbank Kötschach - Mauthen, registrierte Genossenschaft mit beschränkter Haftung	RLNWATWWKOR
+39381	9523	Villach-Landskron	Raiffeisenbank Landskron - Gegendtal, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K381
+39384	9314	Launsdorf	Raiffeisen Regionalbank Längsee-Hochosterwitz eGen	RZKTAT2K384
+18400	1010	Wien	Generali Bank AG	BGENATWW
+76032	1010	Wien	TeamBank Österreich - Niederlassung der TeamBank AG Nürnberg	SWACAT22
+20227	2100	Korneuburg	Sparkasse Korneuburg AG	GIBAATWWHIM
+34510	4810	Gmunden	Raiffeisenbank Salzkammergut eGen	RZOOAT2L510
+36262	6382	Kirchdorf	Raiffeisenbank Kirchdorf Tirol registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22262
+34110	4240	Freistadt (OÖ)	Raiffeisenbank Region Freistadt eGen	RZOOAT2L110
+34276	4060	Leonding	Raiffeisenbank Leonding eGen	RZOOAT2L276
+32880	3430	Tulln	Raiffeisenbank Tulln eGen	RLNWATWWLFD
+32901	3902	Vitis	Raiffeisenbank Vitis eGen	RVSAAT2S066
+32904	3830	Waidhofen an der Thaya	Raiffeisenbank Waidhofen a. d. Thaya eGen	RLNWATWWWTH
+32906	3340	Waidhofen an der Ybbs	Raiffeisenbank Ybbstal eGen	RLNWATWWWHY
+34442	4722	Peuerbach	Raiffeisenbank Peuerbach eGen	RZOOAT2L442
+39390	9220	Velden am Wörther See	Raiffeisenbank Region Wörthersee eG	RZKTAT2K355
+19140	1010	Wien	Bank Gutmann Aktiengesellschaft	GUTBATWW
+35005	5081	Anif	Raiffeisenbank Anif-Niederalm eGen	RVSAAT2S005
+35012	5710	Kaprun	Raiffeisenbank Hohe Tauern eGen	RVSAAT2S025
+35015	5301	Eugendorf	Raiffeisenbank Flachgau Mitte eGen	RVSAAT2S023
+35019	5611	Großarl	Raiffeisenbank Großarl-Hüttschlag eGen	RVSAAT2S019
+42390	6020	Innsbruck	Volksbank Tirol AG	VBOEATWWLAN
+20202	3300	Amstetten (NÖ)	Sparkasse der Stadt Amstetten AG	SPBRAT2B
+19950	5020	Salzburg	Bausparkasse Wüstenrot Aktiengesellschaft	WUBUAT2S
+36264	6345	Kössen	Raiffeisenbank Kössen-Schwendt eGen	RLNWATWWKOR
+32551	2183	Neusiedl an der Zaya	Raiffeisenkasse Neusiedl a.d.Zaya eGen	RLNWATWWNSD
+34290	5221	Lochen am See	Raiffeisenbank Lochen am See eGen	RZOOAT2L290
+34284	4923	Lohnsburg am Kobernaußerwald	Raiffeisenbank Lohnsburg eGen	RZOOAT2L284
+32937	2700	Wiener Neustadt	Raiffeisenregionalbank Wiener Neustadt eGen	RLNWATWWWRN
+32939	3250	Wieselburg	Raiffeisenbank Mittleres Mostviertel eGen	RLNWATWW939
+35021	5202	Neumarkt am Wallersee	Raiffeisenbank Wallersee eGen	RVSAAT2S024
+35022	5400	Hallein	Raiffeisenbank Hallein-Oberalm eGen	RVSAAT2S022
+35052	5753	Saalbach-Hinterglemm	Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen	RVSAAT2S052
+35056	5340	St. Gilgen	Raiffeisenbank St.Gilgen-Fuschl-Strobl eGen	RVSAAT2S056
+35062	5204	Straßwalchen	Raiffeisenbank Straßwalchen eGen	RVSAAT2S062
+35069	5600	St. Johann im Pongau	Raiffeisenbank St. Johann-Wagrain-Kleinarl eGen	RVSAAT2S057
+35072	5450	Werfen	Raiffeisenkasse Werfen registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S072
+19170	4020	Linz	PARTNER BANK AKTIENGESELLSCHAFT	PABAAT2L
+20601	6900	Bregenz	Sparkasse Bregenz Bank Aktiengesellschaft	SPBRAT2B
+19410	5301	Eugendorf	Mercedes-Benz Bank GmbH	MMPAATWW
+20317	4650	Lambach	Sparkasse Lambach Bank Aktiengesellschaft	SPKUAT22
+20839	8570	Voitsberg	Sparkasse Voitsberg-Köflach Bankaktiengesellschaft	SPSCAT22
+19675	1130	Wien	Commerzbank AG Niederlassung Wien	COBAATWXTSU
+76520	1010	Wien	Liechtensteinische Landesbank (Österreich) AG	COPRATWW
+19480	1010	Wien	flatexDEGIRO Bank AG	BIIWATWW
+18250	1020	Wien	UniCredit Bank AG, Zweigniederlassung Wien	CAIBATWW
+31000	1030	Wien	Raiffeisen Bank International AG	RZBAATWWREC
+44800	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+19420	1100	Wien	RCI Banque SA, Niederlassung Österreich	RVSAAT2S
+32614	2304	Orth/Donau	Raiffeisenkasse Orth a.d. Donau eGen	RLNWATWWODO
+36267	6250	Kundl	Raiffeisenbank Kundl-Münster eGen	RZTIAT22267
+32951	2120	Wolkersdorf	Raiffeisenbank Wolkersdorf eGen	RLNWATWWWDF
+36281	6162	Mutters	Raiffeisenkasse für Mutters, Natters und Kreith registrierte Genossenschaft mit beschränkter Haftung	RZTIAT22281
+35027	5511	Hüttau	Raiffeisenbank Hüttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K340
+35006	5524	Annaberg	Raiffeisenbank Annaberg-Lungötz registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S006
+35049	5550	Radstadt	Raiffeisenbank Radstadt-Untertauern-Filzmoos-Forstau registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S049
+35020	5084	Großgmain	Raiffeisenbank Großgmain eGen	RVSAAT2S020
+35063	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+35071	5071	Wals bei Salzburg	Raiffeisenbank Wals-Himmelreich registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S071
+35018	5082	Grödig	Raiffeisenbank Grödig eGen	RZOOAT2L068
+35004	5541	Altenmarkt im Pongau	Raiffeisenbank Altenmarkt-Flachau-Eben eGen	RVSAAT2S004
+20100	1100	Wien	Erste Group Bank AG	GIBAATWWWO1
+37434	6992	Hirschegg	Walser Raiffeisen Bank Aktiengesellschaft	RANJAT2B
+19460	1010	Wien	LGT Bank AG, Zweigniederlassung Österreich	BLFLATWWEXC
+44960	1180	Wien	WSK Bank AG	WIENATWW
+42130	9020	Klagenfurt am Wörthersee	Volksbank Kärnten eG	VBOEATWWSPI
+34922	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+34920	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+34921	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+36268	6444	Längenfeld	Raiffeisenbank Längenfeld eGen	RZKTAT2K381
+36269	6336	Langkampfen	Raiffeisenbank Langkampfen eGen	RZTIAT22269
+34312	5241	Maria Schmolln	Raiffeisenbank Maria Schmolln-St. Johann eGen	RZOOAT2L312
+34313	4714	Meggenhofen	Raiffeisenbank Meggenhofen-Kematen eGen	RZOOAT2L313
+34450	4910	Ried im Innkreis	Raiffeisenbank Region Ried i.I. eGen	RZOOAT2L450
+36373	9990	Nußdorf-Debant	Raiffeisenkasse Lienzer Talboden eGen	RZTIAT22373
+34491	4580	Windischgarsten	Raiffeisenbank Windischgarsten eGen	RZOOAT2L491
+34521	4084	St. Agatha (OÖ)	Raiffeisenbank St. Agatha eGen	RZOOAT2L521
+35026	5630	Bad Hofgastein	Raiffeisenbank Gastein eGen	RVSAAT2S026
+35055	5620	Schwarzach	Raiffeisenbank Pongau Mitte eGen	RZOOAT2L434
+35051	5661	Rauris	Raiffeisenbank Rauris-Bucheben registrierte Genossenschaft mit beschränkter Haftung	RVSAAT2S051
+35039	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+15090	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15091	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15003	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15001	4020	Linz	Oberbank AG	OBKLAT2LWRN
+15002	4020	Linz	Oberbank AG	OBKLAT2LWRN
+42830	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+19160	1010	Wien	Wiener Privatbank SE	WIPBATWW
+32936	3943	Schrems	Raiffeisenbank Oberes Waldviertel eGen	RLNWATWWOWS
+43030	8010	Graz	Volksbank Steiermark AG	VBOEATWWGRA
+48150	8010	Graz	Volksbank Steiermark AG	VBOEATWWGRA
+32651	3250	Wieselburg	Raiffeisenbank Mittleres Mostviertel eGen	RLNWATWW939
+43510	1100	Wien	start:bausparkasse AG	SPSCAT22
+32631	2870	Aspang	Raiffeisenbank Region Wiener Alpen eGen	RLNWATWWZWE
+33092	7082	Donnerskirchen	Raiffeisenbank Neusiedlersee-Hügelland eGen	RLBBAT2E092
+38262	8443	Gleinstätten	Raiffeisenbank Gleinstätten-Leutschach-Groß St. Florian eGen	RZSTAT2G262
+38104	8330	Feldbach	Raiffeisenbank Region Feldbach eGen	RZSTAT2G497
+40430	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+35075	5201	Seekirchen am Wallersee	Raiffeisenbank Salzburger Seenland eGen	RVSAAT2S047
+19220	1010	Wien	Bank Winter & Co. AG	BKCHATWW
+33074	7132	Frauenkirchen	Raiffeisenbank Frauenkirchen-Mönchhof-Podersdorf am See eGen	RLBBAT2E116
+39104	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+39130	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+39109	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+39116	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+39102	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+39117	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+39101	9020	Klagenfurt am Wörthersee	Posojilnica Bank eGen	VSGKAT2K130
+40100	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+40170	3100	St. Pölten	Volksbank Niederösterreich AG	VBOEATWWKRE
+41600	1030	Wien	VOLKSBANK WIEN AG	VBOEATWWINV
+44780	8010	Graz	Volksbank Steiermark AG	VBOEATWWGRA
+46590	8010	Graz	Volksbank Steiermark AG	VBOEATWWGRA
+36990	6600	Reutte	Raiffeisenbank Oberland-Reutte eGen	RZTIAT22359
+43830	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+20225	2500	Baden bei Wien	Sparkasse Baden	SPAHAT22
+38407	8551	Wies (Stmk.)	Raiffeisenbank Süd-Weststeiermark eGen	RVSAAT2S062
+38171	8341	Paldau	Raiffeisenbank Mittleres Raabtal eGen	RZSTAT2G075
+33104	7163	Andau	Raiffeisenbank Seewinkel-Hansag eGen	RLBBAT2E002
+18140	1010	Wien	Citibank Europe plc, Austria Branch	CITIATWX
+75910	1220	Wien	PSA Bank Österreich, Niederlassung der PSA Bank Deutschland GmbH	VSGKAT2K130
+36276	6410	Telfs	Raiffeisenbank Telfs-Mieming eGen	RZTIAT22336
+36254	6370	Kitzbühel	Raiffeisenbank Kitzbühel - St. Johann eGen	RZTIAT22263
+38053	8570	Voitsberg	Raiffeisenbank Lipizzanerheimat eGen	RZSTAT2G487
+19610	1010	Wien	BNP PARIBAS PERSONAL FINANCE SA Niederlassung Österreich	GEBAATWW
+38326	8262	Ilz	Raiffeisenbank Ilz-Großsteinbach-Riegersburg eGen	RZSTAT2G326
+38132	8350	Fehring	Raiffeisenbank Region Fehring eGen	RZSTAT2G132
+38120	8262	Ilz	Raiffeisenbank Ilz-Großsteinbach-Riegersburg eGen	RZSTAT2G326
+38240	8680	Mürzzuschlag	Raiffeisenbank Mürztal eGen	RZSTAT2G370
+38462	8641	St. Marein im Mürztal	Raiffeisenbank Turnau-St. Lorenzen eGen	RZSTAT2G347
+34796	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+19660	1090	Wien	Kommunalkredit Austria AG	INVOATWW
+45330	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+36249	6212	Maurach	Raiffeisen Regionalbank Achensee eGen	RZTIAT22249
+36303	6236	Alpbach	Raiffeisenbank Alpbachtal eGen	RZTIAT22303
+33004	7142	Illmitz	Raiffeisenbank Neusiedlersee-Seewinkel eGen	RLBBAT2E071
+33071	7142	Illmitz	Raiffeisenbank Neusiedlersee-Seewinkel eGen	RLBBAT2E071
+35028	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+36201	6212	Maurach	Raiffeisen Regionalbank Achensee eGen	RZTIAT22249
+36213	6330	Kufstein	Raiffeisen Bezirksbank Kufstein eGen	RZTIAT22358
+40720	5020	Salzburg	Volksbank Salzburg eG	VBOEATWWSAL
+35042	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+36345	6600	Reutte	Raiffeisenbank Oberland-Reutte eGen	RZTIAT22359
+43180	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+38211	8570	Voitsberg	Raiffeisenbank Lipizzanerheimat eGen	RZSTAT2G487
+38131	8330	Feldbach	Raiffeisenbank Region Feldbach eGen	RZSTAT2G497
+38266	8983	Bad Mitterndorf	Raiffeisenbank Steirisches Salzkammergut-Öblarn eGen	RZOOAT2L633
+53100	3100	St.Pölten	HYPO NOE Landesbank für Niederösterreich und Wien AG	HYPNATWW
+38235	8570	Voitsberg	Raiffeisenbank Lipizzanerheimat eGen	RZSTAT2G487
+35011	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+39355	9220	Velden am Wörther See	Raiffeisenbank Region Wörthersee eG	RZKTAT2K355
+39305	9601	Arnoldstein	Raiffeisenbank Arnoldstein-Fürnitz eG	RZKTAT2K305
+38348	8940	Liezen	Raiffeisenbank Liezen-Rottenmann-Trieben eGen	RZSTAT2G348
+35111	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+35070	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+53000	3100	St.Pölten	HYPO NOE Landesbank für Niederösterreich und Wien AG	HYPNATWW
+35170	5730	Mittersill	Raiffeisenbank Oberpinzgau eGen	RVSAAT2S070
+44400	9900	Lienz	DolomitenBank Osttirol-Westkärnten eG	DEUTATWWUNP
+38477	8401	Kalsdorf bei Graz	Raiffeisenbank Region Graz-Thalerhof eGen	RZSTAT2G477
+38072	8401	Kalsdorf bei Graz	Raiffeisenbank Region Graz-Thalerhof eGen	RZSTAT2G477
+32414	3021	Pressbaum	Raiffeisenbank Wienerwald eGen	RLNWATWWPRB
+44790	4600	Wels	Volksbank Oberösterreich AG	VBWEAT2W
+34362	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+34481	4560	Kirchdorf an der Krems	Raiffeisenbank Region Kirchdorf eGen	RZOOAT2L606
+34543	4400	Steyr	Raiffeisenbank Steyr eGen	RZOOAT2L543
+34400	4690	Schwanenstadt	Raiffeisenbank Region Schwanenstadt eGen	RZOOAT2L630
+32642	2620	Neunkirchen/ NÖ	Raiffeisenbank Schneebergland eGen	RLNWATWWNSM
+34661	5280	Braunau am Inn	Raiffeisenbank Region Braunau eGen	RZOOAT2L661
+38373	8774	Mautern (Stmk.)	Raiffeisenbank Liesingtal-St. Stefan eGen	RZSTAT2G373
+39461	9545	Radenthein	Raiffeisenbank Nockberge eGen	RZKTAT2K461
+39436	9813	Möllbrücke	Raiffeisen Bank Lurnfeld-Mölltal eGen	RZKTAT2K436
+32615	3910	Zwettl	Raiffeisenbank Region Waldviertel Mitte eGen	RLNWATWWZWE
+39254	9300	St. Veit an der Glan	Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung	RLBBAT2E125
+36360	6263	Fügen	Raiffeisen Regionalbank Fügen-Kaltenbach-Zell eGen	RZTIAT22360
+32033	3300	Amstetten	Raiffeisenbank Region Amstetten eGen	RLNWATWWSVH
+38118	8443	Gleinstätten	Raiffeisenbank Gleinstätten-Leutschach-Groß St. Florian eGen	RZSTAT2G262
+38375	8530	Deutschlandsberg	Raiffeisenbank Schilcherland eGen	RZSTAT2G375
+35008	5301	Eugendorf	Raiffeisenbank Flachgau Mitte eGen	RVSAAT2S023
+35108	5301	Eugendorf	Raiffeisenbank Flachgau Mitte eGen	RVSAAT2S023
+19888	1090	Wien	ICBC Austria Bank GmbH	ICBKATWW
+39358	9020	Klagenfurt	Raiffeisenlandesbank Kärnten - Rechenzentrum und Revisionsverband, registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K
+35037	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+38292	8410	Wildon	Raiffeisenbank Wildon-Preding eGen	RZSTAT2G499
+37439	6971	Hard (Vbg.)	Raiffeisenbank Bodensee-Leiblachtal eGen	RVVGAT2B439
+38411	8230	Hartberg	Raiffeisenbank Region Hartberg eGen	RZSTAT2G411
+36275	6167	Neustift im Stubaital	Raiffeisenbank Neustift-Mieders-Schönberg im Stubaital eGen	RZTIAT22285
+35036	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+34160	4150	Rohrbach-Berg(OÖ)	Raiffeisenbank Region Rohrbach eGen	RZOOAT2L410
+19520	8010	Graz	Steiermärkische Bank und Sparkassen Aktiengesellschaft	STSPAT2G
+35023	5301	Eugendorf	Raiffeisenbank Flachgau Mitte eGen	RVSAAT2S023
+34420	4280	Königswiesen	Raiffeisenbank Mühlviertler Alm eGen	RZSTAT2G462
+33054	7132	Frauenkirchen	Raiffeisenbank Frauenkirchen-Mönchhof-Podersdorf am See eGen	RLBBAT2E116
+35061	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+35161	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+35261	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+35361	5580	Tamsweg	Raiffeisenbank Lungau eGen	RVSAAT2S063
+34161	4210	Gallneukirchen	Raiffeisenbank Region Gallneukirchen eGen	RZOOAT2L475
+34637	4320	Perg	Raiffeisenbank Perg eGen	RZOOAT2L777
+14200	1100	Wien	BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft	BAWAATWWWP1
+34475	4210	Gallneukirchen	Raiffeisenbank Region Gallneukirchen eGen	RZOOAT2L475
+32227	2225	Zistersdorf	Raiffeisenbank Weinviertel Nordost eGen	RLNWATWWZDF
+32982	2020	Hollabrunn	Raiffeisenbank Hollabrunn eGen	RVSAAT2S025
+32769	3100	St. Pölten	Raiffeisenbank Region St. Pölten eGen	RLNWATWWOBG
+32356	3100	St. Pölten	Raiffeisenbank Region St. Pölten eGen	RLNWATWWOBG
+38026	8162	Passail	Raiffeisenbank Passail eGen	RZSTAT2G282
+35024	5202	Neumarkt am Wallersee	Raiffeisenbank Wallersee eGen	RVSAAT2S024
+35034	5020	Salzburg	Raiffeisenbank Salzburg Liefering-Maxglan-Siezenheim eGen	RVSAAT2S034
+35054	5020	Salzburg	Raiffeisenbank Salzburg Liefering-Maxglan-Siezenheim eGen	RVSAAT2S034
+14210	1100	Wien	BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft	BAWAATWWWP1
+19450	1010	Wien	Liechtensteinische Landesbank (Österreich) AG	COPRATWW
+37445	6934	Sulzberg (Vbg.)	Raiffeisenbank Weissachtal eGen	RVVGAT2B445
+38481	8962	Gröbming	Raiffeisenbank Schladming-Gröbming eGen	RZSTAT2G375
+33124	7350	Oberpullendorf	Raiffeisenbank Burgenland Mitte eGen	RLBBAT2E124
+39407	9300	St. Veit an der Glan	Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung	RLBBAT2E125
+39383	9500	Villach	Raiffeisen Bank Villach registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K496
+34535	4113	St. Martin im Mühlkreis	Raiffeisenbank Region Neufelden eGen	RZOOAT2L300
+34361	4113	St. Martin im Mühlkreis	Raiffeisenbank Region Neufelden eGen	RZOOAT2L300
+35058	5431	Kuchl	Raiffeisenbank Kuchl-St. Koloman eGen	RVSAAT2S058
+35003	5760	Saalfelden am Stein. Meer	Raiffeisenbank Pinzgau Mitte eGen	RVSAAT2S048
+35013	5760	Saalfelden am Stein. Meer	Raiffeisenbank Pinzgau Mitte eGen	RVSAAT2S048
+35031	5760	Saalfelden am Stein. Meer	Raiffeisenbank Pinzgau Mitte eGen	RVSAAT2S048
+35045	5400	Hallein	Raiffeisenbank Hallein-Oberalm eGen	RVSAAT2S022
+35057	5600	St. Johann im Pongau	Raiffeisenbank St. Johann-Wagrain-Kleinarl eGen	RVSAAT2S057
+36306	6534	Serfaus	Raiffeisenbank Serfaus-Fiss-Ried eGen	RZTIAT22315
+35035	5760	Saalfelden am Stein. Meer	Raiffeisenbank Pinzgau Mitte eGen	RVSAAT2S048
+36367	9971	Matrei in Osttirol	Raiffeisen Regionalbank Matrei i.O. eGen	RZKTAT2K384
+32242	3462	Absdorf	Raiffeisenbank Wagram-Schmidatal eGen	RVSAAT2S069
+32497	3430	Tulln	Raiffeisenbank Tulln eGen	RLNWATWWLFD
+32930	2500	Baden bei Wien	Raiffeisenbank Region Baden eGen	RLNWATWWEBD
+32247	2500	Baden bei Wien	Raiffeisenbank Region Baden eGen	RLNWATWWEBD
+38108	8225	Pöllau bei Hartberg	Raiffeisenbank Oststeiermark Nord eGen	RZKTAT2K510
+33031	7301	Deutschkreutz	Raiffeisenbank Region Deutschkreutz-Horitschon eGen	RZOOAT2L661
+33058	7301	Deutschkreutz	Raiffeisenbank Region Deutschkreutz-Horitschon eGen	RZOOAT2L661
+38041	8225	Pöllau bei Hartberg	Raiffeisenbank Oststeiermark Nord eGen	RZKTAT2K510
+35043	5710	Kaprun	Raiffeisenbank Hohe Tauern eGen	RVSAAT2S025
+37429	6830	Rankweil	Raiffeisenbank Montfort eGen	RZOOAT2L322
+37402	6830	Rankweil	Raiffeisenbank Montfort eGen	RZOOAT2L322
+37461	6830	Rankweil	Raiffeisenbank Montfort eGen	RZOOAT2L322
+94648	1150	Wien	Viva Payment Services S.A. Zweigniederlassung Wien/Österreich	VPAYATW2
+19515	1220	Wien	Opel Bank S.A. Niederlassung Österreich	OFIDATWW
+38122	8280	Fürstenfeld	Raiffeisenbank Region Fürstenfeld eGen	RZOOAT2L110
+19835	5020	Salzburg	Ford Bank GmbH, Zweigniederlassung Österreich	BIIWATWW
+35048	5710	Kaprun	Raiffeisenbank Hohe Tauern eGen	RVSAAT2S025
+38112	8112	Gratwein-Straßengel	Raiffeisenbank Gratwein-Hitzendorf eGen	RZSTAT2G112
+39431	9841	Winklern im Mölltal	Raiffeisenbank Oberes Mölltal-Oberdrauburg eGen	RZKTAT2K561
+38223	8045	Graz	Raiffeisenbank Region Graz Nord eGen	RZSTAT2G103
+39400	9863	Rennweg	Raiffeisenbank Lieser-Maltatal eG	RZSTAT2G210
+39404	9710	Feistritz an der Drau	Raiffeisenbank Drautal registrierte Genossenschaft mit beschränkter Haftung	RZKTAT2K442
+47050	1100	Wien	BAWAG P.S.K. Wohnbaubank Aktiengesellschaft	BAWAATWWWP1
+33034	7540	Güssing	Raiffeisen Regionalbank Güssing-Jennersdorf eGen	RZTIAT22360
+33041	7540	Güssing	Raiffeisen Regionalbank Güssing-Jennersdorf eGen	RZTIAT22360
+33055	7082	Donnerskirchen	Raiffeisenbank Neusiedlersee-Hügelland eGen	RLBBAT2E092
+33085	7082	Donnerskirchen	Raiffeisenbank Neusiedlersee-Hügelland eGen	RLBBAT2E092
+36200	6065	Thaur	Raiffeisenbank Absam-Thaur eGen	RZTIAT22322
+55000	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+56000	8010	Graz	Raiffeisen-Landesbank Steiermark AG	RZOOAT2L922
+55500	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+19600	1010	Wien	Schelhammer Capital Bank AG	SABRATWW
+32940	2700	Wiener Neustadt	Raiffeisenregionalbank Wiener Neustadt eGen	RLNWATWWWRN
+36230	6150	Steinach a.Br.	Raiffeisenbank Wipptal - Stubaital Mitte eGen	RZOOAT2L491
+36337	6065	Thaur	Raiffeisenbank Absam-Thaur eGen	RZTIAT22322
+36279	6250	Kundl	Raiffeisenbank Kundl-Münster eGen	RZTIAT22267
+32647	2870	Aspang	Raiffeisenbank Region Wiener Alpen eGen	RLNWATWWZWE
+32663	2130	Mistelbach	Raiffeisenbank im Weinviertel eGen	RLNWATWWMIB
+35046	5112	Lamprechtshausen	Raiffeisenbank Flachgau Nord eGen	RVSAAT2S023
+35044	5112	Lamprechtshausen	Raiffeisenbank Flachgau Nord eGen	RVSAAT2S023
+38285	8200	Gleisdorf	Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen	RZSTAT2G103
+19360	1020	Wien	ING-DiBa Austria Niederlassung der ING-DiBa AG	INGBATWW
+35025	5322	Hof bei Salzburg	Raiffeisenbank Fuschlsee West eGen	RZTIAT22230
+35125	5322	Hof bei Salzburg	Raiffeisenbank Fuschlsee West eGen	RZTIAT22230
+35225	5322	Hof bei Salzburg	Raiffeisenbank Fuschlsee West eGen	RZTIAT22230
+36359	6600	Reutte	Raiffeisenbank Oberland-Reutte eGen	RZTIAT22359
+19250	1100	Wien	BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft	BAWAATWWWP1
+36272	6130	Schwaz	Raiffeisen Regionalbank Schwaz eGen	RZTIAT22322
+35010	5620	Schwarzach	Raiffeisenbank Pongau Mitte eGen	RZOOAT2L434
+35110	5620	Schwarzach	Raiffeisenbank Pongau Mitte eGen	RZOOAT2L434
+35310	5620	Schwarzach	Raiffeisenbank Pongau Mitte eGen	RZOOAT2L434
+35038	5112	Lamprechtshausen	Raiffeisenbank Flachgau Nord eGen	RVSAAT2S023
+19210	1030	Wien	bank99 AG	SPBAATWW
+1000	1010	Wien	Republik Österreich	BUNDATWW
+57100	6020	Innsbruck	HYPO TIROL BANK AG	HYPTAT22
+34923	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+34955	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+31111	1030	Wien	Raiffeisen Bank International AG	RZBAATWWREC
+31112	1030	Wien	Raiffeisen Bank International AG	RZBAATWWREC
+12005	1020	Wien	UniCredit Bank Austria AG	BKAUATWWWOL
+12004	1020	Wien	UniCredit Bank Austria AG	BKAUATWWWOL
+12002	1020	Wien	UniCredit Bank Austria AG	BKAUATWWWOL
+34950	4020	Linz	Raiffeisenlandesbank Oberösterreich Aktiengesellschaft	RZOOAT2L922
+19931	1030	Wien	Raiffeisen Centrobank AG	CENBATWW

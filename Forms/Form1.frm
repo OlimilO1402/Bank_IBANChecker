@@ -4,16 +4,16 @@ Begin VB.Form Form1
    BackColor       =   &H80000005&
    BorderStyle     =   3  'Fester Dialog
    Caption         =   "IBAN-Checker"
-   ClientHeight    =   7545
+   ClientHeight    =   6495
    ClientLeft      =   45
    ClientTop       =   390
-   ClientWidth     =   8895
+   ClientWidth     =   8910
    Icon            =   "Form1.frx":0000
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   7545
-   ScaleWidth      =   8895
+   ScaleHeight     =   6495
+   ScaleWidth      =   8910
    ShowInTaskbar   =   0   'False
    StartUpPosition =   3  'Windows-Standard
    Begin VB.CommandButton BtnInfo 
@@ -29,7 +29,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   7920
-      TabIndex        =   60
+      TabIndex        =   5
       Top             =   600
       Width           =   615
    End
@@ -37,7 +37,7 @@ Begin VB.Form Form1
       Caption         =   "^"
       Height          =   375
       Left            =   15480
-      TabIndex        =   57
+      TabIndex        =   49
       Top             =   2520
       Width           =   375
    End
@@ -45,7 +45,7 @@ Begin VB.Form Form1
       Caption         =   "^"
       Height          =   375
       Left            =   15480
-      TabIndex        =   56
+      TabIndex        =   46
       Top             =   2040
       Width           =   375
    End
@@ -53,7 +53,7 @@ Begin VB.Form Form1
       Caption         =   "^"
       Height          =   375
       Left            =   15480
-      TabIndex        =   55
+      TabIndex        =   43
       Top             =   1560
       Width           =   375
    End
@@ -61,7 +61,7 @@ Begin VB.Form Form1
       Caption         =   "^"
       Height          =   375
       Left            =   15480
-      TabIndex        =   54
+      TabIndex        =   39
       Top             =   1080
       Width           =   375
    End
@@ -69,7 +69,7 @@ Begin VB.Form Form1
       Caption         =   "^"
       Height          =   375
       Left            =   15480
-      TabIndex        =   53
+      TabIndex        =   36
       Top             =   600
       Width           =   375
    End
@@ -85,7 +85,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   10200
-      TabIndex        =   49
+      TabIndex        =   48
       Top             =   2520
       Width           =   5295
    End
@@ -101,7 +101,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   10200
-      TabIndex        =   46
+      TabIndex        =   45
       Top             =   2040
       Width           =   5295
    End
@@ -117,7 +117,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   10200
-      TabIndex        =   45
+      TabIndex        =   42
       Top             =   1560
       Width           =   5295
    End
@@ -133,7 +133,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   10200
-      TabIndex        =   44
+      TabIndex        =   38
       Top             =   1080
       Width           =   5295
    End
@@ -151,7 +151,7 @@ Begin VB.Form Form1
       ItemData        =   "Form1.frx":179A
       Left            =   10200
       List            =   "Form1.frx":179C
-      TabIndex        =   43
+      TabIndex        =   33
       Top             =   120
       Width           =   5655
    End
@@ -167,7 +167,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   10200
-      TabIndex        =   42
+      TabIndex        =   35
       Top             =   600
       Width           =   5295
    End
@@ -178,7 +178,7 @@ Begin VB.Form Form1
       Left            =   120
       ScaleHeight     =   495
       ScaleWidth      =   8535
-      TabIndex        =   34
+      TabIndex        =   59
       Top             =   5880
       Width           =   8535
       Begin VB.TextBox TxKtrlZif2 
@@ -194,7 +194,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   3240
-         TabIndex        =   35
+         TabIndex        =   32
          Top             =   0
          Width           =   5172
       End
@@ -212,7 +212,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   372
          Left            =   1560
-         TabIndex        =   37
+         TabIndex        =   31
          Top             =   0
          Width           =   1572
       End
@@ -230,7 +230,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   0
-         TabIndex        =   36
+         TabIndex        =   30
          Top             =   0
          Width           =   1455
       End
@@ -242,7 +242,7 @@ Begin VB.Form Form1
       Left            =   120
       ScaleHeight     =   495
       ScaleWidth      =   8535
-      TabIndex        =   12
+      TabIndex        =   50
       Top             =   5400
       Width           =   8535
       Begin VB.TextBox TxSFnkt 
@@ -258,7 +258,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   3240
-         TabIndex        =   9
+         TabIndex        =   29
          Top             =   0
          Width           =   5172
       End
@@ -276,7 +276,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   0
-         TabIndex        =   15
+         TabIndex        =   27
          Top             =   0
          Width           =   1335
       End
@@ -294,7 +294,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   372
          Left            =   1560
-         TabIndex        =   14
+         TabIndex        =   28
          Top             =   0
          Width           =   1572
       End
@@ -306,7 +306,7 @@ Begin VB.Form Form1
       Left            =   120
       ScaleHeight     =   495
       ScaleWidth      =   8535
-      TabIndex        =   13
+      TabIndex        =   51
       Top             =   4920
       Width           =   8535
       Begin VB.TextBox TxFilNr 
@@ -322,7 +322,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   3240
-         TabIndex        =   8
+         TabIndex        =   26
          Top             =   0
          Width           =   5172
       End
@@ -340,139 +340,11 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   0
-         TabIndex        =   17
-         Top             =   0
-         Width           =   1335
-      End
-      Begin VB.Label LbZFilNr 
-         BackStyle       =   0  'Transparent
-         Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   372
-         Left            =   1560
-         TabIndex        =   16
-         Top             =   0
-         Width           =   1572
-      End
-   End
-   Begin VB.PictureBox PnlRegC 
-      BackColor       =   &H80000005&
-      BorderStyle     =   0  'Kein
-      Height          =   495
-      Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
-      TabIndex        =   18
-      Top             =   4440
-      Width           =   8535
-      Begin VB.TextBox TxRegC 
-         Alignment       =   1  'Rechts
-         BeginProperty Font 
-            Name            =   "Courier New"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   375
-         Left            =   3240
-         TabIndex        =   7
-         Top             =   0
-         Width           =   5172
-      End
-      Begin VB.Label LbRegC 
-         BackStyle       =   0  'Transparent
-         Caption         =   "Regionalcode"
-         BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   375
-         Left            =   0
          TabIndex        =   24
          Top             =   0
          Width           =   1335
       End
-      Begin VB.Label LbZRegC 
-         BackStyle       =   0  'Transparent
-         Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   372
-         Left            =   1560
-         TabIndex        =   23
-         Top             =   0
-         Width           =   1572
-      End
-   End
-   Begin VB.PictureBox PnlKtrlZif 
-      BackColor       =   &H80000005&
-      BorderStyle     =   0  'Kein
-      Height          =   495
-      Left            =   120
-      ScaleHeight     =   495
-      ScaleWidth      =   8535
-      TabIndex        =   19
-      Top             =   3960
-      Width           =   8535
-      Begin VB.TextBox TxKtrlZif 
-         Alignment       =   1  'Rechts
-         BeginProperty Font 
-            Name            =   "Courier New"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   375
-         Left            =   3240
-         TabIndex        =   6
-         Top             =   0
-         Width           =   5172
-      End
-      Begin VB.Label LbKtrlZif 
-         BackStyle       =   0  'Transparent
-         Caption         =   "Kontrollziffer"
-         BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   375
-         Left            =   0
-         TabIndex        =   26
-         Top             =   0
-         Width           =   1335
-      End
-      Begin VB.Label LbZKtrlZif 
+      Begin VB.Label LbZFilNr 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
@@ -491,6 +363,134 @@ Begin VB.Form Form1
          Width           =   1572
       End
    End
+   Begin VB.PictureBox PnlRegC 
+      BackColor       =   &H80000005&
+      BorderStyle     =   0  'Kein
+      Height          =   495
+      Left            =   120
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
+      TabIndex        =   52
+      Top             =   4440
+      Width           =   8535
+      Begin VB.TextBox TxRegC 
+         Alignment       =   1  'Rechts
+         BeginProperty Font 
+            Name            =   "Courier New"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   3240
+         TabIndex        =   23
+         Top             =   0
+         Width           =   5172
+      End
+      Begin VB.Label LbRegC 
+         BackStyle       =   0  'Transparent
+         Caption         =   "Regionalcode"
+         BeginProperty Font 
+            Name            =   "Calibri"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   0
+         TabIndex        =   21
+         Top             =   0
+         Width           =   1335
+      End
+      Begin VB.Label LbZRegC 
+         BackStyle       =   0  'Transparent
+         Caption         =   "max. 10 Ziffern"
+         BeginProperty Font 
+            Name            =   "Calibri"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   372
+         Left            =   1560
+         TabIndex        =   22
+         Top             =   0
+         Width           =   1572
+      End
+   End
+   Begin VB.PictureBox PnlKtrlZif 
+      BackColor       =   &H80000005&
+      BorderStyle     =   0  'Kein
+      Height          =   495
+      Left            =   120
+      ScaleHeight     =   495
+      ScaleWidth      =   8535
+      TabIndex        =   53
+      Top             =   3960
+      Width           =   8535
+      Begin VB.TextBox TxKtrlZif 
+         Alignment       =   1  'Rechts
+         BeginProperty Font 
+            Name            =   "Courier New"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   3240
+         TabIndex        =   20
+         Top             =   0
+         Width           =   5172
+      End
+      Begin VB.Label LbKtrlZif 
+         BackStyle       =   0  'Transparent
+         Caption         =   "Kontrollziffer"
+         BeginProperty Font 
+            Name            =   "Calibri"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   375
+         Left            =   0
+         TabIndex        =   57
+         Top             =   0
+         Width           =   1335
+      End
+      Begin VB.Label LbZKtrlZif 
+         BackStyle       =   0  'Transparent
+         Caption         =   "max. 10 Ziffern"
+         BeginProperty Font 
+            Name            =   "Calibri"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   372
+         Left            =   1560
+         TabIndex        =   19
+         Top             =   0
+         Width           =   1572
+      End
+   End
    Begin VB.PictureBox PnlKtoNr 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
@@ -498,7 +498,7 @@ Begin VB.Form Form1
       Left            =   120
       ScaleHeight     =   495
       ScaleWidth      =   8535
-      TabIndex        =   20
+      TabIndex        =   54
       Top             =   3480
       Width           =   8535
       Begin VB.TextBox TxKtoNr 
@@ -514,7 +514,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   3240
-         TabIndex        =   5
+         TabIndex        =   41
          Top             =   0
          Width           =   5172
       End
@@ -532,7 +532,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   372
          Left            =   0
-         TabIndex        =   28
+         TabIndex        =   18
          Top             =   0
          Width           =   1572
       End
@@ -550,7 +550,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   372
          Left            =   1560
-         TabIndex        =   27
+         TabIndex        =   58
          Top             =   0
          Width           =   1572
       End
@@ -562,7 +562,7 @@ Begin VB.Form Form1
       Left            =   120
       ScaleHeight     =   495
       ScaleWidth      =   8535
-      TabIndex        =   21
+      TabIndex        =   55
       Top             =   3000
       Width           =   8535
       Begin VB.TextBox TxKTyp 
@@ -578,7 +578,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   3240
-         TabIndex        =   4
+         TabIndex        =   17
          Top             =   0
          Width           =   5172
       End
@@ -596,7 +596,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   0
-         TabIndex        =   30
+         TabIndex        =   15
          Top             =   0
          Width           =   1335
       End
@@ -614,7 +614,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   372
          Left            =   1560
-         TabIndex        =   29
+         TabIndex        =   16
          Top             =   0
          Width           =   1572
       End
@@ -626,14 +626,14 @@ Begin VB.Form Form1
       Left            =   120
       ScaleHeight     =   495
       ScaleWidth      =   8775
-      TabIndex        =   22
+      TabIndex        =   56
       Top             =   2520
       Width           =   8775
       Begin VB.CommandButton BtnOpenBlzBic 
          Caption         =   ">"
          Height          =   375
          Left            =   8400
-         TabIndex        =   58
+         TabIndex        =   14
          Top             =   0
          Width           =   375
       End
@@ -650,7 +650,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   3240
-         TabIndex        =   3
+         TabIndex        =   13
          Top             =   0
          Width           =   5172
       End
@@ -668,7 +668,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   375
          Left            =   0
-         TabIndex        =   32
+         TabIndex        =   11
          Top             =   0
          Width           =   1335
       End
@@ -686,7 +686,7 @@ Begin VB.Form Form1
          EndProperty
          Height          =   372
          Left            =   1560
-         TabIndex        =   31
+         TabIndex        =   12
          Top             =   0
          Width           =   1572
       End
@@ -704,7 +704,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   5640
-      TabIndex        =   39
+      TabIndex        =   4
       Top             =   600
       Width           =   2175
    End
@@ -720,7 +720,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   1560
-      TabIndex        =   38
+      TabIndex        =   1
       Top             =   120
       Width           =   6975
    End
@@ -736,7 +736,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   1560
-      TabIndex        =   33
+      TabIndex        =   10
       Top             =   2040
       Width           =   6975
    End
@@ -753,7 +753,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   3360
-      TabIndex        =   10
+      TabIndex        =   3
       Top             =   600
       Width           =   2175
    End
@@ -789,7 +789,7 @@ Begin VB.Form Form1
       ItemData        =   "Form1.frx":179E
       Left            =   1560
       List            =   "Form1.frx":17A0
-      TabIndex        =   1
+      TabIndex        =   7
       Top             =   1080
       Width           =   6975
    End
@@ -805,7 +805,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   1560
-      TabIndex        =   0
+      TabIndex        =   9
       Top             =   1560
       Width           =   6975
    End
@@ -822,7 +822,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   9240
-      TabIndex        =   59
+      TabIndex        =   60
       Top             =   120
       Width           =   855
    End
@@ -840,7 +840,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   9240
-      TabIndex        =   52
+      TabIndex        =   47
       Top             =   2520
       Width           =   855
    End
@@ -858,7 +858,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   9240
-      TabIndex        =   51
+      TabIndex        =   44
       Top             =   2040
       Width           =   855
    End
@@ -876,7 +876,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   9240
-      TabIndex        =   50
+      TabIndex        =   40
       Top             =   1560
       Width           =   855
    End
@@ -894,7 +894,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   9240
-      TabIndex        =   48
+      TabIndex        =   37
       Top             =   1080
       Width           =   855
    End
@@ -912,7 +912,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   9240
-      TabIndex        =   47
+      TabIndex        =   34
       Top             =   600
       Width           =   855
    End
@@ -930,7 +930,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   120
-      TabIndex        =   41
+      TabIndex        =   6
       Top             =   1080
       Width           =   855
    End
@@ -948,7 +948,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   372
       Left            =   120
-      TabIndex        =   40
+      TabIndex        =   8
       Top             =   1560
       Width           =   1332
    End
@@ -966,7 +966,7 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Left            =   120
-      TabIndex        =   11
+      TabIndex        =   0
       Top             =   120
       Width           =   855
    End
@@ -987,8 +987,9 @@ Private CH As Single
 
 Private Sub Form_Load()
     Set m_iis = New IBANInfos
-    m_iis.ReadFromFile App.Path & "\Data\ibancodes.txt"
-    Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC3_2015.txt")
+    m_iis.ReadFromFile App.Path & "\Data\IBANcodes.txt"
+    Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC3_2015_DE.txt")
+    'Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC4_2022_AT.txt")
     m_iis.FillComboBox CmbLC
     CmbLC.ListIndex = 18
     'Me.ScaleWidth = 8895
