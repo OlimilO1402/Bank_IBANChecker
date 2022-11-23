@@ -14,19 +14,15 @@ Attribute VB_Exposed = False
 Option Explicit
 Private m_infoW As String 'W -> wie von der Wikipedia Seite in die Datei kopiert
 Private m_infoR As String 'R -> wie aus der Datei gelesen und umgewandelt
-Private m_col   As Collection
+Private m_col   As New Collection
 
-Private Sub Class_Initialize()
-    Set m_col = New Collection
-End Sub
-
-Friend Sub New_(ByVal infoW As String)
+Public Sub New_(ByVal infoW As String)
     If InStr(1, infoW, " ") > 0 Then infoW = Replace(infoW, " ", "")
     m_infoW = infoW
     m_infoR = ParseInfoR
     Parse
 End Sub
-Friend Function ToStr(Optional br As Boolean = False) As String
+Public Function ToStr(Optional br As Boolean = False) As String
     ToStr = ToInfoW
     If br Then ToStr = ToInfoR
 End Function
@@ -40,7 +36,8 @@ Public Function ToInfoW(Optional bGroupedBy4 As Boolean = False) As String
     If bGroupedBy4 Then ToInfoW = GroupBy4(ToInfoW)
 End Function
 Private Sub Parse()
-    'die collection von BBANParts aufbauen
+'die collection von BBANParts aufbauen
+    'Dim r As String: r = m_infoR
     Dim sArr() As String: sArr = Split(m_infoR, "; ")
     Dim Pos As Byte: Pos = 1
     Dim i As Integer
@@ -49,12 +46,27 @@ Private Sub Parse()
         m_col.Add MNew.BBANPart(lArr(0), Pos, Trim(lArr(1)))
         Pos = Pos + Trim(lArr(1))
     Next
+    'lArr = Split(sArr(Index), ": ")
+    'Set BBANPart = MNew.BBANPart(lArr(0), Pos, Trim(lArr(1)))
 End Sub
 Public Property Get BBANPart(ByVal Index As Integer) As BBANPart
-    Set BBANPart = m_col(Index)  '+ 1
+    Set BBANPart = m_col(Index + 1)
+'    Dim r As String: r = ToInfoR
+'    Dim sArr() As String: sArr = Split(r, "; ")
+'    Dim lArr() As String
+'    Dim Pos As Byte, i As Integer
+'    Pos = 1
+'    For i = 0 To Index - 1
+'        lArr = Split(sArr(i), ": ")
+'        Pos = Pos + Trim(lArr(1))
+'    Next
+'    lArr = Split(sArr(Index), ": ")
+'    Set BBANPart = MNew.BBANPart(lArr(0), Pos, Trim(lArr(1)))
 End Property
 Public Property Get CountBBANParts() As Byte
     CountBBANParts = m_col.Count
+'    Dim r As String: r = ToInfoR
+'    CountBBANParts = UBound(Split(r, "; "))
 End Property
 Private Function GroupBy4(ByVal s_in As String) As String
     s_in = Replace(s_in, " ", "")
@@ -119,3 +131,19 @@ Private Function CountBlockChars(sLine As String, pos_inout As Long, ByVal char 
     Loop
     CountBlockChars = n
 End Function
+'Private Function CInfoRToW() As String
+'    Dim s As String
+'    Dim sArr() As String: sArr = Split(Me.ToInfoR, "; ")
+'    Dim i As Long
+'    For i = 0 To UBound(sArr)
+'        If Len(sArr(i)) Then
+'            Dim lArr() As String: lArr = Split(sArr(i), ": ")
+'            s = s & String(CLng(Trim(lArr(1))), Left(lArr(0), 1))
+'        End If
+'    Next
+'    CInfoRToW = s
+'End Function
+
+'Public Function Check() As Boolean
+'    Check = m_infoW = CInfoRToW
+'End Function

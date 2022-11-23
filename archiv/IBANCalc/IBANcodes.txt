@@ -1,0 +1,101 @@
+Ägypten	EGpp kkkk kkkk kkkk kkkk kkkk kkk
+Albanien	ALpp bbbs sssK kkkk kkkk kkkk kkkk
+Algerien	DZpp kkkk kkkk kkkk kkkk kkkk
+Andorra	ADpp bbbb ssss kkkk kkkk kkkk
+Angola	AOpp bbbb ssss kkkk kkkk kkkK K
+Aserbaidschan	AZpp bbbb kkkk kkkk kkkk kkkk kkkk
+Bahrain	BHpp bbbb kkkk kkkk kkkk kk
+Belgien	BEpp bbbk kkkk kkKK
+Benin	BJpp bbbb bsss sskk kkkk kkkk kkKK
+Bosnien und Herzegowina	BApp bbbs sskk kkkk kkKK
+Brasilien	BRpp bbbb bbbb ssss skkk kkkk kkkk k
+Britische Jungferninseln	VGpp bbbb kkkk kkkk kkkk kkkk
+Bulgarien	BGpp bbbb ssss ddkk kkkk kk
+Burkina Faso	BFpp bbbb bsss sskk kkkk kkkk kKK
+Burundi	BIpp kkkk kkkk kkkk
+Costa Rica	CRpp bbbk kkkk kkkk kkkk k
+Côte d'Ivoire (Elfenbeinküste)	CIpp bbbb bsss sskk kkkk kkkk kkKK
+Dänemark	DKpp bbbb kkkk kkkk kK
+Deutschland	DEpp bbbb bbbb kkkk kkkk kk
+Dominikanische Republik	DOpp bbbb kkkk kkkk kkkk kkkk kkkk
+Estland	EEpp bbkk kkkk kkkk kkkK
+Färöer	FOpp bbbb kkkk kkkk kK
+Finnland	FIpp bbbb bbkk kkkk kK
+Frankreich	                            FRpp bbbb bsss sskk kkkk kkkk kKK
+Französisch-Guayana	                    FRpp bbbb bsss sskk kkkk kkkk kKK
+Französisch-Polynesien	                FRpp bbbb bsss sskk kkkk kkkk kKK
+Französische Süd- und Antarktisgebiete	FRpp bbbb bsss sskk kkkk kkkk kKK
+Guadeloupe	                            FRpp bbbb bsss sskk kkkk kkkk kKK
+Martinique	                            FRpp bbbb bsss sskk kkkk kkkk kKK
+Réunion	                                FRpp bbbb bsss sskk kkkk kkkk kKK
+Mayotte	                                FRpp bbbb bsss sskk kkkk kkkk kKK
+Neukaledonien	                        FRpp bbbb bsss sskk kkkk kkkk kKK
+Saint-Barthélemy	                    FRpp bbbb bsss sskk kkkk kkkk kKK
+Saint-Martin	                        FRpp bbbb bsss sskk kkkk kkkk kKK
+Saint-Pierre und Miquelon	            FRpp bbbb bsss sskk kkkk kkkk kKK
+Wallis und Futuna	                    FRpp bbbb bsss sskk kkkk kkkk kKK
+Gabun	GApp bbbb bsss sskk kkkk kkkk kKK
+Georgien	GEpp bbkk kkkk kkkk kkkk kk
+Gibraltar	GIpp bbbb kkkk kkkk kkkk kkk
+Griechenland	GRpp bbbs sssk kkkk kkkk kkkk kkk
+Grönland	GLpp bbbb kkkk kkkk kK
+Guatemala	GTpp bbbb kkkk kkkk kkkk kkkk kkkk
+Iran	IRpp kkkk kkkk kkkk kkkk kkkk kk
+Irland	IEpp bbbb ssss sskk kkkk kk
+Island	ISpp bbbb sskk kkkk XXXX XXXX XX
+Israel	ILpp bbbs sskk kkkk kkkk kkk
+Italien	ITpp Kbbb bbss sssk kkkk kkkk kkk
+Jordanien	JOpp bbbb ssss kkkk kkkk kkkk kkkk kk
+Kamerun	CMpp bbbb bsss sskk kkkk kkkk kKK
+Kap Verde	CVpp bbbb ssss kkkk kkkk kkkK K
+Kasachstan	KZpp bbbk kkkk kkkk kkkk
+Katar	QApp bbbb kkkk kkkk kkkk kkkk kkkk k
+Kongo (Brazzaville)	CGpp bbbb bsss sskk kkkk kkkk kKK
+Kosovo	XKpp bbbb kkkk kkkk kkkk
+Kroatien	HRpp bbbb bbbk kkkk kkkk k
+Kuwait	KWpp bbbb kkkk kkkk kkkk kkkk kkkk kk
+Lettland	LVpp bbbb kkkk kkkk kkkk k
+Libanon	LBpp bbbb kkkk kkkk kkkk kkkk kkkk
+Liechtenstein	LIpp bbbb bkkk kkkk kkkk k
+Litauen	LTpp bbbb bkkk kkkk kkkk
+Luxemburg	LUpp bbbk kkkk kkkk kkkk
+Madagaskar	MGpp bbbb bsss sskk kkkk kkkk kKK
+Mali	MLpp bbbb bsss sskk kkkk kkkk kkKK
+Malta	MTpp bbbb ssss skkk kkkk kkkk kkkk kkk
+Mauretanien	MRpp bbbb bsss sskk kkkk kkkk kKK
+Mauritius	MUpp bbbb bbss kkkk kkkk kkkk kkkK KK
+Mazedonien	MKpp bbbk kkkk kkkk kKK
+Moldawien	MDpp bbkk kkkk kkkk kkkk kkkk
+Monaco	MCpp bbbb bsss sskk kkkk kkkk kKK
+Montenegro	MEpp bbbk kkkk kkkk kkkk KK
+Mosambik	MZpp bbbb ssss kkkk kkkk kkkK K
+Niederlande	NLpp bbbb kkkk kkkk kk
+Norwegen	NOpp bbbb kkkk kkK
+Österreich	ATpp bbbb bkkk kkkk kkkk
+Osttimor	TLpp bbbk kkkk kkkk kkkk kKK
+Pakistan	PKpp bbbb rrkk kkkk kkkk kkkk
+Palästinensische Autonomiegebiete	PSpp bbbb rrrr rrrr rkkk kkkk kkkk k
+Polen	PLpp bbbs sssK kkkk kkkk kkkk kkkk
+Portugal	PTpp bbbb ssss kkkk kkkk kkkK K
+Rumänien	ROpp bbbb kkkk kkkk kkkk kkkk
+San Marino	SMpp Kbbb bbss sssk kkkk kkkk kkk
+São Tomé und Príncipe	STpp bbbb ssss kkkk kkkk kkkK K
+Saudi-Arabien	SApp bbkk kkkk kkkk kkkk kkkk
+Schweden	SEpp bbbk kkkk kkkk kkkk kkkK
+Schweiz	CHpp bbbb bkkk kkkk kkkk k
+Senegal	SNpp bbbb bsss sskk kkkk kkkk kkKK
+Serbien	RSpp bbbk kkkk kkkk kkkk KK
+Slowakei	SKpp bbbb ssss sskk kkkk kkkk
+Slowenien	SIpp bbss skkk kkkk kKK
+Spanien	ESpp bbbb ssss KKkk kkkk kkkk
+Tschechien	CZpp bbbb kkkk kkkk kkkk kkkk
+Tunesien	TNpp bbss skkk kkkk kkkk kkKK
+Türkei	TRpp bbbb brkk kkkk kkkk kkkk kk
+Ungarn	HUpp bbbs sssK kkkk kkkk kkkk kkkK
+Vereinigte Arabische Emirate	AEpp bbbk kkkk kkkk kkkk kkk
+Vereinigtes Königreich	GBpp bbbb ssss sskk kkkk kk
+Jersey	GBpp bbbb ssss sskk kkkk kk
+Guernsey	GBpp bbbb ssss sskk kkkk kk
+Isle of Man	GBpp bbbb ssss sskk kkkk kk
+Zypern	CYpp bbbs ssss kkkk kkkk kkkk kkkk
+Zentralafrikanische Republik	CFpp bbbb bsss sskk kkkk kkkk kKK

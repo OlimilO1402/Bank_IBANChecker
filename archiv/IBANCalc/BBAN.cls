@@ -16,13 +16,11 @@ Private m_BInfo As BBANInfo
 Private m_sBBAN As String
 
 'wird von der Klasse IBAN selber erzeugt
-Friend Sub New_(BBANInfo As BBANInfo, ByVal sBBAN As String)
+Public Sub New_(BBANInfo As BBANInfo, ByVal sBBAN As String)
     m_sBBAN = sBBAN
     Set m_BInfo = BBANInfo
     If m_BInfo Is Nothing Then Exit Sub
-    Dim ls As Long: ls = Len(m_sBBAN)
-    Dim lb As Long: lb = m_BInfo.BBANLength
-    Dim d As Integer: d = ls - lb
+    Dim d As Integer: d = Len(m_sBBAN) - m_BInfo.BBANLength
     If d <> 0 Then
         MsgBox "IBAN ist um " & Abs(d) & " zu " & IIf(d > 0, "lang", "kurz")
     End If
@@ -32,7 +30,12 @@ End Sub
 
 Public Property Get Prop(ByVal Index As Byte) As BBANValue
     Dim bbp As BBANPart: Set bbp = m_BInfo.BBANPart(Index)
-    Set Prop = MNew.BBANValue(bbp, Mid(m_sBBAN, bbp.pos, bbp.Length))
+    'bbp.Pos
+    'jetzt vom
+    Set Prop = MNew.BBANValue(bbp, Mid(m_sBBAN, bbp.Pos, bbp.Length))
+'    With m_IInfo
+'        .BBANInfo.BBANPart (Index)
+'    End With
 End Property
 
 Public Property Get CountParts() As Byte
@@ -44,19 +47,17 @@ Public Function Check() As Boolean
     'naja das ist doch schon was
     Check = True
     Dim i As Byte
-    'For i = 0 To CountParts - 1
-    For i = 1 To CountParts '- 1
+    For i = 0 To CountParts - 1
         Check = Check And Prop(i).Check
     Next
     If Not Check Then Exit Function
     Check = m_BInfo.BBANLength = Len(Me.ToStr)
 End Function
 
-Friend Function ToStr() As String
+Public Function ToStr() As String
     Dim s As String
     Dim i As Byte
-    'For i = 0 To CountParts - 1
-    For i = 1 To CountParts '- 1
+    For i = 0 To CountParts - 1
         s = s & Prop(i).ToStr
     Next
     ToStr = s
