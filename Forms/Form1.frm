@@ -1,12 +1,12 @@
 VERSION 5.00
-Begin VB.Form Form1 
+Begin VB.Form FMain 
    Appearance      =   0  '2D
    BackColor       =   &H80000005&
    BorderStyle     =   3  'Fester Dialog
    Caption         =   "IBAN-Checker"
    ClientHeight    =   6495
    ClientLeft      =   45
-   ClientTop       =   390
+   ClientTop       =   690
    ClientWidth     =   8910
    Icon            =   "Form1.frx":0000
    LinkTopic       =   "Form1"
@@ -32,6 +32,74 @@ Begin VB.Form Form1
       TabIndex        =   5
       Top             =   600
       Width           =   615
+   End
+   Begin VB.CommandButton BtnSave 
+      Caption         =   "Save"
+      BeginProperty Font 
+         Name            =   "Calibri"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   7320
+      TabIndex        =   61
+      Top             =   600
+      Width           =   615
+   End
+   Begin VB.CommandButton BtnName 
+      Caption         =   "Name"
+      BeginProperty Font 
+         Name            =   "Calibri"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   6600
+      TabIndex        =   62
+      Top             =   600
+      Width           =   735
+   End
+   Begin VB.CommandButton btnCheckIBAN 
+      Caption         =   "Check IBAN v"
+      BeginProperty Font 
+         Name            =   "Calibri"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   4920
+      TabIndex        =   4
+      Top             =   600
+      Width           =   1695
+   End
+   Begin VB.CommandButton btnCalcIBAN 
+      Caption         =   "Calc IBAN ^"
+      BeginProperty Font 
+         Name            =   "Calibri"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   3240
+      TabIndex        =   3
+      Top             =   600
+      Width           =   1695
    End
    Begin VB.CommandButton btnBBbic 
       Caption         =   "^"
@@ -691,23 +759,6 @@ Begin VB.Form Form1
          Width           =   1572
       End
    End
-   Begin VB.CommandButton btnCheckIBAN 
-      Caption         =   "Check IBAN v"
-      BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   375
-      Left            =   5640
-      TabIndex        =   4
-      Top             =   600
-      Width           =   2175
-   End
    Begin VB.TextBox TxIBAN 
       BeginProperty Font 
          Name            =   "Consolas"
@@ -739,23 +790,6 @@ Begin VB.Form Form1
       TabIndex        =   10
       Top             =   2040
       Width           =   6975
-   End
-   Begin VB.CommandButton btnCalcIBAN 
-      Caption         =   "Calc IBAN ^"
-      BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   375
-      Left            =   3360
-      TabIndex        =   3
-      Top             =   600
-      Width           =   2175
    End
    Begin VB.CheckBox CkGroup4 
       BackColor       =   &H80000005&
@@ -970,8 +1004,35 @@ Begin VB.Form Form1
       Top             =   120
       Width           =   855
    End
+   Begin VB.Menu mnuFile 
+      Caption         =   "&File"
+      Begin VB.Menu mnuFileOpen 
+         Caption         =   "&Open"
+      End
+      Begin VB.Menu mnuFileSave 
+         Caption         =   "&Save"
+      End
+      Begin VB.Menu mnuFileSep 
+         Caption         =   "-"
+      End
+      Begin VB.Menu mnuFileExit 
+         Caption         =   "E&xit"
+      End
+   End
+   Begin VB.Menu mnuEdit 
+      Caption         =   "&Edit"
+      Begin VB.Menu mnuEditName 
+         Caption         =   "Name"
+      End
+   End
+   Begin VB.Menu mnuHelp 
+      Caption         =   " &? "
+      Begin VB.Menu mnuHelpInfo 
+         Caption         =   "Info"
+      End
+   End
 End
-Attribute VB_Name = "Form1"
+Attribute VB_Name = "FMain"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
@@ -1195,6 +1256,17 @@ End Sub
 
 Private Sub BtnInfo_Click()
     MsgBox App.CompanyName & " " & App.EXEName & " v" & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & App.FileDescription, vbInformation
+End Sub
+
+Private Sub BtnSave_Click()
+    Dim PFN As PathFileName: Set PFN = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
+    PFN.OpenFile FileMode_Append
+    PFN.WriteLine
+End Sub
+
+
+Private Sub mnuFileOpen_Click()
+
 End Sub
 
 Private Sub TxBLZ_KeyUp(KeyCode As Integer, Shift As Integer)

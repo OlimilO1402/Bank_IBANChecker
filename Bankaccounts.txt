@@ -1,0 +1,7 @@
+DE64 7005 1003 0000 7713 11	Oliver Meyer
+DE24 7315 0000 0010 8058 36	Lukas Geiger
+	Sabine Geiger
+	Simon Geiger
+	Elisabeth Meyer
+	Andreas Meyer
+	Bernhard Meyer
