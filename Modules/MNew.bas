@@ -17,16 +17,16 @@ Public Function BBANValue(bbp As BBANPart, ByVal Value As String) As BBANValue
     Set BBANValue = New BBANValue: BBANValue.New_ bbp, Value
 End Function
 
-Public Function IBAN(IBANInfos As IBANInfos, siban As String) As IBAN
-    Set IBAN = New IBAN: IBAN.New_ IBANInfos, siban
+Public Function IBAN(IBANInfos As IBANInfos, sIBAN As String) As IBAN
+    Set IBAN = New IBAN: IBAN.New_ IBANInfos, sIBAN
 End Function
 
 Public Function BBAN(BBANInfo As BBANInfo, sBBAN As String) As BBAN
     Set BBAN = New BBAN: BBAN.New_ BBANInfo, sBBAN
 End Function
 
-Public Function IBANCreator(IBANInfos As IBANInfos, aIBANInfo As IBANInfo, list As Collection) As IBANCreator 'sArr() As String) As IBANCreator
-    Set IBANCreator = New IBANCreator: IBANCreator.New_ IBANInfos, aIBANInfo, list 'sArr
+Public Function IBANCreator(IBANInfos As IBANInfos, aIBANInfo As IBANInfo, List As Collection) As IBANCreator 'sArr() As String) As IBANCreator
+    Set IBANCreator = New IBANCreator: IBANCreator.New_ IBANInfos, aIBANInfo, List 'sArr
 End Function
 
 Public Function BlzBic(sLine As String) As BlzBic
@@ -43,4 +43,15 @@ Public Function PathFileName(ByVal aPathOrPFN As String, _
     Set PathFileName = New PathFileName: PathFileName.New_ aPathOrPFN, aFileName, aExt
 End Function
 
+Public Function List(Of_T As EDataType, _
+                     Optional ArrColStrTypList, _
+                     Optional ByVal IsHashed As Boolean = False, _
+                     Optional ByVal Capacity As Long = 32, _
+                     Optional ByVal GrowRate As Single = 2, _
+                     Optional ByVal GrowSize As Long = 0) As List
+    Set List = New List: List.New_ Of_T, ArrColStrTypList, IsHashed, Capacity, GrowRate, GrowSize
+End Function
 
+Public Function NamedIBAN() As NamedIBAN
+    
+End Function

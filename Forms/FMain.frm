@@ -5,11 +5,11 @@ Begin VB.Form FMain
    BorderStyle     =   3  'Fester Dialog
    Caption         =   "IBAN-Checker"
    ClientHeight    =   6495
-   ClientLeft      =   45
-   ClientTop       =   690
+   ClientLeft      =   150
+   ClientTop       =   795
    ClientWidth     =   8910
-   Icon            =   "Form1.frx":0000
-   LinkTopic       =   "Form1"
+   Icon            =   "FMain.frx":0000
+   LinkTopic       =   "FMain"
    MaxButton       =   0   'False
    MinButton       =   0   'False
    ScaleHeight     =   6495
@@ -216,9 +216,9 @@ Begin VB.Form FMain
          Strikethrough   =   0   'False
       EndProperty
       Height          =   315
-      ItemData        =   "Form1.frx":179A
+      ItemData        =   "FMain.frx":179A
       Left            =   10200
-      List            =   "Form1.frx":179C
+      List            =   "FMain.frx":179C
       TabIndex        =   36
       Top             =   120
       Width           =   5655
@@ -820,9 +820,9 @@ Begin VB.Form FMain
          Strikethrough   =   0   'False
       EndProperty
       Height          =   405
-      ItemData        =   "Form1.frx":179E
+      ItemData        =   "FMain.frx":179E
       Left            =   1560
-      List            =   "Form1.frx":17A0
+      List            =   "FMain.frx":17A0
       TabIndex        =   7
       Top             =   1080
       Width           =   6975
@@ -1045,6 +1045,8 @@ Private m_BBANInfoR As String
 Private m_BlzBics   As BlzBics
 Private m_col       As Collection 'Of BlzBic
 Private CH As Single
+Private m_PFN       As PathFileName
+Private m_IBANNames As List 'Of NamedIBAN
 
 Private Sub Form_Load()
     Me.Caption = Me.Caption & " v" & App.Major & "." & App.Minor & "." & App.Revision
@@ -1056,6 +1058,8 @@ Private Sub Form_Load()
     CmbLC.ListIndex = 18
     'Me.ScaleWidth = 8895
     CH = Me.Height - Me.ScaleHeight
+    
+    Set m_PFN = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
 End Sub
 
 Private Sub btnBBblz_Click()
@@ -1080,10 +1084,10 @@ Private Sub btnBBbic_Click()
 End Sub
 Sub FillCbBlzBic()
     If m_col Is Nothing Then Exit Sub
-    Dim v, bb As BlzBic
+    Dim V, bb As BlzBic
     CbBlzBic.Clear
-    For Each v In m_col
-        Set bb = v
+    For Each V In m_col
+        Set bb = V
         If Not bb Is Nothing Then
             CbBlzBic.AddItem bb.ToStr
         End If
@@ -1255,18 +1259,46 @@ Private Sub btnCheckIBAN_Click()
 End Sub
 
 Private Sub BtnInfo_Click()
-    MsgBox App.CompanyName & " " & App.EXEName & " v" & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & App.FileDescription, vbInformation
+    'MsgBox App.CompanyName & " " & App.EXEName & " v" & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & App.FileDescription, vbInformation
+    mnuHelpInfo_Click
 End Sub
 
 Private Sub BtnSave_Click()
-    Dim PFN As PathFileName: Set PFN = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
-    PFN.OpenFile FileMode_Append
-    PFN.WriteLine
+    Dim pfn As PathFileName: Set pfn = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
+    pfn.OpenFile FileMode_Append
+    'pfn.WriteLine
 End Sub
 
 
 Private Sub mnuFileOpen_Click()
+    If m_IBANNames Is Nothing Then
+        Set m_IBANNames = MNew.List(EDataType.vbObject, , True)
+    End If
+Try: On Error GoTo Catch
+    Dim lines() As String: lines = splid(m_PFN.ReadAllText, vbCrLf)
+    Dim i As Long, line As String, sa() As String
+    Dim sIBAN As String, sName As String
+    For i = 0 To UBound(lines)
+        line = lines(i)
+        sa = Split(line, vbTab)
+        sIBAN = sa(0)
+        sName = sa(1)
+        
+    Next
+Catch:
+End Sub
 
+Private Sub mnuFileSave_Click()
+    '
+End Sub
+
+Private Sub mnuFileExit_Click()
+    Unload Me
+End Sub
+
+Private Sub mnuHelpInfo_Click()
+    'MsgBox App.CompanyName & " " & App.EXEName & " v" & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & App.FileDescription, vbInformation
+    MsgBox App.CompanyName & " " & App.EXEName & " v" & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & App.FileDescription, vbInformation
 End Sub
 
 Private Sub TxBLZ_KeyUp(KeyCode As Integer, Shift As Integer)
@@ -1288,58 +1320,58 @@ Private Sub FetchIBAN()
     s = vbNullString
     'das is der Scheiß, diese Reihenfolge hier in der Sub, ist nicht unbedingt die richtige Reihenfolge der BBAN oder?
     'das Array is ja voll der Blödsinn, besser mit einer Collection mannomann
-    Dim list As Collection
-    Set list = New Collection
+    Dim List As Collection
+    Set List = New Collection
     If PnlBLZ.Visible Then
         'b   Bankleitzahl    Bank Code
         If Not TryGetStr(LbBLZ, TxBLZ, s) Then Exit Sub
         'ReDim sArr(u): sArr(u) = s: u = u + 1
-        list.Add s, "b"
+        List.Add s, "b"
     End If
     s = vbNullString
     If PnlKTyp.Visible Then
         'd   Kontotyp
         If Not TryGetStr(LbKTyp, TxKTyp, s) Then Exit Sub
         'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
-        list.Add s, "d"
+        List.Add s, "d"
     End If
     s = vbNullString
     If PnlKtoNr.Visible Then
         'k   Kontonummer
         If Not TryGetStr(LbKtoNr, TxKtoNr, s) Then Exit Sub
         'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
-        list.Add s, "k"
+        List.Add s, "k"
     End If
     s = vbNullString
     If PnlKtrlZif.Visible Then
         'K   Kontrollziffer
         If Not TryGetStr(LbKtrlZif, TxKtrlZif, s) Then Exit Sub
         'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
-        list.Add s, "KK"
+        List.Add s, "KK"
     End If
     s = vbNullString
     If PnlRegC.Visible Then
         'r   Regionalcode
         If Not TryGetStr(LbRegC, TxRegC, s) Then Exit Sub
         'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
-        list.Add s, "r"
+        List.Add s, "r"
     End If
     s = vbNullString
     If PnlFilNr.Visible Then
         's   Filialnummer    Branch Code
         If Not TryGetStr(LbFilNr, TxFilNr, s) Then Exit Sub
         'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
-        list.Add s, "s"
+        List.Add s, "s"
     End If
     s = vbNullString
     If PnlSFnkt.Visible Then
         'X   sonst. Funkt.
         If Not TryGetStr(LbSFnkt, TxSFnkt, s) Then Exit Sub
         'ReDim Preserve sArr(u): sArr(u) = s: u = u + 1
-        list.Add s, "X"
+        List.Add s, "X"
     End If
     Dim li As Integer: li = CmbLC.ListIndex
-    Dim IC As IBANCreator: Set IC = MNew.IBANCreator(m_iis, m_iis.Item(li), list)
+    Dim IC As IBANCreator: Set IC = MNew.IBANCreator(m_iis, m_iis.Item(li), List)
     TxIBAN.Text = Trim(IC.IBAN.ToStr)
     CkGroup4_Click
 End Sub

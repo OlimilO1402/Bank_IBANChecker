@@ -159,8 +159,7 @@ End Function
 
 Public Function Modulo(ByVal Dividend As String, ByVal Divisor As Double)
     'Thanks to Hondo Alias Andreas
-    Dim a As Variant
-    Dim b As Variant
+    Dim a, b
     Do While Len(Dividend) > 0
         a = b & Left(Dividend, 9 - Len(CStr(b))): Dividend = Mid(Dividend, 10 - Len(CStr(b)))
         b = a Mod Divisor
@@ -208,16 +207,18 @@ Public Function StringClean(ByVal s As String) As String
     'StringClean = Trim$(MString.RecursiveReplace(s, " .-,", "")) 'Aarg it does not remove whitespaces " " but why
 End Function
 
-Public Function Contains(col As Collection, elem As String) As Boolean
-    'https://www.vb-tec.de/collctns.htm
-    On Error Resume Next
-
-    If IsEmpty(col(elem)) Then: 'DoNothing
-    Contains = (Err.Number = 0)
-
-    On Error GoTo 0
-
-End Function
+'Public Function Contains(col As Collection, elem As String) As Boolean
+'    'https://www.vb-tec.de/collctns.htm
+'    On Error Resume Next
+'
+'Contains = MPtr.Col_Contains(col, elem)
+'
+'    If IsEmpty(col(elem)) Then: 'DoNothing
+'    Contains = (Err.Number = 0)
+'
+'    On Error GoTo 0
+'
+'End Function
 
 'Sub ReadFileIBANcodes() 'ByRef sArr() As String)
 '    Dim FNm As String:  FNm = App.Path & "\IBANcodes.txt"
