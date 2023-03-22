@@ -12,12 +12,23 @@ Attribute VB_Creatable = True
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
-Public Name As String ' Persons Name
-Public IBAN As IBAN   ' IBAN from Person
+Private m_Name As String ' Persons Name
+Private m_IBAN As IBAN   ' IBAN from Person
 
 Friend Sub New_(aName As String, aIBAN As IBAN)
-    Name = aName: Set IBAN = aIBAN
+    m_Name = aName: Set m_IBAN = aIBAN
 End Sub
+
+Public Property Get Name() As String
+    Name = m_Name
+End Property
+Public Property Let Name(ByVal Value As String)
+    m_Name = Value
+End Property
+
+Public Property Get IBAN() As IBAN
+    Set IBAN = m_IBAN
+End Property
 
 Public Property Get Key() As String
     Key = IBAN.ToStr

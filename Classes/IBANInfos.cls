@@ -12,26 +12,29 @@ Attribute VB_Creatable = True
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
-Private m_PFN   As String
+Private m_PFN   As PathFileName
 Private m_col() As IBANInfo ' As Collection 'of IBANInfo
 
 Public Sub ReadFromFile(aPFN As String)
-    m_PFN = aPFN
-    Dim FNr As Integer: FNr = FreeFile
+    Set m_PFN = MNew.PathFileName(aPFN)
+    'm_PFN = aPFN
+    'Dim FNr As Integer: FNr = FreeFile
 Try: On Error GoTo Finally
-    Open m_PFN For Binary As FNr
-    Dim File As String: File = Space(LOF(FNr))
-    Get FNr, , File
-    Close FNr
-    Dim sArr() As String: sArr = Split(File, vbCrLf)
-    ReDim m_col(0 To UBound(sArr))
+    'Open m_PFN For Binary As FNr
+    'Dim File As String: File = Space(LOF(FNr))
+    'Get FNr, , File
+    'Close FNr
+    'Dim sArr() As String: sArr = Split(File, vbCrLf)
+    Dim lines() As String
+    If Not m_PFN.TryReadAllLines(lines) Then Exit Sub
+    ReDim m_col(0 To UBound(lines))
     Dim i As Long, c As Long, sLine As String
     'Dim ii As IBANINfo
     Dim lArr() As String
     Dim ln As String, lc As String, bi As String
-    For i = 0 To UBound(sArr)
+    For i = 0 To UBound(lines)
         'Set ii = New IBANINfo
-        lArr = Split(sArr(i), vbTab)
+        lArr = Split(lines(i), vbTab)
         ln = Trim(lArr(0)) 'Ländername
         sLine = Trim(lArr(1))
         lc = Left(sLine, 2) 'Ländercode
@@ -42,7 +45,8 @@ Try: On Error GoTo Finally
     Next
     Exit Sub
 Finally:
-    Close FNr
+    'Close FNr
+    m_PFN.CloseFile
 End Sub
 
 Public Sub FillComboBox(aCB As ComboBox)

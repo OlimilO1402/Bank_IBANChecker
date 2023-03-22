@@ -5,6 +5,10 @@ Public Function IBANInfo(Name As String, lc As String, bbinf As BBANInfo) As IBA
     Set IBANInfo = New IBANInfo: IBANInfo.New_ Name, lc, bbinf
 End Function
 
+Public Function IBANInfos(aPFN As String) As IBANInfos
+    Set IBANInfos = New IBANInfos: IBANInfos.ReadFromFile aPFN
+End Function
+
 Public Function BBANInfo(ByVal infoW As String) As BBANInfo
     Set BBANInfo = New BBANInfo: BBANInfo.New_ infoW
 End Function
@@ -17,8 +21,8 @@ Public Function BBANValue(bbp As BBANPart, ByVal Value As String) As BBANValue
     Set BBANValue = New BBANValue: BBANValue.New_ bbp, Value
 End Function
 
-Public Function IBAN(IBANInfos As IBANInfos, sIBAN As String) As IBAN
-    Set IBAN = New IBAN: IBAN.New_ IBANInfos, sIBAN
+Public Function IBAN(IBANInfos As IBANInfos, siban As String) As IBAN
+    Set IBAN = New IBAN: IBAN.New_ IBANInfos, siban
 End Function
 
 Public Function BBAN(BBANInfo As BBANInfo, sBBAN As String) As BBAN
@@ -52,6 +56,6 @@ Public Function List(Of_T As EDataType, _
     Set List = New List: List.New_ Of_T, ArrColStrTypList, IsHashed, Capacity, GrowRate, GrowSize
 End Function
 
-Public Function NamedIBAN() As NamedIBAN
-    
+Public Function NamedIBAN(ByVal aName As String, aIBAN As IBAN) As NamedIBAN
+    Set NamedIBAN = New NamedIBAN: NamedIBAN.New_ aName, aIBAN
 End Function

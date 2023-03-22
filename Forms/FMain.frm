@@ -1006,11 +1006,17 @@ Begin VB.Form FMain
    End
    Begin VB.Menu mnuFile 
       Caption         =   "&File"
+      Begin VB.Menu mnuFileNew 
+         Caption         =   "&New"
+      End
       Begin VB.Menu mnuFileOpen 
-         Caption         =   "&Open"
+         Caption         =   "&Open..."
       End
       Begin VB.Menu mnuFileSave 
          Caption         =   "&Save"
+      End
+      Begin VB.Menu mnuFileSaveAs 
+         Caption         =   "Save &As"
       End
       Begin VB.Menu mnuFileSep 
          Caption         =   "-"
@@ -1022,7 +1028,7 @@ Begin VB.Form FMain
    Begin VB.Menu mnuEdit 
       Caption         =   "&Edit"
       Begin VB.Menu mnuEditName 
-         Caption         =   "Name"
+         Caption         =   "Named IBANs"
       End
    End
    Begin VB.Menu mnuHelp 
@@ -1040,26 +1046,18 @@ Attribute VB_Exposed = False
 Option Explicit
 '79.228.162.514.264.337.593.543.950.335
 Private m_IBANInfo  As IBANInfo
-Private m_iis       As IBANInfos
 Private m_BBANInfoR As String
-Private m_BlzBics   As BlzBics
 Private m_col       As Collection 'Of BlzBic
 Private CH As Single
-Private m_PFN       As PathFileName
-Private m_IBANNames As List 'Of NamedIBAN
 
 Private Sub Form_Load()
     Me.Caption = Me.Caption & " v" & App.Major & "." & App.Minor & "." & App.Revision
-    Set m_iis = New IBANInfos
-    m_iis.ReadFromFile App.Path & "\Data\IBANcodes.txt"
-    Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC3_2015_DE.txt")
-    'Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC4_2022_AT.txt")
-    m_iis.FillComboBox CmbLC
+    'm_iis.FillComboBox CmbLC
+    MApp.IBANInfos.FillComboBox CmbLC
     CmbLC.ListIndex = 18
     'Me.ScaleWidth = 8895
     CH = Me.Height - Me.ScaleHeight
     
-    Set m_PFN = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
 End Sub
 
 Private Sub btnBBblz_Click()
@@ -1270,20 +1268,26 @@ Private Sub BtnSave_Click()
 End Sub
 
 
+Private Sub mnuFileNew_Click()
+    Set m_NamedIBANs = MNew.List(EDataType.vbObject, , True)
+End Sub
+
 Private Sub mnuFileOpen_Click()
     If m_IBANNames Is Nothing Then
-        Set m_IBANNames = MNew.List(EDataType.vbObject, , True)
+        Set m_NamedIBANs = MNew.List(EDataType.vbObject, , True)
     End If
 Try: On Error GoTo Catch
-    Dim lines() As String: lines = splid(m_PFN.ReadAllText, vbCrLf)
+    Dim lines() As String
+    If Not m_PFN.TryReadAllLines(lines) Then Exit Sub
     Dim i As Long, line As String, sa() As String
-    Dim sIBAN As String, sName As String
+    Dim siban As String, sName As String, ani As NamedIBAN
     For i = 0 To UBound(lines)
         line = lines(i)
         sa = Split(line, vbTab)
-        sIBAN = sa(0)
+        siban = sa(0)
         sName = sa(1)
-        
+        Set ani = MNew.NamedIBAN(sName, MNew.IBAN(m_iis, siban))
+        m_NamedIBANs.Add ani, ani.Key
     Next
 Catch:
 End Sub
