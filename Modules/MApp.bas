@@ -14,6 +14,10 @@ Sub Main()
     FMain.Show
 End Sub
 
+Public Property Get CurDocument() As Document
+    Set CurDocument = m_Doc
+End Property
+
 Public Property Get IBANInfos() As IBANInfos
     Set IBANInfos = m_IbInfos
 End Property

@@ -1061,31 +1061,31 @@ Private Sub Form_Load()
 End Sub
 
 Private Sub btnBBblz_Click()
-    Set m_col = m_BlzBics.BLZcol(TxBBblz)
+    Set m_col = MApp.BlzBics.BLZcol(TxBBblz)
     FillCbBlzBic
 End Sub
 Private Sub btnBBplz_Click()
-    Set m_col = m_BlzBics.PLZcol(TxBBplz)
+    Set m_col = MApp.BlzBics.PLZcol(TxBBplz)
     FillCbBlzBic
 End Sub
 Private Sub btnBBort_Click()
-    Set m_col = m_BlzBics.ORTcol(TxBBort)
+    Set m_col = MApp.BlzBics.ORTcol(TxBBort)
     FillCbBlzBic
 End Sub
 Private Sub btnBBbank_Click()
-    Set m_col = m_BlzBics.BANKcol(TxBBbank)
+    Set m_col = MApp.BlzBics.BANKcol(TxBBbank)
     FillCbBlzBic
 End Sub
 Private Sub btnBBbic_Click()
-    Set m_col = m_BlzBics.BICcol(TxBBbic)
+    Set m_col = MApp.BlzBics.BICcol(TxBBbic)
     FillCbBlzBic
 End Sub
 Sub FillCbBlzBic()
     If m_col Is Nothing Then Exit Sub
-    Dim V, bb As BlzBic
+    Dim v, bb As BlzBic
     CbBlzBic.Clear
-    For Each V In m_col
-        Set bb = V
+    For Each v In m_col
+        Set bb = v
         If Not bb Is Nothing Then
             CbBlzBic.AddItem bb.ToStr
         End If
@@ -1099,8 +1099,9 @@ Private Sub BtnOpenBlzBic_Click()
         Me.Width = Me.Width - Me.ScaleWidth + 15975
         BtnOpenBlzBic.Caption = "<"
         If Len(TxBLZ.Text) > 0 Then
-            Set m_col = m_BlzBics.BLZcol(TxBLZ.Text)
+            Set m_col = MApp.BlzBics.BLZcol(TxBLZ.Text)
             Dim bb As BlzBic
+            CbBlzBic.Clear
             For Each bb In m_col
                 CbBlzBic.AddItem bb.BLZ
             Next
@@ -1184,7 +1185,7 @@ End Sub
 
 Private Sub CmbLC_Click()
     Dim li As Integer: li = CmbLC.ListIndex
-    Set m_IBANInfo = m_iis.Item(li)
+    Set m_IBANInfo = MApp.IBANInfos.Item(li)
     m_BBANInfoR = m_IBANInfo.BBANInfo.ToStr(True)
     TxBBANInfoR.Text = m_BBANInfoR
     TxBBANInfoW.Text = m_IBANInfo.BBANInfo.ToStr
@@ -1226,11 +1227,11 @@ Private Sub Enable(pnl As PictureBox, LbZ As Label, Tb As TextBox, ByVal z As Lo
 End Sub
 
 Private Sub btnCheckIBAN_Click()
-    Dim IBAN As IBAN: Set IBAN = MNew.IBAN(m_iis, TxIBAN.Text)
+    Dim IBAN As IBAN: Set IBAN = MNew.IBAN(MApp.IBANInfos, TxIBAN.Text)
     If IBAN Is Nothing Then Exit Sub
     If IBAN.IBANInfo Is Nothing Then Exit Sub
     Dim s As String: s = IBAN.IBANInfo.Key
-    CmbLC.ListIndex = m_iis.Index(IBAN.IBANInfo.CountryID)
+    CmbLC.ListIndex = MApp.IBANInfos.Index(IBAN.IBANInfo.CountryID)
     s = s & vbCrLf
     Dim BBAN As BBAN: Set BBAN = IBAN.BBAN
     If BBAN Is Nothing Then Exit Sub
@@ -1262,42 +1263,32 @@ Private Sub BtnInfo_Click()
 End Sub
 
 Private Sub BtnSave_Click()
-    Dim pfn As PathFileName: Set pfn = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
-    pfn.OpenFile FileMode_Append
+    Dim PFN As PathFileName: Set PFN = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
+    PFN.OpenFile FileMode_Append
     'pfn.WriteLine
 End Sub
 
 
 Private Sub mnuFileNew_Click()
-    Set m_NamedIBANs = MNew.List(EDataType.vbObject, , True)
+    'Set m_NamedIBANs = MNew.list(EDataType.vbObject, , True)
+    MApp.GetNewDoc
 End Sub
 
 Private Sub mnuFileOpen_Click()
-    If m_IBANNames Is Nothing Then
-        Set m_NamedIBANs = MNew.List(EDataType.vbObject, , True)
-    End If
-Try: On Error GoTo Catch
-    Dim lines() As String
-    If Not m_PFN.TryReadAllLines(lines) Then Exit Sub
-    Dim i As Long, line As String, sa() As String
-    Dim siban As String, sName As String, ani As NamedIBAN
-    For i = 0 To UBound(lines)
-        line = lines(i)
-        sa = Split(line, vbTab)
-        siban = sa(0)
-        sName = sa(1)
-        Set ani = MNew.NamedIBAN(sName, MNew.IBAN(m_iis, siban))
-        m_NamedIBANs.Add ani, ani.Key
-    Next
-Catch:
+    '
+    
 End Sub
 
 Private Sub mnuFileSave_Click()
-    '
+    MApp.CurDocument.Save
 End Sub
 
 Private Sub mnuFileExit_Click()
     Unload Me
+End Sub
+
+Private Sub mnuFileSaveAs_Click()
+    MApp.CurDocument.SaveAs
 End Sub
 
 Private Sub mnuHelpInfo_Click()
@@ -1375,7 +1366,7 @@ Private Sub FetchIBAN()
         List.Add s, "X"
     End If
     Dim li As Integer: li = CmbLC.ListIndex
-    Dim IC As IBANCreator: Set IC = MNew.IBANCreator(m_iis, m_iis.Item(li), List)
+    Dim IC As IBANCreator: Set IC = MNew.IBANCreator(MApp.IBANInfos, MApp.IBANInfos.Item(li), List)
     TxIBAN.Text = Trim(IC.IBAN.ToStr)
     CkGroup4_Click
 End Sub

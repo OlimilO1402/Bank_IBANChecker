@@ -59,3 +59,8 @@ End Function
 Public Function NamedIBAN(ByVal aName As String, aIBAN As IBAN) As NamedIBAN
     Set NamedIBAN = New NamedIBAN: NamedIBAN.New_ aName, aIBAN
 End Function
+
+Public Function Document(aPFN As String) As Document
+    Set Document = New Document: Document.New_ aPFN
+End Function
+
