@@ -8,6 +8,15 @@ Begin VB.Form FMain
    ClientLeft      =   150
    ClientTop       =   795
    ClientWidth     =   8910
+   BeginProperty Font 
+      Name            =   "Segoe UI"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
    Icon            =   "FMain.frx":0000
    LinkTopic       =   "FMain"
    MaxButton       =   0   'False
@@ -19,8 +28,8 @@ Begin VB.Form FMain
    Begin VB.CommandButton BtnInfo 
       Caption         =   "Info"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -36,8 +45,8 @@ Begin VB.Form FMain
    Begin VB.CommandButton BtnSave 
       Caption         =   "Save"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -53,8 +62,8 @@ Begin VB.Form FMain
    Begin VB.CommandButton BtnName 
       Caption         =   "Name"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -70,8 +79,8 @@ Begin VB.Form FMain
    Begin VB.CommandButton btnCheckIBAN 
       Caption         =   "Check IBAN v"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -87,8 +96,8 @@ Begin VB.Form FMain
    Begin VB.CommandButton btnCalcIBAN 
       Caption         =   "Calc IBAN ^"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -103,6 +112,15 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBbic 
       Caption         =   "^"
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   51
@@ -111,6 +129,15 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBbank 
       Caption         =   "^"
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   48
@@ -119,6 +146,15 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBort 
       Caption         =   "^"
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   45
@@ -127,6 +163,15 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBplz 
       Caption         =   "^"
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   42
@@ -135,6 +180,15 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBblz 
       Caption         =   "^"
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   39
@@ -143,8 +197,8 @@ Begin VB.Form FMain
    End
    Begin VB.TextBox TxBBbic 
       BeginProperty Font 
-         Name            =   "Consolas"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -159,8 +213,8 @@ Begin VB.Form FMain
    End
    Begin VB.TextBox TxBBbank 
       BeginProperty Font 
-         Name            =   "Consolas"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -175,8 +229,8 @@ Begin VB.Form FMain
    End
    Begin VB.TextBox TxBBort 
       BeginProperty Font 
-         Name            =   "Consolas"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -191,8 +245,8 @@ Begin VB.Form FMain
    End
    Begin VB.TextBox TxBBplz 
       BeginProperty Font 
-         Name            =   "Consolas"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -207,15 +261,15 @@ Begin VB.Form FMain
    End
    Begin VB.ComboBox CbBlzBic 
       BeginProperty Font 
-         Name            =   "Consolas"
-         Size            =   8.25
+         Name            =   "Segoe UI"
+         Size            =   9
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   315
+      Height          =   345
       ItemData        =   "FMain.frx":179A
       Left            =   10200
       List            =   "FMain.frx":179C
@@ -225,8 +279,8 @@ Begin VB.Form FMain
    End
    Begin VB.TextBox TxBBblz 
       BeginProperty Font 
-         Name            =   "Consolas"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   9.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -242,6 +296,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlKtrlZif2 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -270,8 +333,8 @@ Begin VB.Form FMain
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -288,8 +351,8 @@ Begin VB.Form FMain
          BackStyle       =   0  'Transparent
          Caption         =   "Kontrollziffer2"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -306,6 +369,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlSFnkt 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -331,29 +403,30 @@ Begin VB.Form FMain
          Width           =   5172
       End
       Begin VB.Label LbSFnkt 
+         AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
          Caption         =   "sonst. Funkt."
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
+         Height          =   300
          Left            =   0
          TabIndex        =   30
          Top             =   0
-         Width           =   1335
+         Width           =   1185
       End
       Begin VB.Label LbZSFnkt 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -370,6 +443,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlFilNr 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -395,29 +477,30 @@ Begin VB.Form FMain
          Width           =   5172
       End
       Begin VB.Label LbFilNr 
+         AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
          Caption         =   "Filialnummer"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
+         Height          =   300
          Left            =   0
          TabIndex        =   27
          Top             =   0
-         Width           =   1335
+         Width           =   1290
       End
       Begin VB.Label LbZFilNr 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -434,6 +517,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlRegC 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -462,26 +554,26 @@ Begin VB.Form FMain
          BackStyle       =   0  'Transparent
          Caption         =   "Regionalcode"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
+         Height          =   300
          Left            =   0
          TabIndex        =   24
          Top             =   0
-         Width           =   1335
+         Width           =   1380
       End
       Begin VB.Label LbZRegC 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -498,6 +590,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlKtrlZif 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -523,29 +624,30 @@ Begin VB.Form FMain
          Width           =   5172
       End
       Begin VB.Label LbKtrlZif 
+         AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
          Caption         =   "Kontrollziffer"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
+         Height          =   300
          Left            =   0
          TabIndex        =   21
          Top             =   0
-         Width           =   1335
+         Width           =   1305
       End
       Begin VB.Label LbZKtrlZif 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -562,6 +664,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlKtoNr 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -587,29 +698,30 @@ Begin VB.Form FMain
          Width           =   5172
       End
       Begin VB.Label LbKtoNr 
+         AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
          Caption         =   "Kontonummer"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   372
+         Height          =   300
          Left            =   0
          TabIndex        =   18
          Top             =   0
-         Width           =   1572
+         Width           =   1425
       End
       Begin VB.Label LbZKtoNr 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -626,6 +738,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlKTyp 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -651,29 +772,30 @@ Begin VB.Form FMain
          Width           =   5172
       End
       Begin VB.Label LbKTyp 
+         AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
          Caption         =   "Kontotyp"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
+         Height          =   300
          Left            =   0
          TabIndex        =   15
          Top             =   0
-         Width           =   1335
+         Width           =   915
       End
       Begin VB.Label LbZKTyp 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -690,6 +812,15 @@ Begin VB.Form FMain
    Begin VB.PictureBox PnlBLZ 
       BackColor       =   &H80000005&
       BorderStyle     =   0  'Kein
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   120
       ScaleHeight     =   495
@@ -699,6 +830,15 @@ Begin VB.Form FMain
       Width           =   8775
       Begin VB.CommandButton BtnOpenBlzBic 
          Caption         =   ">"
+         BeginProperty Font 
+            Name            =   "MS Sans Serif"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   375
          Left            =   8400
          TabIndex        =   14
@@ -723,29 +863,30 @@ Begin VB.Form FMain
          Width           =   5172
       End
       Begin VB.Label LbBLZ 
+         AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
          Caption         =   "Bankleitzahl"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   375
+         Height          =   300
          Left            =   0
          TabIndex        =   11
          Top             =   0
-         Width           =   1335
+         Width           =   1200
       End
       Begin VB.Label LbZBLZ 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
          BeginProperty Font 
-            Name            =   "Calibri"
-            Size            =   12
+            Name            =   "Segoe UI"
+            Size            =   9.75
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -795,8 +936,8 @@ Begin VB.Form FMain
       BackColor       =   &H80000005&
       Caption         =   "group of 4"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -864,8 +1005,8 @@ Begin VB.Form FMain
       BackStyle       =   0  'Transparent
       Caption         =   "BIC:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -882,8 +1023,8 @@ Begin VB.Form FMain
       BackStyle       =   0  'Transparent
       Caption         =   "Bank:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -900,8 +1041,8 @@ Begin VB.Form FMain
       BackStyle       =   0  'Transparent
       Caption         =   "Ort:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -918,8 +1059,8 @@ Begin VB.Form FMain
       BackStyle       =   0  'Transparent
       Caption         =   "PLZ:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -936,8 +1077,8 @@ Begin VB.Form FMain
       BackStyle       =   0  'Transparent
       Caption         =   "BLZ:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -954,8 +1095,8 @@ Begin VB.Form FMain
       BackStyle       =   0  'Transparent
       Caption         =   "Country:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -972,26 +1113,26 @@ Begin VB.Form FMain
       BackStyle       =   0  'Transparent
       Caption         =   "BBAN-Format:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   372
+      Height          =   375
       Left            =   120
       TabIndex        =   8
       Top             =   1560
-      Width           =   1332
+      Width           =   1455
    End
    Begin VB.Label Label2 
       BackStyle       =   0  'Transparent
       Caption         =   "IBAN:"
       BeginProperty Font 
-         Name            =   "Calibri"
-         Size            =   12
+         Name            =   "Segoe UI"
+         Size            =   11.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -1029,6 +1170,9 @@ Begin VB.Form FMain
       Caption         =   "&Edit"
       Begin VB.Menu mnuEditName 
          Caption         =   "Named IBANs"
+      End
+      Begin VB.Menu mnuEditSelect 
+         Caption         =   "Select IBAN"
       End
    End
    Begin VB.Menu mnuHelp 
@@ -1132,10 +1276,10 @@ Private Sub Form_Resize()
 End Sub
 Private Sub Resize()
     Dim brdr: brdr = 8 * Screen.TwipsPerPixelX
-    Dim L As Single: L = 0
+    Dim l As Single: l = 0
     Dim T As Single: T = 0
     Dim H As Single: H = PnlBLZ.Height '35 * Screen.TwipsPerPixelY
-    L = brdr: T = 167 * Screen.TwipsPerPixelY
+    l = brdr: T = 167 * Screen.TwipsPerPixelY
     
     Dim sArr: sArr = Split(m_BBANInfoR, "; ")
     Dim i As Long, k1 As Boolean
@@ -1143,19 +1287,19 @@ Private Sub Resize()
         If Len(sArr(i)) > 0 Then
             Dim elms: elms = Split(sArr(i), ": ")
             Select Case elms(0)
-            Case "b":  PnlBLZ.Move L, T: T = T + H
-            Case "d":  PnlKTyp.Move L, T: T = T + H
-            Case "k":  PnlKtoNr.Move L, T: T = T + H
+            Case "b":  PnlBLZ.Move l, T: T = T + H
+            Case "d":  PnlKTyp.Move l, T: T = T + H
+            Case "k":  PnlKtoNr.Move l, T: T = T + H
             Case "K":
                 If Not k1 Then
-                    PnlKtrlZif.Move L, T: T = T + H
+                    PnlKtrlZif.Move l, T: T = T + H
                     k1 = True
                 Else
-                    PnlKtrlZif2.Move L, T: T = T + H
+                    PnlKtrlZif2.Move l, T: T = T + H
                 End If
-            Case "r":  PnlRegC.Move L, T: T = T + H
-            Case "s":  PnlFilNr.Move L, T: T = T + H
-            Case "X":  PnlSFnkt.Move L, T: T = T + H
+            Case "r":  PnlRegC.Move l, T: T = T + H
+            Case "s":  PnlFilNr.Move l, T: T = T + H
+            Case "X":  PnlSFnkt.Move l, T: T = T + H
             End Select
         End If
     Next
@@ -1242,8 +1386,8 @@ Private Sub btnCheckIBAN_Click()
         With bv
             If .BBANPart Is Nothing Then Exit Sub
             s = s & .BBANPart.Name & " = " & bv.Value & vbCrLf
-            Dim e As EBBANPart: e = .BBANPart.EBBANPart
-            Select Case e
+            Dim E As EBBANPart: E = .BBANPart.EBBANPart
+            Select Case E
             Case Bankleitzahl:    TxBLZ = .Value       '"b" 'bank identifier
             Case Kontotyp:        TxKTyp = .Value      '"d" 'type of account
             Case Kontonummer:     TxKtoNr = .Value     '"k" 'bank account number
@@ -1276,7 +1420,7 @@ End Sub
 
 Private Sub mnuFileOpen_Click()
     '
-    
+    MApp.CurDocument
 End Sub
 
 Private Sub mnuFileSave_Click()
