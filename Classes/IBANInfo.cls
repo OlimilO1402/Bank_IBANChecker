@@ -29,6 +29,12 @@ Friend Function ToStr(Optional br As Boolean = False) As String
     If br Then ToStr = m_LC & " " & m_bbinf.ToInfoR
 End Function
 
+'Friend Function ToFile() As String
+'    'MNew.BBANInfo(bi)
+'    ToFile = """" & m_Name & """, """ & m_LC & """, MNew.BBANInfo(""" & m_bbinf.ToFile & """)"
+'End Function
+
+
 Public Property Get CountryName() As String
     CountryName = m_Name
 End Property

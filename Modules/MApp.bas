@@ -7,6 +7,8 @@ Private m_DefPFN  As String
 
 Sub Main()
     Set m_IbInfos = MNew.IBANInfos(App.Path & "\Data\IBANcodes.txt")
+    'm_IbInfos.WriteToFile App.Path & "\Data\IBANcodes2.txt"
+    
     Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC3_2015_DE.txt")
     'Set m_BlzBics = MNew.BlzBics(App.Path & "\Data\blzBIC4_2022_AT.txt")
     m_DefPFN = App.Path & "\.." & "\Bank_IBANChecker_accessory\Bankaccounts.txt"

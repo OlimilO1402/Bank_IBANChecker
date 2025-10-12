@@ -13,6 +13,7 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 Private m_infoW As String 'W -> wie von der Wikipedia Seite in die Datei kopiert
+'Private m_InfoF As String 'F -> wie in der Datei
 Private m_infoR As String 'R -> wie aus der Datei gelesen und umgewandelt
 Private m_col   As Collection
 
@@ -21,6 +22,7 @@ Private Sub Class_Initialize()
 End Sub
 
 Friend Sub New_(ByVal infoW As String)
+    'm_InfoF = infoW
     If InStr(1, infoW, " ") > 0 Then infoW = Replace(infoW, " ", "")
     m_infoW = infoW
     m_infoR = ParseInfoR
@@ -30,6 +32,10 @@ Friend Function ToStr(Optional br As Boolean = False) As String
     ToStr = ToInfoW
     If br Then ToStr = ToInfoR
 End Function
+
+'Friend Function ToFile() As String
+'    ToFile = m_InfoF 'W
+'End Function
 
 Public Function BBANLength() As Byte
     BBANLength = Len(m_infoW)
@@ -42,12 +48,12 @@ End Function
 Private Sub Parse()
     'die collection von BBANParts aufbauen
     Dim sArr() As String: sArr = Split(m_infoR, "; ")
-    Dim Pos As Byte: Pos = 1
+    Dim pos As Byte: pos = 1
     Dim i As Integer
     For i = 0 To UBound(sArr) - 1 ' Index - 1
         Dim lArr() As String: lArr = Split(sArr(i), ": ")
-        m_col.Add MNew.BBANPart(lArr(0), Pos, Trim(lArr(1)))
-        Pos = Pos + Trim(lArr(1))
+        m_col.Add MNew.BBANPart(lArr(0), pos, Trim(lArr(1)))
+        pos = pos + Trim(lArr(1))
     Next
 End Sub
 Public Property Get BBANPart(ByVal Index As Integer) As BBANPart
@@ -97,12 +103,12 @@ Private Function CountBlockChars(sLine As String, pos_inout As Long, ByVal char 
     'gibt die Anzahl von char im string sLine ab der Position pos_inout zurück
     'und liefert in pos_inout die aktuelle Position.
     Dim curchar As String
-    Dim n As Long, l As Long
-    l = Len(sLine)
+    Dim n As Long, L As Long
+    L = Len(sLine)
     n = 1
     Do
         pos_inout = pos_inout + 1
-        If pos_inout <= l Then
+        If pos_inout <= L Then
             curchar = Mid(sLine, pos_inout, 1)
             If curchar = char Then
                 n = n + 1

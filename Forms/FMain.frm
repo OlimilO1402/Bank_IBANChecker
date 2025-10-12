@@ -6,11 +6,11 @@ Begin VB.Form FMain
    Caption         =   "IBAN-Checker"
    ClientHeight    =   6495
    ClientLeft      =   150
-   ClientTop       =   795
+   ClientTop       =   495
    ClientWidth     =   8910
    BeginProperty Font 
       Name            =   "Segoe UI"
-      Size            =   8.25
+      Size            =   9.75
       Charset         =   0
       Weight          =   400
       Underline       =   0   'False
@@ -27,15 +27,6 @@ Begin VB.Form FMain
    StartUpPosition =   3  'Windows-Standard
    Begin VB.CommandButton BtnInfo 
       Caption         =   "Info"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   7920
       TabIndex        =   5
@@ -44,15 +35,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton BtnSave 
       Caption         =   "Save"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   7320
       TabIndex        =   61
@@ -61,15 +43,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton BtnName 
       Caption         =   "Name"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   6600
       TabIndex        =   62
@@ -78,15 +51,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnCheckIBAN 
       Caption         =   "Check IBAN v"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   4920
       TabIndex        =   4
@@ -95,15 +59,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnCalcIBAN 
       Caption         =   "Calc IBAN ^"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   3240
       TabIndex        =   3
@@ -112,15 +67,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBbic 
       Caption         =   "^"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   51
@@ -129,15 +75,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBbank 
       Caption         =   "^"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   48
@@ -146,15 +83,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBort 
       Caption         =   "^"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   45
@@ -163,15 +91,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBplz 
       Caption         =   "^"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   42
@@ -180,15 +99,6 @@ Begin VB.Form FMain
    End
    Begin VB.CommandButton btnBBblz 
       Caption         =   "^"
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   15480
       TabIndex        =   39
@@ -196,15 +106,6 @@ Begin VB.Form FMain
       Width           =   375
    End
    Begin VB.TextBox TxBBbic 
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   10200
       TabIndex        =   50
@@ -212,15 +113,6 @@ Begin VB.Form FMain
       Width           =   5295
    End
    Begin VB.TextBox TxBBbank 
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   10200
       TabIndex        =   47
@@ -228,15 +120,6 @@ Begin VB.Form FMain
       Width           =   5295
    End
    Begin VB.TextBox TxBBort 
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   10200
       TabIndex        =   44
@@ -244,15 +127,6 @@ Begin VB.Form FMain
       Width           =   5295
    End
    Begin VB.TextBox TxBBplz 
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   10200
       TabIndex        =   41
@@ -278,15 +152,6 @@ Begin VB.Form FMain
       Width           =   5655
    End
    Begin VB.TextBox TxBBblz 
-      BeginProperty Font 
-         Name            =   "Segoe UI"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   375
       Left            =   10200
       TabIndex        =   38
@@ -332,15 +197,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZKtrlZif2 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   34
@@ -424,15 +280,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZSFnkt 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   31
@@ -498,15 +345,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZFilNr 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   28
@@ -571,15 +409,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZRegC 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   25
@@ -645,15 +474,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZKtrlZif 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   22
@@ -719,15 +539,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZKtoNr 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   19
@@ -793,15 +604,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZKTyp 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   16
@@ -884,15 +686,6 @@ Begin VB.Form FMain
       Begin VB.Label LbZBLZ 
          BackStyle       =   0  'Transparent
          Caption         =   "max. 10 Ziffern"
-         BeginProperty Font 
-            Name            =   "Segoe UI"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   372
          Left            =   1560
          TabIndex        =   12
@@ -1147,6 +940,7 @@ Begin VB.Form FMain
    End
    Begin VB.Menu mnuFile 
       Caption         =   "&File"
+      Visible         =   0   'False
       Begin VB.Menu mnuFileNew 
          Caption         =   "&New"
       End
@@ -1168,6 +962,7 @@ Begin VB.Form FMain
    End
    Begin VB.Menu mnuEdit 
       Caption         =   "&Edit"
+      Visible         =   0   'False
       Begin VB.Menu mnuEditName 
          Caption         =   "Named IBANs"
       End
@@ -1177,6 +972,7 @@ Begin VB.Form FMain
    End
    Begin VB.Menu mnuHelp 
       Caption         =   " &? "
+      Visible         =   0   'False
       Begin VB.Menu mnuHelpInfo 
          Caption         =   "Info"
       End
@@ -1192,7 +988,7 @@ Option Explicit
 Private m_IBANInfo  As IBANInfo
 Private m_BBANInfoR As String
 Private m_col       As Collection 'Of BlzBic
-Private CH As Single
+Private ch As Single
 
 Private Sub Form_Load()
     Me.Caption = Me.Caption & " v" & App.Major & "." & App.Minor & "." & App.Revision
@@ -1200,7 +996,7 @@ Private Sub Form_Load()
     MApp.IBANInfos.FillComboBox CmbLC
     CmbLC.ListIndex = 18
     'Me.ScaleWidth = 8895
-    CH = Me.Height - Me.ScaleHeight
+    ch = Me.Height - Me.ScaleHeight
     
 End Sub
 
@@ -1276,10 +1072,10 @@ Private Sub Form_Resize()
 End Sub
 Private Sub Resize()
     Dim brdr: brdr = 8 * Screen.TwipsPerPixelX
-    Dim l As Single: l = 0
+    Dim L As Single: L = 0
     Dim T As Single: T = 0
     Dim H As Single: H = PnlBLZ.Height '35 * Screen.TwipsPerPixelY
-    l = brdr: T = 167 * Screen.TwipsPerPixelY
+    L = brdr: T = 167 * Screen.TwipsPerPixelY
     
     Dim sArr: sArr = Split(m_BBANInfoR, "; ")
     Dim i As Long, k1 As Boolean
@@ -1287,26 +1083,26 @@ Private Sub Resize()
         If Len(sArr(i)) > 0 Then
             Dim elms: elms = Split(sArr(i), ": ")
             Select Case elms(0)
-            Case "b":  PnlBLZ.Move l, T: T = T + H
-            Case "d":  PnlKTyp.Move l, T: T = T + H
-            Case "k":  PnlKtoNr.Move l, T: T = T + H
+            Case "b":  PnlBLZ.Move L, T: T = T + H
+            Case "d":  PnlKTyp.Move L, T: T = T + H
+            Case "k":  PnlKtoNr.Move L, T: T = T + H
             Case "K":
                 If Not k1 Then
-                    PnlKtrlZif.Move l, T: T = T + H
+                    PnlKtrlZif.Move L, T: T = T + H
                     k1 = True
                 Else
-                    PnlKtrlZif2.Move l, T: T = T + H
+                    PnlKtrlZif2.Move L, T: T = T + H
                 End If
-            Case "r":  PnlRegC.Move l, T: T = T + H
-            Case "s":  PnlFilNr.Move l, T: T = T + H
-            Case "X":  PnlSFnkt.Move l, T: T = T + H
+            Case "r":  PnlRegC.Move L, T: T = T + H
+            Case "s":  PnlFilNr.Move L, T: T = T + H
+            Case "X":  PnlSFnkt.Move L, T: T = T + H
             End Select
         End If
     Next
     'ab hier wird resize nochmal ausgeführt falls Height-neu anders als Height-alt
     'Me.ScaleHeight = (Me.Height - Me.ScaleHeight) + T + brdr '+ H
     'Me.Height = (Me.Height - Me.ScaleHeight) + T + brdr '+ H
-    Me.Height = CH + T + 2 * brdr '+ H
+    Me.Height = ch + T + 2 * brdr '+ H
     
 '    If PnlBLZ.Visible Then PnlBLZ.Move l, T: T = T + H
 '    If PnlKTyp.Visible Then PnlKTyp.Move l, T: T = T + H
@@ -1386,8 +1182,8 @@ Private Sub btnCheckIBAN_Click()
         With bv
             If .BBANPart Is Nothing Then Exit Sub
             s = s & .BBANPart.Name & " = " & bv.Value & vbCrLf
-            Dim E As EBBANPart: E = .BBANPart.EBBANPart
-            Select Case E
+            Dim e As EBBANPart: e = .BBANPart.EBBANPart
+            Select Case e
             Case Bankleitzahl:    TxBLZ = .Value       '"b" 'bank identifier
             Case Kontotyp:        TxKTyp = .Value      '"d" 'type of account
             Case Kontonummer:     TxKtoNr = .Value     '"k" 'bank account number
@@ -1407,20 +1203,20 @@ Private Sub BtnInfo_Click()
 End Sub
 
 Private Sub BtnSave_Click()
-    Dim PFN As PathFileName: Set PFN = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
-    PFN.OpenFile FileMode_Append
+    Dim pfn As PathFileName: Set pfn = MNew.PathFileName(App.Path & "\Bankaccounts.txt")
+    pfn.OpenFile FileMode_Append
     'pfn.WriteLine
 End Sub
 
 
 Private Sub mnuFileNew_Click()
-    'Set m_NamedIBANs = MNew.list(EDataType.vbObject, , True)
+    'Set m_NamedIBANs = MNew.List(EDataType.vbObject, , True)
     MApp.GetNewDoc
 End Sub
 
 Private Sub mnuFileOpen_Click()
     '
-    MApp.CurDocument
+    'MApp.CurDocument.Read
 End Sub
 
 Private Sub mnuFileSave_Click()

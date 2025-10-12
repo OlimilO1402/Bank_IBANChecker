@@ -16,12 +16,12 @@ Option Explicit
 Private m_IBANInfos As IBANInfos
 Private m_IBANInfo  As IBANInfo
 'Private m_sArr()    As String
-Private m_list As Collection 'of String, String
+Private m_List As Collection 'of String, String
 
-Friend Sub New_(aIBANInfos As IBANInfos, aIBANInfo As IBANInfo, list As Collection) 'sArr() As String)
+Friend Sub New_(aIBANInfos As IBANInfos, aIBANInfo As IBANInfo, List As Collection) 'sArr() As String)
     'aus der IBANInfo
     'm_sArr = sArr
-    Set m_list = list
+    Set m_List = List
     Set m_IBANInfos = aIBANInfos
     Set m_IBANInfo = aIBANInfo
 End Sub
@@ -36,7 +36,7 @@ Public Property Get IBAN() As IBAN
     If binfo Is Nothing Then Exit Property
     Dim i As Long, w As Long
     'If UBound(m_sArr) + 1 <> binfo.CountBBANParts Then
-    If m_list.Count <> binfo.CountBBANParts Then
+    If m_List.Count <> binfo.CountBBANParts Then
         MsgBox "Halt"
     End If
     'Oh shit was das fürn Quatsch!
@@ -47,7 +47,7 @@ Public Property Get IBAN() As IBAN
             w = bbp.Length
             'siban = siban + PadLeft0(m_sArr(i), w)
             'siban = siban + PadLeft0(bbp.Name, w) 'Oh Shit
-            siban = siban + PadLeft0(m_list.Item(i), w)
+            siban = siban + PadLeft0(m_List.Item(i), w)
         End If
     Next
     Set IBAN = MNew.IBAN(m_IBANInfos, siban)
